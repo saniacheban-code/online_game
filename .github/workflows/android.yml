@@ -1,0 +1,65 @@
+name: Android APK
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        description: 'Build signed release APK and AAB (requires signing secrets)'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', 'backend/**', '*.md']
+permissions:
+  contents: read
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - name: Prepare bundled games
+        run: node tools/build-mobile.cjs --android
+        env:
+          ARENA_API_URL: ${{ vars.ARENA_API_URL }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+      - name: Build debug APK
+        working-directory: android
+        run: gradle :app:assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: uchebnaya-arena-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
+      - name: Build signed release APK and AAB
+        if: ${{ inputs.release == true }}
+        working-directory: android
+        shell: bash
+        env:
+          ARENA_KEYSTORE_BASE64: ${{ secrets.ARENA_KEYSTORE_BASE64 }}
+          ARENA_STORE_PASSWORD: ${{ secrets.ARENA_STORE_PASSWORD }}
+          ARENA_KEY_ALIAS: ${{ secrets.ARENA_KEY_ALIAS }}
+          ARENA_KEY_PASSWORD: ${{ secrets.ARENA_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          test -n "$ARENA_KEYSTORE_BASE64" && test -n "$ARENA_STORE_PASSWORD" && test -n "$ARENA_KEY_ALIAS" && test -n "$ARENA_KEY_PASSWORD"
+          export ARENA_KEYSTORE="$RUNNER_TEMP/arena-release.jks"
+          trap 'rm -f "$ARENA_KEYSTORE"' EXIT
+          printf '%s' "$ARENA_KEYSTORE_BASE64" | base64 --decode > "$ARENA_KEYSTORE"
+          gradle :app:assembleRelease :app:bundleRelease --no-daemon
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.release == true }}
+        with:
+          name: uchebnaya-arena-signed-release
+          path: |
+            android/app/build/outputs/apk/release/*.apk
+            android/app/build/outputs/bundle/release/*.aab
