@@ -1,0 +1,31 @@
+(function(){
+ 'use strict';
+ const $=s=>document.querySelector(s),body=$('#hubBody'),hub=$('#hub'),host=$('#gameHost'),frame=$('#gameFrame'),bar=$('#arenaDisplayBar'),error=$('#appError');
+ const parameters=new URLSearchParams(location.search),subject=Arena.getSubject(parameters.get('subject')||document.body?.dataset?.subject||'math');
+ const state={game:null,grade:null,quarter:null,mode:parameters.get('mode')==='two'?'two':'solo',difficulty:0};let step=0,token=0;
+ const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function report(message){error.textContent=message;error.hidden=false}
+ if(!subject){report('Этот предмет ещё не подключён.');return}
+ const topics=subject.topics;
+ const topicTable=Object.fromEntries(Object.entries(topics).map(([g,items])=>[g,items.map(t=>[t.title,null,t.section,t.quarter])]));
+ function render(){error.hidden=true;$('#subjectTitle').textContent=subject.name;$('#soloOptions').hidden=true;$('#playMode').value=state.mode;const game=Arena.getGame(state.game);let html='';
+  if(step===0)html='<p class="crumb">Шаг 1 из 4 — выберите игру</p><div class="gm">'+Arena.listGames().filter(g=>g.modes.includes(state.mode)).map(g=>`<button class="gcard" data-game="${g.id}"><div class="gim ${Arena.catalogIcons?.[g.id]?'catalog-icon':g.id==='towers'?'tower-icon':''}" ${Arena.catalogIcons?.[g.id]?`style="--icon-x:${Arena.catalogIcons[g.id].x}%;--icon-y:${Arena.catalogIcons[g.id].y}%;--icon-sy:${Arena.catalogIcons[g.id].sizeY}%" aria-hidden="true"`:''}>${Arena.catalogIcons?.[g.id]?'':(Arena.catalogArt[g.id]||[]).map(src=>`<img src="${src}" alt="">`).join('')}</div><h3>${escape(g.title)}</h3><p>${escape(g.description)}</p></button>`).join('')+'</div>';
+  else if(step===1)html=`<p class="crumb">${escape(game.title)} · шаг 2 из 4 — выберите класс</p><div class="cls">${Object.keys(topics).map(g=>`<button class="opt" data-grade="${g}">${g}</button>`).join('')}</div><button class="bk" data-back="0">← К играм</button>`;
+  else if(step===2)html=`<p class="crumb">${state.grade} класс · шаг 3 из 4 — четверть</p><div class="tl">${[1,2,3,4].map(q=>`<button class="opt" data-quarter="${q}">${q} четверть</button>`).join('')}<button class="opt" data-quarter="0">Весь учебный год</button></div><button class="bk" data-back="1">← К выбору класса</button>`;
+  else{const eligible=topics[state.grade].filter(t=>state.quarter===0?t.quarter!==0&&t.section!=='Повторение':t.quarter===state.quarter);html=`<p class="crumb">${state.grade} класс · ${state.quarter?state.quarter+' четверть':'весь год'} · шаг 4 из 4 — тема</p>`;for(const section of [...new Set(eligible.map(t=>t.section))])html+=`<div class="grp">${escape(section)}</div><div class="tl">${eligible.filter(t=>t.section===section).map(t=>`<button class="opt" data-topic="${t.index}">${escape(t.title)}</button>`).join('')}</div>`;if(state.quarter===0){const yearly=topics[state.grade].find(t=>t.section==='Повторение'&&t.quarter===0);if(yearly)html+=`<button class="opt" data-topic="${yearly.index}">Все темы года вперемешку</button>`}html+='<button class="bk" data-back="2">← К выбору четверти</button>'}
+  body.innerHTML=html;
+ }
+ function back(){window.MobileArena?.flush();token++;frame.onload=null;frame.removeAttribute('srcdoc');frame.src='about:blank';host.hidden=true;bar.hidden=false;hub.hidden=false;step=state.grade?3:0;render();window.dispatchEvent(new Event('resize'))}
+ async function launch(topicIndex){const game=Arena.getGame(state.game),topic=topics[state.grade]?.[topicIndex];if(!game||!topic)return;const current=++token;error.hidden=true;
+  let next=subject.createSession({grade:+state.grade,topicIndex,topicId:topic.id,mode:state.mode,difficulty:state.difficulty,game:game.kind});
+  let active=null;if(window.MobileArena)active=await window.MobileArena.beginRound({game:game.id,subject:subject.id,grade:+state.grade,topic:+topicIndex});if(current!==token)return;next=window.MobileArena?.wrap(next,active)||next;
+  if(state.mode==='solo')Arena.withStudyExamples(next,()=>subject.createSession({grade:+state.grade,topicIndex,topicId:topic.id,mode:'solo',game:game.kind}));
+  const label=subject.name+' · '+state.grade+' класс · '+(topic.quarter?topic.quarter+' четверть':'весь год')+' · '+topic.title;
+  frame.onload=()=>{if(current!==token)return;try{if(typeof frame.contentWindow.configureArena!=='function')throw new Error('Игра не загрузилась');frame.contentWindow.configureArena(next,label,back,{grade:+state.grade,topicIndex,topics:topicTable,subjectId:subject.id,mode:state.mode});}catch(e){back();report('Не удалось запустить игру. '+e.message)}};
+  hub.hidden=true;bar.hidden=true;host.hidden=false;frame.title=game.title;const pagePath=game.directory+state.mode+'.html',page=Arena.gamePages?.[pagePath];if(!page){back();report('Не найден файл запуска игры. Обновите сборку проекта.');return;}const pageURL=new URL(pagePath,document.baseURI).href;const baseTag='<base href="'+escape(pageURL)+'">';frame.srcdoc=/<head(?:\s[^>]*)?>/i.test(page)?page.replace(/<head(?:\s[^>]*)?>/i,head=>head+baseTag):page.replace(/<html([^>]*)>/i,(_,attributes)=>'<html'+attributes+'><head>'+baseTag+'</head>');
+ }
+ body.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.disabled)return;const d=b.dataset;if(d.game){state.game=d.game;step=1;render()}else if(d.grade){state.grade=d.grade;step=2;render()}else if(d.quarter!==undefined){state.quarter=+d.quarter;step=3;render()}else if(d.back!==undefined){step=+d.back;render()}else if(d.topic!==undefined)launch(+d.topic)});
+ $('#playMode').addEventListener('change',e=>{state.mode=e.target.value==='solo'?'solo':'two';render()});$('#soloDifficulty').addEventListener('change',e=>state.difficulty=+e.target.value);
+ document.addEventListener?.('arena-mobile-exit',back);
+ render();
+})();
