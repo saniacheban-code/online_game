@@ -1,0 +1,3 @@
+const fs=require('fs'),vm=require('vm');
+const ids=['world-around','literacy','literary-reading','music-primary','visual-art','handicraft'];
+for(const id of ids){const c={console};vm.createContext(c);for(const f of ['core/registry.js','core/primary-content.js','content/'+id+'/data.js','content/'+id+'/generator.js'])vm.runInContext(fs.readFileSync(f,'utf8'),c);const topics=c.Arena.getSubject(id).topics;const clean=Object.fromEntries(Object.entries(topics).map(([g,ts])=>[g,ts.map(({unit,...t})=>t)]));fs.writeFileSync('content/'+id+'/topics.json',JSON.stringify(clean,null,2)+'\n')}console.log('Synced six primary topic catalogues.');
