@@ -1,0 +1,9 @@
+/* More drawing room within the existing player panels. */
+.scratch{height:clamp(260px,32dvh,560px);min-height:220px;flex-shrink:0}
+.pad-box{min-height:160px}
+html[data-arena-fit=on] .scene{height:auto;min-height:clamp(128px,19dvh,320px);flex:1 1 0}
+html[data-arena-fit=on] .scratch{height:clamp(210px,29dvh,520px);min-height:210px;flex:0 0 auto;padding:8px;gap:6px}
+html[data-arena-fit=on] .pad-box{min-height:145px;flex:1 1 0}
+html[data-arena-fit=on] .scratch-head{gap:6px;flex-wrap:wrap}
+html[data-arena-fit=on] .scratch-tools{gap:5px;flex-wrap:wrap}
+@media(max-height:600px){html[data-arena-fit=on] .scene{min-height:112px}html[data-arena-fit=on] .scratch{height:clamp(180px,32dvh,260px);min-height:180px}html[data-arena-fit=on] .pad-box{min-height:115px}.scratch-head>span{font-size:13px}}
