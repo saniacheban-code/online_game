@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-11-18",
+  "subject": "english",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "seniorTrack": "ЕМН",
+  "topicGroups": 147,
+  "reviewGroups": 45,
+  "skills": 92,
+  "languageExamples": 332,
+  "readingTexts": 36,
+  "tasksChecked": 55296,
+  "parallelExamplesChecked": 55296,
+  "menuLaunches": 648,
+  "engineFlows": 16,
+  "fullTestSuite": "passed",
+  "browserChecks": [
+    "home and English menu",
+    "grade 3 paired towers: number input, correct answer, 60-second limit",
+    "grade 11 solo forest: English options, Russian rule and different parallel example"
+  ],
+  "browserScope": "Desktop browser; physical smartphone and interactive panel not tested."
+}

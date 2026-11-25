@@ -1,0 +1,34 @@
+{
+  "tool": "image_gen.imagegen",
+  "artDirection": "Original voxel frontier and storybook alchemy; independently generated game assets",
+  "assets": [
+    {
+      "file": "assets/images/voxel-world.png",
+      "mode": "generate",
+      "transparent_background": false,
+      "promptBrief": "Original block-world landscape, cubic grass terraces, evergreen trees, turquoise ore, river and distant stepped mountains at sunrise. Isometric three-quarter camera, open central ground, no text or characters.",
+      "sha256": "4b6deb415bc9955a6cf60339fc3521836ed50f969a5310381075b5a6aeb7da69"
+    },
+    {
+      "file": "assets/images/voxel-atlas.png",
+      "mode": "generate then edit",
+      "transparent_background": true,
+      "promptBrief": "3 columns by 2 rows transparent atlas: tree, turquoise ore rock, wooden bridge, original teal block explorer, workshop, magical portal. Preserve cell positions, remove entire white background and grid lines to true alpha transparency.",
+      "sha256": "fb48bc4cbd9bfe3d8fc316e2014f0a3a6450a994d1a98cb21bfabdeddf7f52e7"
+    },
+    {
+      "file": "assets/images/alchemy-lab.png",
+      "mode": "generate",
+      "transparent_background": false,
+      "promptBrief": "Original storybook fantasy alchemy workshop, deep plum teal amber, botanical shelves, twilight arched window, open oval workbench. No text, no cauldron, no foreground characters.",
+      "sha256": "1a8747efe16b6b2f83159335fa278ebfe6385a80bd1407d048fb0f785b9a5b6b"
+    },
+    {
+      "file": "assets/images/alchemy-atlas.png",
+      "mode": "generate",
+      "transparent_background": true,
+      "promptBrief": "4 columns by 2 rows transparent atlas: star dust jar, moon petal, dew drop, sun stone; fern, icy feather, cauldron, original purple alchemist. Isolated centered assets, no text.",
+      "sha256": "60a4388f51cbde7603f7db93570fb111275d0318a6c96c5eea09b0039c45e066"
+    }
+  ]
+}

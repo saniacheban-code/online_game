@@ -1,0 +1,348 @@
+Energy models: fair independent budgets, spend locks, reachable full voxel goal with upgrade, finite resources, recipes, heat, quality, orders, no discovery farming, pause/deadline passed.
+Typed adapter: full number/fraction/decimal/symbol answers, RU/EN/KZ cloze words, no option numbers, blank and injection rejection passed.
+Energy engines: 144 real subject/grade/mode flows, independent virtual keyboards/forms, answer locks, timeout, pause/visibility, tutor, restart and exit passed.
+Lighthouse model: 2400 solvable unsolved puzzles, adjacency, no wrap, independent energy, charges, locks, pause, three-island solo victory, deadline and draw passed.
+Lighthouse actual engine: 72 flows across all 18 subjects, lower/upper grades and both modes; answer locks, timeout, pause, visibility, restart, exit and contextual coach passed.
+Primary banks: 40320 task flows over six subjects, all grades/quarters/topics, 15 games and supported modes; unique choices, adaptive levels, contextual tutor, input and builder adapters passed.
+Primary menu: 2240 real sessions launched across six subjects, grades, quarters, all games and supported modes; return navigation passed.
+Primary integration: cyber solo — actual subject question, answer and explanation passed
+Primary integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Primary integration: forest solo — actual subject question, answer and explanation passed
+Primary integration: forest two — actual subject question, answer and explanation passed
+Primary integration: maze solo — actual subject question, answer and explanation passed
+Primary integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Primary integration: race solo — actual subject question, answer and explanation passed
+Primary integration: race two — actual subject question, answer and explanation passed
+Primary integration: runner solo — actual subject question, answer and explanation passed
+Primary integration: runner two — actual subject question, answer and explanation passed
+Primary integration: towers solo — actual subject question, answer and explanation passed
+Primary integration: towers two — actual subject question, answer and explanation passed
+Primary integration: cyber solo — actual subject question, answer and explanation passed
+Primary integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Primary integration: forest solo — actual subject question, answer and explanation passed
+Primary integration: forest two — actual subject question, answer and explanation passed
+Primary integration: maze solo — actual subject question, answer and explanation passed
+Primary integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Primary integration: race solo — actual subject question, answer and explanation passed
+Primary integration: race two — actual subject question, answer and explanation passed
+Primary integration: runner solo — actual subject question, answer and explanation passed
+Primary integration: runner two — actual subject question, answer and explanation passed
+Primary integration: towers solo — actual subject question, answer and explanation passed
+Primary integration: towers two — actual subject question, answer and explanation passed
+Primary integration: cyber solo — actual subject question, answer and explanation passed
+Primary integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Primary integration: forest solo — actual subject question, answer and explanation passed
+Primary integration: forest two — actual subject question, answer and explanation passed
+Primary integration: maze solo — actual subject question, answer and explanation passed
+Primary integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Primary integration: race solo — actual subject question, answer and explanation passed
+Primary integration: race two — actual subject question, answer and explanation passed
+Primary integration: runner solo — actual subject question, answer and explanation passed
+Primary integration: runner two — actual subject question, answer and explanation passed
+Primary integration: towers solo — actual subject question, answer and explanation passed
+Primary integration: towers two — actual subject question, answer and explanation passed
+Primary integration: cyber solo — actual subject question, answer and explanation passed
+Primary integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Primary integration: forest solo — actual subject question, answer and explanation passed
+Primary integration: forest two — actual subject question, answer and explanation passed
+Primary integration: maze solo — actual subject question, answer and explanation passed
+Primary integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Primary integration: race solo — actual subject question, answer and explanation passed
+Primary integration: race two — actual subject question, answer and explanation passed
+Primary integration: runner solo — actual subject question, answer and explanation passed
+Primary integration: runner two — actual subject question, answer and explanation passed
+Primary integration: towers solo — actual subject question, answer and explanation passed
+Primary integration: towers two — actual subject question, answer and explanation passed
+Primary integration: cyber solo — actual subject question, answer and explanation passed
+Primary integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Primary integration: forest solo — actual subject question, answer and explanation passed
+Primary integration: forest two — actual subject question, answer and explanation passed
+Primary integration: maze solo — actual subject question, answer and explanation passed
+Primary integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Primary integration: race solo — actual subject question, answer and explanation passed
+Primary integration: race two — actual subject question, answer and explanation passed
+Primary integration: runner solo — actual subject question, answer and explanation passed
+Primary integration: runner two — actual subject question, answer and explanation passed
+Primary integration: towers solo — actual subject question, answer and explanation passed
+Primary integration: towers two — actual subject question, answer and explanation passed
+Primary integration: cyber solo — actual subject question, answer and explanation passed
+Primary integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Primary integration: forest solo — actual subject question, answer and explanation passed
+Primary integration: forest two — actual subject question, answer and explanation passed
+Primary integration: maze solo — actual subject question, answer and explanation passed
+Primary integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Primary integration: race solo — actual subject question, answer and explanation passed
+Primary integration: race two — actual subject question, answer and explanation passed
+Primary integration: runner solo — actual subject question, answer and explanation passed
+Primary integration: runner two — actual subject question, answer and explanation passed
+Primary integration: towers solo — actual subject question, answer and explanation passed
+Primary integration: towers two — actual subject question, answer and explanation passed
+Primary: 96 real old-engine answer flows passed.
+Parkour model: independent concurrent runners, speed affects distance, boosts, combo jump, stumble, lock, pause, finish, draw, time trial and exactly one correct gate passed.
+Parkour actual engine: 72 flows across all 18 subjects, lower/upper grades and both modes; answer locks, timeout, pause, visibility, restart, exit and contextual coach passed.
+Expedition model: adjacency, fog, compass, multi-answer terrain, errors, shield, non-farmable rewards, solo finish, equal-turn victory/draw and round cap passed.
+Expedition actual engine: 72 flows across all 18 subjects, lower/upper grades and both modes; target/answer locks, timeout, pause, visibility, restart, exit and contextual coach passed.
+Game page cache matches 28 source pages.
+Static project: 228 scripts parsed; 591 relative resources resolved; 100 unique image files.
+Public subject/task contract: 60032 questions; 27872 contextual helpers; 268 entries; independent-subject registration passed.
+Aspect ratios: city, floors, podiums, workers and crane hooks preserve original proportions at five wide/narrow viewport sizes; camera uses uniform scale.
+Visual regressions: full-width undistorted flight canvases with loaded artwork, all forest frames/aspects, aligned board hit regions, large numbers, fractions and long-answer references passed.
+Forest board coordinates preserve alignment under fit transforms at four scale factors.
+Menu artwork: ten atlas frames plus a custom expedition illustration; unified replacements in all twelve subjects; precedence over legacy card backgrounds passed.
+Siege physics: three aim zones, progressive damage, mirrored fairness, misses, support collapse, debris, frame independence, reset and result passed.
+Builder model: exact 150 seconds, pause, straight/crooked floors, six errors, elimination, opponent continuation, height/accuracy ranking, ties, deadline and reset passed.
+Builder puzzle banks: 19848 tasks; 49216 fillable elements; {"calculation":1331,"answer":4274,"phrase":7444,"rule":3915,"formula":2884} ; correct assembly, distractors, locked slots, fragments and all grades/topics passed.
+Siege subject integration: 19848 tasks from all twelve banks; 13869 number-entry theory/symbolic tasks; all grades, topics and adaptive progression passed.
+Physics: 58240 questions, 23254 worked examples, 420 template branches, 130 topic/review entries; independent answer checks and both modes passed.
+Physics menu: 560 launches across 15 games, supported modes, 5 grades and 4 quarters; physics-only bank and explanations passed.
+Chemistry: 39936 tasks, 6507 worked examples, 77 models, 22 audit types; grade boundaries, numeric answers, tutor sync, adaptive levels and lanes passed.
+Chemistry menu: 560 launches across 15 games, supported modes, 5 grades and 4 quarters; chemistry-only bank and explanations passed.
+Biology: 38016 tasks, 2416 analogous examples, 14591 comparison tasks, 69 models; scientific fixtures, grade boundaries, coach sync, adaptive levels and lanes passed.
+Biology menu: 560 launches across 15 games, supported modes, 5 grades and 4 quarters; biology-only bank and explanations passed.
+Geography: 38016 tasks, 4947 analogous examples, 12649 comparison tasks, 66 models; unit/sign fixtures, grade boundaries, coach sync, adaptive levels and lanes passed.
+Geography menu: 560 launches across 15 games, supported modes, 5 grades and 4 quarters; geography-only bank and explanations passed.
+Informatics: 44928 tasks, 8475 analogous examples, 12502 comparison tasks, 86 models; independent executions {"python":6971,"sql":250,"graph":379}; grade boundaries, coach sync and adaptive levels passed.
+Informatics menu: 784 launches across 15 games, supported modes, 7 grades and 4 quarters; informatics-only bank and explanations passed.
+Natural science: 60032 tasks; 60032 parallel examples; 15152 numeric fixtures; 32802 comparison tasks; 94 models; all grades, quarters, games, modes, hints, input and assembly adapters passed.
+Natural science menu: 672 launches across 15 games, supported modes, 6 grades and 4 quarters; natural-science-only bank and explanations passed.
+NaturalScience integration: cyber solo — actual subject question, answer and explanation passed
+NaturalScience integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+NaturalScience integration: forest solo — actual subject question, answer and explanation passed
+NaturalScience integration: forest two — actual subject question, answer and explanation passed
+NaturalScience integration: maze solo — actual subject question, answer and explanation passed
+NaturalScience integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+NaturalScience integration: race solo — actual subject question, answer and explanation passed
+NaturalScience integration: race two — actual subject question, answer and explanation passed
+NaturalScience integration: runner solo — actual subject question, answer and explanation passed
+NaturalScience integration: runner two — actual subject question, answer and explanation passed
+NaturalScience integration: towers solo — actual subject question, answer and explanation passed
+NaturalScience integration: towers two — actual subject question, answer and explanation passed
+Natural science: 16 actual engine answer flows passed; siege and builder adapters covered by bank tests.
+Russian: 83776 tasks; 83776 matching parallel examples; 88276 multi-part checks; 40432 reading checks; 85 skills; all grades, quarters, games, modes, hints and input/assembly adapters passed.
+Russian menu: 1120 launches across 15 games, supported modes, 10 grades and 4 quarters; russian-only bank and explanations passed.
+Russian integration: cyber solo — actual subject question, answer and explanation passed
+Russian integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Russian integration: forest solo — actual subject question, answer and explanation passed
+Russian integration: forest two — actual subject question, answer and explanation passed
+Russian integration: maze solo — actual subject question, answer and explanation passed
+Russian integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Russian integration: race solo — actual subject question, answer and explanation passed
+Russian integration: race two — actual subject question, answer and explanation passed
+Russian integration: runner solo — actual subject question, answer and explanation passed
+Russian integration: runner two — actual subject question, answer and explanation passed
+Russian integration: towers solo — actual subject question, answer and explanation passed
+Russian integration: towers two — actual subject question, answer and explanation passed
+Russian: 16 actual engine answer flows passed; siege and builder adapters covered by bank tests.
+English: 86016 tasks; 86016 matching parallel examples; 100617 multi-part checks; 29410 reading checks; 92 skills; all grades, quarters, games, modes, hints and input/assembly adapters passed.
+English menu: 1008 launches across 15 games, supported modes, 9 grades and 4 quarters; english-only bank and explanations passed.
+English integration: cyber solo — actual subject question, answer and explanation passed
+English integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+English integration: forest solo — actual subject question, answer and explanation passed
+English integration: forest two — actual subject question, answer and explanation passed
+English integration: maze solo — actual subject question, answer and explanation passed
+English integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+English integration: race solo — actual subject question, answer and explanation passed
+English integration: race two — actual subject question, answer and explanation passed
+English integration: runner solo — actual subject question, answer and explanation passed
+English integration: runner two — actual subject question, answer and explanation passed
+English integration: towers solo — actual subject question, answer and explanation passed
+English integration: towers two — actual subject question, answer and explanation passed
+English: 16 actual engine answer flows passed; siege and builder adapters covered by bank tests.
+Kazakhstan history: 47040 tasks; 47040 matching parallel examples; 38996 multi-part checks; 11327 reading checks; 69 skills; all grades, quarters, games, modes, hints and input/assembly adapters passed.
+Kazakhstan history menu: 784 launches across 15 games, supported modes, 7 grades and 4 quarters; kazakhstan-history-only bank and explanations passed.
+History integration: cyber solo — actual subject question, answer and explanation passed
+History integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+History integration: forest solo — actual subject question, answer and explanation passed
+History integration: forest two — actual subject question, answer and explanation passed
+History integration: maze solo — actual subject question, answer and explanation passed
+History integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+History integration: race solo — actual subject question, answer and explanation passed
+History integration: race two — actual subject question, answer and explanation passed
+History integration: runner solo — actual subject question, answer and explanation passed
+History integration: runner two — actual subject question, answer and explanation passed
+History integration: towers solo — actual subject question, answer and explanation passed
+History integration: towers two — actual subject question, answer and explanation passed
+Kazakhstan history: 16 actual engine answer flows passed; siege and builder adapters covered by bank tests.
+World history: 47936 tasks; 47936 matching parallel examples; 29933 multi-part checks; 8692 reading checks; 72 skills; all grades, quarters, games, modes, hints and input/assembly adapters passed.
+World history menu: 784 launches across 15 games, supported modes, 7 grades and 4 quarters; world-history-only bank and explanations passed.
+History integration: cyber solo — actual subject question, answer and explanation passed
+History integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+History integration: forest solo — actual subject question, answer and explanation passed
+History integration: forest two — actual subject question, answer and explanation passed
+History integration: maze solo — actual subject question, answer and explanation passed
+History integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+History integration: race solo — actual subject question, answer and explanation passed
+History integration: race two — actual subject question, answer and explanation passed
+History integration: runner solo — actual subject question, answer and explanation passed
+History integration: runner two — actual subject question, answer and explanation passed
+History integration: towers solo — actual subject question, answer and explanation passed
+History integration: towers two — actual subject question, answer and explanation passed
+World history: 16 actual engine answer flows passed; siege and builder adapters covered by bank tests.
+Kazakh: 50176 tasks; 50176 matching parallel examples; 52407 multi-part checks; 16418 reading checks; 57 skills; all grades, quarters, games, modes, hints and input/assembly adapters passed.
+Kazakh menu: 1232 launches across 15 games, supported modes, 11 grades and 4 quarters; kazakh-only bank and explanations passed.
+Kazakh integration: cyber solo — actual subject question, answer and explanation passed
+Kazakh integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Kazakh integration: forest solo — actual subject question, answer and explanation passed
+Kazakh integration: forest two — actual subject question, answer and explanation passed
+Kazakh integration: maze solo — actual subject question, answer and explanation passed
+Kazakh integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Kazakh integration: race solo — actual subject question, answer and explanation passed
+Kazakh integration: race two — actual subject question, answer and explanation passed
+Kazakh integration: runner solo — actual subject question, answer and explanation passed
+Kazakh integration: runner two — actual subject question, answer and explanation passed
+Kazakh integration: towers solo — actual subject question, answer and explanation passed
+Kazakh integration: towers two — actual subject question, answer and explanation passed
+Kazakh: 16 actual engine answer flows passed; siege and builder adapters covered by bank tests.
+Change subject: top-level navigation from all supported game pages, Windows/Linux file paths and GitHub subdirectory URLs passed: 84
+Menu: 15 games, 28 supported game/mode pairs, sessions, separate pages, exact subject context and return to topics passed.
+Subjects: 18 separate pages, eighteen available banks, clear preparation pages, root/subdirectory navigation and legacy math links passed.
+Local-compatible frame launch: file:///C:/School%20Arena/ — all 28 game/mode combinations passed.
+Local-compatible frame launch: file:///home/teacher/SchoolArena/ — all 28 game/mode combinations passed.
+Local-compatible frame launch: https://teacher.github.io/school-arena/ — all 28 game/mode combinations passed.
+Biology integration: cyber solo — actual subject question, answer and explanation passed
+Biology integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Biology integration: forest solo — actual subject question, answer and explanation passed
+Biology integration: forest two — actual subject question, answer and explanation passed
+Biology integration: maze solo — actual subject question, answer and explanation passed
+Biology integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Biology integration: race solo — actual subject question, answer and explanation passed
+Biology integration: race two — actual subject question, answer and explanation passed
+Biology integration: runner solo — actual subject question, answer and explanation passed
+Biology integration: runner two — actual subject question, answer and explanation passed
+Biology integration: towers solo — actual subject question, answer and explanation passed
+Biology integration: towers two — actual subject question, answer and explanation passed
+[two] builder: element scoring, task adaptation, duplicate protection, simultaneous pointers, cross-player isolation, mistake retry, six errors, collapse/opponent continuation, pause, 150s deadline, winner/ties, replay, draw and exit passed.
+Chemistry integration: cyber solo — actual subject question, answer and explanation passed
+Chemistry integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Chemistry integration: forest solo — actual subject question, answer and explanation passed
+Chemistry integration: forest two — actual subject question, answer and explanation passed
+Chemistry integration: maze solo — actual subject question, answer and explanation passed
+Chemistry integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Chemistry integration: race solo — actual subject question, answer and explanation passed
+Chemistry integration: race two — actual subject question, answer and explanation passed
+Chemistry integration: runner solo — actual subject question, answer and explanation passed
+Chemistry integration: runner two — actual subject question, answer and explanation passed
+Chemistry integration: towers solo — actual subject question, answer and explanation passed
+Chemistry integration: towers two — actual subject question, answer and explanation passed
+cyber: AI, tutor, human-only input and lifecycle passed
+[two] cyber: Cyber-duel passed: ready gate, common answers, independent players, critical and normal damage, duplicate answers, errors, timeouts, KO, rematch and exit cleanup.
+fighters solo native shared engine passed
+fighters two native shared engine passed
+forest: AI, tutor, human-only input and lifecycle passed
+[two] forest: Forest passed: 3 paths/one correct, independent heroes, duplicate protection, bright recovery, 4 cumulative mistakes, 6 correct choices, continued play after loss, both endings, pause/restart/exit and animated drawing paths.
+Geography integration: cyber solo — actual subject question, answer and explanation passed
+Geography integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Geography integration: forest solo — actual subject question, answer and explanation passed
+Geography integration: forest two — actual subject question, answer and explanation passed
+Geography integration: maze solo — actual subject question, answer and explanation passed
+Geography integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Geography integration: race solo — actual subject question, answer and explanation passed
+Geography integration: race two — actual subject question, answer and explanation passed
+Geography integration: runner solo — actual subject question, answer and explanation passed
+Geography integration: runner two — actual subject question, answer and explanation passed
+Geography integration: towers solo — actual subject question, answer and explanation passed
+Geography integration: towers two — actual subject question, answer and explanation passed
+Informatics integration: cyber solo — actual subject question, answer and explanation passed
+Informatics integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Informatics integration: forest solo — actual subject question, answer and explanation passed
+Informatics integration: forest two — actual subject question, answer and explanation passed
+Informatics integration: maze solo — actual subject question, answer and explanation passed
+Informatics integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Informatics integration: race solo — actual subject question, answer and explanation passed
+Informatics integration: race two — actual subject question, answer and explanation passed
+Informatics integration: runner solo — actual subject question, answer and explanation passed
+Informatics integration: runner two — actual subject question, answer and explanation passed
+Informatics integration: towers solo — actual subject question, answer and explanation passed
+Informatics integration: towers two — actual subject question, answer and explanation passed
+maze: AI, tutor, human-only input and lifecycle passed
+[two] maze: Maze behavior passed: valid paths, matching boards, blocked walls, numeric/fraction/option answers, duplicate submissions, full route to exit, victory freeze, regeneration and exit cleanup.
+Physics integration: cyber solo — actual subject question, answer and explanation passed
+Physics integration: cyber two — actual subject question, answer and explanation passed
+fighters solo native shared engine passed
+fighters two native shared engine passed
+Physics integration: forest solo — actual subject question, answer and explanation passed
+Physics integration: forest two — actual subject question, answer and explanation passed
+Physics integration: maze solo — actual subject question, answer and explanation passed
+Physics integration: maze two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+Physics integration: race solo — actual subject question, answer and explanation passed
+Physics integration: race two — actual subject question, answer and explanation passed
+Physics integration: runner solo — actual subject question, answer and explanation passed
+Physics integration: runner two — actual subject question, answer and explanation passed
+Physics integration: towers solo — actual subject question, answer and explanation passed
+Physics integration: towers two — actual subject question, answer and explanation passed
+planes solo native shared engine passed
+planes two native shared engine passed
+race: AI, tutor, human-only input and lifecycle passed
+[two] race: Race passed: all 10 models, ready gate, true/false scoring, inertia, real distance units, frame-rate independence, acceleration/braking, cooldown/pause, timeout, exact finish order, tie, replay and exit.
+runner: AI, tutor, human-only input and lifecycle passed
+[two] runner: Runner passed: independent players, +1/+2/+3, lane selection, duplicate protection, four cumulative errors, opponent continuation, exact 150-second clock, pause/visibility, score winner/draw, restart/exit, native canvas artwork.
+[two] siege: fraction keypad/equivalence, invalid input, ammo, duplicate lock, independent players, miss, damage, pause, exhaustion, tie, timeout, restart and exit passed.
+towers: AI, tutor, human-only input and lifecycle passed
+[two] towers: Input-only towers passed: fractions, equivalent/negative/decimal/mixed answers, invalid denominator, symbolic input, independent players, double submit, draw, timeout, exit.
+All project checks passed.

@@ -1,0 +1,28 @@
+{
+  "subjects": 6,
+  "games": 10,
+  "supported_game_mode_pairs": 18,
+  "new_game": "builder",
+  "new_game_modes": [
+    "two"
+  ],
+  "duration_seconds": 150,
+  "collapse_after_errors": 6,
+  "puzzle_tasks_checked": 9804,
+  "puzzle_elements_checked": 23710,
+  "puzzle_kinds": {
+    "calculation": 1331,
+    "answer": 2673,
+    "phrase": 2070,
+    "rule": 1020,
+    "formula": 2710
+  },
+  "new_menu_illustrations": 10,
+  "image_files": 87,
+  "all_prior_nine_game_sources_unchanged": true,
+  "all_six_subject_banks_unchanged": true,
+  "full_project_tests": "passed",
+  "focused_tests_after_final_changes": "passed",
+  "static_resources": "passed: 18 page shells, 378 relative resources",
+  "visual_browser_verification": "unavailable: local server ERR_CONNECTION_REFUSED"
+}

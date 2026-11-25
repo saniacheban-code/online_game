@@ -1,0 +1,44 @@
+{
+  "preservedByteForByte": [
+    "content/math/generator.js",
+    "content/math/topics.json",
+    "content/physics/sources.json",
+    "content/physics/generator.js",
+    "content/physics/topics.json",
+    "content/chemistry/sources.json",
+    "content/chemistry/generator.js",
+    "content/chemistry/topics.json",
+    "games/planes/engine.js",
+    "games/maze/engine.js",
+    "games/cyber/engine.js",
+    "games/race/engine.js",
+    "games/towers/engine.js",
+    "games/runner/engine.js",
+    "games/forest/engine.js",
+    "games/fighters/engine.js"
+  ],
+  "biology": {
+    "topicGroups": 74,
+    "reviewEntries": 25,
+    "factRows": 224,
+    "taskChecks": 38016,
+    "workedExamples": 2416,
+    "menuLaunches": 320,
+    "engineModeCombinations": 16,
+    "models": 69,
+    "gradeScope": "Separate grade 8 basics, grade 9 DNA structure, grade 10 RNA types, and grade 11 transcription/translation."
+  },
+  "navigation": {
+    "pages": 16,
+    "rootsChecked": [
+      "Windows file path",
+      "Linux file path",
+      "GitHub subdirectory"
+    ]
+  },
+  "forest": {
+    "workspaceCss": "assets/css/forest-workspace.css",
+    "sameEngine": true,
+    "visualBrowserCheck": false
+  }
+}

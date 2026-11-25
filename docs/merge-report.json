@@ -1,0 +1,34 @@
+{
+  "planes": {
+    "shared": 45,
+    "branched": 7
+  },
+  "fighters": {
+    "shared": 45,
+    "branched": 7
+  },
+  "towers": {
+    "shared": 29,
+    "branched": 12
+  },
+  "cyber": {
+    "shared": 37,
+    "branched": 6
+  },
+  "maze": {
+    "shared": 33,
+    "branched": 10
+  },
+  "race": {
+    "shared": 44,
+    "branched": 9
+  },
+  "forest": {
+    "shared": 45,
+    "branched": 6
+  },
+  "runner": {
+    "shared": 42,
+    "branched": 8
+  }
+}

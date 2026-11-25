@@ -1,0 +1,35 @@
+{
+  "checkedOn": "2026-11-18",
+  "subject": "russian",
+  "grades": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "languageOfInstruction": "ru",
+  "seniorTrack": "ЕМН",
+  "topicGroups": 137,
+  "reviewGroups": 50,
+  "skills": 85,
+  "languageExamples": 291,
+  "readingTexts": 46,
+  "tasksChecked": 53856,
+  "parallelExamplesChecked": 53856,
+  "menuLaunches": 720,
+  "engineFlows": 16,
+  "allTenGames": true,
+  "fullTestSuite": "passed",
+  "browserChecks": [
+    "subject menu",
+    "grade 11 solo forest: full text, numbered signs, current help and different example",
+    "grade 2 paired towers: entering answer number, correct-answer confirmation, 60-second limit"
+  ],
+  "browserScope": "Desktop browser; no physical smartphone or panel tested."
+}

@@ -1,0 +1,39 @@
+{
+  "subjects": 6,
+  "games": 10,
+  "supported_modes": 18,
+  "changes": [
+    "uniform builder camera",
+    "source aspect ratio for every builder sprite",
+    "natural floor height and stacking",
+    "city background crop",
+    "readable unscaled score labels",
+    "taller scene",
+    "siege background crop"
+  ],
+  "automated_tests": "passed",
+  "viewport_test_cases": [
+    [
+      1400,
+      210
+    ],
+    [
+      1363,
+      300
+    ],
+    [
+      800,
+      400
+    ],
+    [
+      360,
+      220
+    ],
+    [
+      1920,
+      420
+    ]
+  ],
+  "desktop_browser": "three-floor tower built and visually verified",
+  "other_eight_games_and_subject_banks": "unchanged"
+}

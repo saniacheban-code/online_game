@@ -1,0 +1,39 @@
+{
+  "checkedOn": "2026-11-18",
+  "subject": "natural-science",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "topicGroups": 104,
+  "reviewGroups": 30,
+  "models": 94,
+  "tasksChecked": 38592,
+  "parallelExamplesChecked": 38592,
+  "menuLaunchesChecked": 432,
+  "engineAnswerFlowsChecked": 16,
+  "adapterChecks": [
+    "siege",
+    "builder"
+  ],
+  "forestFitScales": [
+    0.45,
+    0.67,
+    1,
+    1.25
+  ],
+  "fullTestSuite": "passed",
+  "browserChecks": [
+    "home: seven available subjects",
+    "natural-science: ten games",
+    "forest: grade 1, correct answer",
+    "forest: grade 6, solo current rule and different example",
+    "forest: next question updates helper",
+    "forest: labels aligned after screen-fit correction"
+  ],
+  "browserScope": "Desktop browser; no physical smartphone or interactive panel tested."
+}

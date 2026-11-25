@@ -1,0 +1,58 @@
+{
+  "world-around": {
+    "grades": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "units": 16,
+    "rows": 96
+  },
+  "music-primary": {
+    "grades": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "units": 16,
+    "rows": 64
+  },
+  "visual-art": {
+    "grades": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "units": 16,
+    "rows": 80
+  },
+  "handicraft": {
+    "grades": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "units": 16,
+    "rows": 80
+  },
+  "literacy": {
+    "grades": [
+      1
+    ],
+    "units": 4,
+    "rows": 24
+  },
+  "literary-reading": {
+    "grades": [
+      2,
+      3,
+      4
+    ],
+    "units": 12,
+    "rows": 96
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "subjects": 6,
+  "games": 9,
+  "supported_game_modes": 17,
+  "siege_task_checks": 9804,
+  "images": 84,
+  "previous_eight_game_sources_unchanged": true,
+  "subject_banks_unchanged": true,
+  "automated_checks": "passed",
+  "visual_browser_check": "unavailable: ERR_CONNECTION_REFUSED"
+}

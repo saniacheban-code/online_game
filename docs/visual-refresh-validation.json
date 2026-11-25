@@ -1,0 +1,27 @@
+{
+  "subjects": 6,
+  "games": 10,
+  "game_mode_pairs": 18,
+  "updated_games": [
+    "planes",
+    "forest"
+  ],
+  "updated_modes": [
+    "two",
+    "solo"
+  ],
+  "new_image_assets": 4,
+  "image_assets_total": 91,
+  "subject_banks_unchanged": true,
+  "other_eight_game_sources_unchanged": true,
+  "automated_checks": "passed",
+  "desktop_browser_verified": [
+    "full-width flight",
+    "loaded aircraft/background/obstacles",
+    "correct manoeuvre and collision",
+    "forest numeric and word answers on painted signs",
+    "bright to wild forest transition",
+    "readable labels and no terminal-letter wrapping"
+  ],
+  "real_phone_and_panel_verified": false
+}

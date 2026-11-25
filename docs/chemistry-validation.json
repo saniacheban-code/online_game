@@ -1,0 +1,12 @@
+{
+  "unchangedFiles": 29,
+  "scope": "All game files and all math/physics content byte-identical to the prior mathematics + physics archive.",
+  "chemistry": {
+    "topicGroups": 79,
+    "reviewEntries": 25,
+    "taskChecks": 39936,
+    "exampleChecks": 6507,
+    "menuLaunches": 320,
+    "engineModeCombinations": 16
+  }
+}
