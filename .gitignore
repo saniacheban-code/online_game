@@ -1,0 +1,9 @@
+dist/
+.openai/
+android/.gradle/
+android/**/build/
+android/app/src/main/assets/www/
+android/local.properties
+*.jks
+*.keystore
+node_modules/

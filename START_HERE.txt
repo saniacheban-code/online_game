@@ -1,0 +1,14 @@
+УЧЕБНАЯ АРЕНА MOBILE 1.0
+Отдельная мобильная версия на основе итоговой GitHub 3.0.
+
+Главная инструкция: MOBILE_START_HERE.md
+Сервер Google Таблиц: backend/google-apps-script/Code.gs
+Адрес сервера: mobile/config.js или переменная GitHub ARENA_API_URL
+Сборка APK: .github/workflows/android.yml
+Сайт: .github/workflows/pages.yml
+
+Сначала создайте Google Таблицу и разверните Apps Script,
+затем загрузите полный проект в отдельный репозиторий GitHub,
+обязательно вместе со скрытой папкой .github.
+До настройки сервера можно играть гостем.
+APK собирается в вашем GitHub Actions; здесь подготовлен проект.
