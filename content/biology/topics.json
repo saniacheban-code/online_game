@@ -1,0 +1,1028 @@
+{
+  "subjectId": "biology",
+  "name": "Биология",
+  "grades": {
+    "7": [
+      {
+        "id": "biology-7-ecosystems",
+        "title": "Экосистемы, факторы среды и пищевые цепи",
+        "section": "Экосистемы",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "ecology"
+        ]
+      },
+      {
+        "id": "biology-7-nature",
+        "title": "Охраняемые территории и биоразнообразие",
+        "section": "Человек и природа",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "conservation"
+        ]
+      },
+      {
+        "id": "biology-7-classification",
+        "title": "Классификация и определительные ключи",
+        "section": "Классификация",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "taxonomy"
+        ]
+      },
+      {
+        "id": "biology-7-cells",
+        "title": "Клетки, ткани, органы и системы",
+        "section": "Клеточная биология",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "cellsBasic",
+          "cellPlant"
+        ]
+      },
+      {
+        "id": "biology-7-water",
+        "title": "Вода и минеральное питание",
+        "section": "Вода и вещества",
+        "quarter": 1,
+        "index": 4,
+        "templates": [
+          "water"
+        ]
+      },
+      {
+        "id": "biology-7-transport",
+        "title": "Транспорт веществ у растений",
+        "section": "Транспорт веществ",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "transportPlant"
+        ]
+      },
+      {
+        "id": "biology-7-photosynthesis",
+        "title": "Лист и условия фотосинтеза",
+        "section": "Питание",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "photosynthesis"
+        ]
+      },
+      {
+        "id": "biology-7-breathing",
+        "title": "Дыхание растений и животных",
+        "section": "Дыхание",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "respirationBasic"
+        ]
+      },
+      {
+        "id": "biology-7-excretion",
+        "title": "Выделение у растений и животных",
+        "section": "Выделение",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "excretionBasic"
+        ]
+      },
+      {
+        "id": "biology-7-movement",
+        "title": "Движения растений",
+        "section": "Движение",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "movementPlant"
+        ]
+      },
+      {
+        "id": "biology-7-nervous",
+        "title": "Нервная система и рефлексы",
+        "section": "Координация и регуляция",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "nervousBasic"
+        ]
+      },
+      {
+        "id": "biology-7-reproduction",
+        "title": "Способы размножения и опыление",
+        "section": "Размножение",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "reproductionBasic"
+        ]
+      },
+      {
+        "id": "biology-7-growth",
+        "title": "Рост, развитие и превращение насекомых",
+        "section": "Рост и развитие",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "growth"
+        ]
+      },
+      {
+        "id": "biology-7-microbes",
+        "title": "Бактерии, вирусы и пищевые биотехнологии",
+        "section": "Микробиология",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "microbes"
+        ]
+      },
+      {
+        "id": "biology-7-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-7-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-7-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-7-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-7-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "8": [
+      {
+        "id": "biology-8-cells",
+        "title": "Клеточное строение и ткани животных",
+        "section": "Клеточная биология",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "cellPlant",
+          "tissues"
+        ]
+      },
+      {
+        "id": "biology-8-organic",
+        "title": "Мономеры, полимеры и вещества клетки",
+        "section": "Молекулярная биология",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "organic"
+        ]
+      },
+      {
+        "id": "biology-8-diversity",
+        "title": "Отделы растений, грибы и членистоногие",
+        "section": "Разнообразие организмов",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "diversity"
+        ]
+      },
+      {
+        "id": "biology-8-digestion",
+        "title": "Пищеварительные органы и их функции",
+        "section": "Питание",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "digestion"
+        ]
+      },
+      {
+        "id": "biology-8-blood",
+        "title": "Кровь и внутренняя среда",
+        "section": "Транспорт веществ",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "blood"
+        ]
+      },
+      {
+        "id": "biology-8-immunity",
+        "title": "Иммунитет и защитные реакции",
+        "section": "Транспорт веществ",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "immunity"
+        ]
+      },
+      {
+        "id": "biology-8-heart",
+        "title": "Сердце и сосуды",
+        "section": "Кровообращение",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "heart"
+        ]
+      },
+      {
+        "id": "biology-8-pulse",
+        "title": "Частота сердечных сокращений",
+        "section": "Кровообращение",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "pulse"
+        ]
+      },
+      {
+        "id": "biology-8-breathing",
+        "title": "Газообмен и механизмы дыхания",
+        "section": "Дыхание",
+        "quarter": 2,
+        "index": 8,
+        "templates": [
+          "breathing",
+          "ventilation"
+        ]
+      },
+      {
+        "id": "biology-8-kidney",
+        "title": "Почки и мочевыделительные пути",
+        "section": "Выделение",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "kidneyBasic"
+        ]
+      },
+      {
+        "id": "biology-8-skeleton",
+        "title": "Скелет, суставы и мышечное движение",
+        "section": "Опорно-двигательная система",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "skeleton",
+          "tissues"
+        ]
+      },
+      {
+        "id": "biology-8-senses",
+        "title": "Зрительный и слуховой анализаторы",
+        "section": "Координация и регуляция",
+        "quarter": 3,
+        "index": 11,
+        "templates": [
+          "senses"
+        ]
+      },
+      {
+        "id": "biology-8-hormones",
+        "title": "Железы и гормональная регуляция",
+        "section": "Координация и регуляция",
+        "quarter": 3,
+        "index": 12,
+        "templates": [
+          "hormones"
+        ]
+      },
+      {
+        "id": "biology-8-cycles",
+        "title": "Чередование поколений и оплодотворение",
+        "section": "Размножение",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "lifeCycles",
+          "reproductionBasic"
+        ]
+      },
+      {
+        "id": "biology-8-division",
+        "title": "Значение митоза и мейоза",
+        "section": "Клеточный цикл",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "divisionBasic",
+          "chromosomes"
+        ]
+      },
+      {
+        "id": "biology-8-selection",
+        "title": "Наследственность, сорта и породы",
+        "section": "Селекция",
+        "quarter": 4,
+        "index": 15,
+        "templates": [
+          "selection",
+          "genetics"
+        ]
+      },
+      {
+        "id": "biology-8-ecosystems",
+        "title": "Популяции и взаимосвязи в экосистемах",
+        "section": "Экосистемы",
+        "quarter": 4,
+        "index": 16,
+        "templates": [
+          "populations",
+          "population"
+        ]
+      },
+      {
+        "id": "biology-8-nature",
+        "title": "Охрана природы и биоразнообразие",
+        "section": "Экология",
+        "quarter": 4,
+        "index": 17,
+        "templates": [
+          "conservation"
+        ]
+      },
+      {
+        "id": "biology-8-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-8-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-8-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 20,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-8-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 21,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-8-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 22,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "9": [
+      {
+        "id": "biology-9-organelles",
+        "title": "Органоиды клетки и их функции",
+        "section": "Клеточная биология",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "organelles",
+          "cellPlant"
+        ]
+      },
+      {
+        "id": "biology-9-microscope",
+        "title": "Расчёт увеличения микрофотографии",
+        "section": "Клеточная биология",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "magnification"
+        ]
+      },
+      {
+        "id": "biology-9-energy",
+        "title": "Пищевые сети и эффективность переноса энергии",
+        "section": "Экосистемы",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "energy",
+          "efficiency",
+          "ecology"
+        ]
+      },
+      {
+        "id": "biology-9-environment",
+        "title": "Влияние человека на экосистемы",
+        "section": "Экология",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "conservation",
+          "populations"
+        ]
+      },
+      {
+        "id": "biology-9-enzymes",
+        "title": "Ферменты и процессы пищеварения",
+        "section": "Питание",
+        "quarter": 1,
+        "index": 4,
+        "templates": [
+          "enzymes",
+          "digestion"
+        ]
+      },
+      {
+        "id": "biology-9-transport",
+        "title": "Мембранный транспорт и транспирация",
+        "section": "Транспорт веществ",
+        "quarter": 1,
+        "index": 5,
+        "templates": [
+          "membrane",
+          "transportPlant"
+        ]
+      },
+      {
+        "id": "biology-9-breathing",
+        "title": "Аэробное и анаэробное дыхание",
+        "section": "Дыхание",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "respirationAdvanced"
+        ]
+      },
+      {
+        "id": "biology-9-kidney",
+        "title": "Нефрон, фильтрация и реабсорбция",
+        "section": "Выделение",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "kidney"
+        ]
+      },
+      {
+        "id": "biology-9-nervous",
+        "title": "Нейрон, синапс и регуляция",
+        "section": "Координация и регуляция",
+        "quarter": 2,
+        "index": 8,
+        "templates": [
+          "neural",
+          "nervousBasic"
+        ]
+      },
+      {
+        "id": "biology-9-dna",
+        "title": "Строение ДНК и комплементарность",
+        "section": "Молекулярная биология",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "dna",
+          "dnaBonds",
+          "dnaBasic"
+        ]
+      },
+      {
+        "id": "biology-9-division",
+        "title": "Клеточный цикл, митоз и мейоз",
+        "section": "Клеточный цикл",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "cellCycle",
+          "chromosomes",
+          "mitosisCount"
+        ]
+      },
+      {
+        "id": "biology-9-genetics",
+        "title": "Моногибридное скрещивание",
+        "section": "Закономерности наследования",
+        "quarter": 3,
+        "index": 11,
+        "templates": [
+          "genetics",
+          "monohybrid"
+        ]
+      },
+      {
+        "id": "biology-9-biotech",
+        "title": "Биотехнологические процессы",
+        "section": "Биотехнология",
+        "quarter": 3,
+        "index": 12,
+        "templates": [
+          "biotech"
+        ]
+      },
+      {
+        "id": "biology-9-development",
+        "title": "Размножение и развитие человека",
+        "section": "Размножение и развитие",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "humanDevelopment"
+        ]
+      },
+      {
+        "id": "biology-9-evolution",
+        "title": "Доказательства эволюции и отбор",
+        "section": "Эволюция",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "evolution",
+          "selection"
+        ]
+      },
+      {
+        "id": "biology-9-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-9-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-9-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-9-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-9-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "10": [
+      {
+        "id": "biology-10-molecules",
+        "title": "Углеводы, липиды и структуры белков",
+        "section": "Молекулярная биология",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "organic",
+          "proteinStructure"
+        ]
+      },
+      {
+        "id": "biology-10-dna",
+        "title": "ДНК, РНК и передача информации",
+        "section": "Молекулярная биология",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "dnaBasic",
+          "rna",
+          "dna",
+          "dnaBonds"
+        ]
+      },
+      {
+        "id": "biology-10-cells",
+        "title": "Органоиды и мембрана клетки",
+        "section": "Клеточная биология",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "organelles",
+          "membrane"
+        ]
+      },
+      {
+        "id": "biology-10-enzymes",
+        "title": "Ферменты и факторы активности",
+        "section": "Питание",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "enzymes"
+        ]
+      },
+      {
+        "id": "biology-10-transport",
+        "title": "Пассивный и активный транспорт",
+        "section": "Транспорт веществ",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "membrane"
+        ]
+      },
+      {
+        "id": "biology-10-respiration",
+        "title": "Этапы клеточного дыхания",
+        "section": "Дыхание",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "respirationAdvanced"
+        ]
+      },
+      {
+        "id": "biology-10-kidney",
+        "title": "Фильтрация, реабсорбция и водный баланс",
+        "section": "Выделение",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "kidney",
+          "waterRegulation"
+        ]
+      },
+      {
+        "id": "biology-10-division",
+        "title": "Митоз, мейоз и гаметогенез",
+        "section": "Клеточный цикл",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "cellCycle",
+          "chromosomes",
+          "mitosisCount"
+        ]
+      },
+      {
+        "id": "biology-10-genetics",
+        "title": "Моно- и дигибридное скрещивание",
+        "section": "Наследственность",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "monohybrid",
+          "dihybrid",
+          "genetics"
+        ]
+      },
+      {
+        "id": "biology-10-variation",
+        "title": "Изменчивость и мутации",
+        "section": "Изменчивость",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "variation"
+        ]
+      },
+      {
+        "id": "biology-10-evolution",
+        "title": "Видообразование, отбор и селекция",
+        "section": "Эволюция",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "evolution",
+          "selection"
+        ]
+      },
+      {
+        "id": "biology-10-neuron",
+        "title": "Потенциал действия, миелин и рецепторы",
+        "section": "Координация и регуляция",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "neural"
+        ]
+      },
+      {
+        "id": "biology-10-muscles",
+        "title": "Саркомер и мышечные волокна",
+        "section": "Движение",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "muscles"
+        ]
+      },
+      {
+        "id": "biology-10-biotech",
+        "title": "Применение организмов в биотехнологии",
+        "section": "Биотехнология",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "biotech"
+        ]
+      },
+      {
+        "id": "biology-10-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-10-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-10-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-10-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-10-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "11": [
+      {
+        "id": "biology-11-synthesis",
+        "title": "Реализация наследственной информации",
+        "section": "Молекулярная биология",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "dnaTheory",
+          "proteinStructure"
+        ]
+      },
+      {
+        "id": "biology-11-photosynthesis",
+        "title": "Фазы фотосинтеза и лимитирующие факторы",
+        "section": "Питание",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "photosynthesisAdvanced",
+          "photosynthesis"
+        ]
+      },
+      {
+        "id": "biology-11-transport",
+        "title": "Транспортные пути растений и мембраны",
+        "section": "Транспорт веществ",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "plantPaths",
+          "membrane"
+        ]
+      },
+      {
+        "id": "biology-11-regulation",
+        "title": "Гомеостаз, гормональный сигнал и фитогормоны",
+        "section": "Координация и регуляция",
+        "quarter": 2,
+        "index": 3,
+        "templates": [
+          "regulation",
+          "hormones"
+        ]
+      },
+      {
+        "id": "biology-11-gametes",
+        "title": "Гаметогенез и стволовые клетки",
+        "section": "Размножение и развитие",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "stemCells",
+          "chromosomes"
+        ]
+      },
+      {
+        "id": "biology-11-genome",
+        "title": "Мутации и изучение генома",
+        "section": "Наследственность",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "variation",
+          "dnaTheory"
+        ]
+      },
+      {
+        "id": "biology-11-cells",
+        "title": "Структуры клетки на микрофотографиях",
+        "section": "Клеточная биология",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "organelles",
+          "magnification"
+        ]
+      },
+      {
+        "id": "biology-11-biotech",
+        "title": "Рекомбинантная ДНК и бактериальные клетки",
+        "section": "Биотехнология",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "biotech",
+          "biotechAdvanced"
+        ]
+      },
+      {
+        "id": "biology-11-bioinformatics",
+        "title": "Биоинформатика, эпигенетика и антитела",
+        "section": "Биомедицина и биоинформатика",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "bioinformatics"
+        ]
+      },
+      {
+        "id": "biology-11-ecosystems",
+        "title": "Экологические пирамиды и связи организмов",
+        "section": "Экосистемы",
+        "quarter": 4,
+        "index": 9,
+        "templates": [
+          "energy",
+          "efficiency",
+          "populations"
+        ]
+      },
+      {
+        "id": "biology-11-hardy",
+        "title": "Генетическое равновесие Харди — Вайнберга",
+        "section": "Популяционная генетика",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "hardy",
+          "genetics"
+        ]
+      },
+      {
+        "id": "biology-11-sampling",
+        "title": "Выборка, плотность и численность популяций",
+        "section": "Исследование экосистем",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "sampleDensity",
+          "population"
+        ]
+      },
+      {
+        "id": "biology-11-ecology",
+        "title": "Сохранение биоразнообразия и среды",
+        "section": "Экология",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "conservation",
+          "ecology"
+        ]
+      },
+      {
+        "id": "biology-11-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-11-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-11-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-11-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "biology-11-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      }
+    ]
+  },
+  "seniorTrack": "ЕМН",
+  "sources": "sources.json"
+}

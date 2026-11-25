@@ -1,0 +1,72 @@
+{
+  "1": [
+    {
+      "id": "literacy-1-1",
+      "title": "Букварь: речь, слово, звук",
+      "quarter": 1,
+      "section": "Букварь и обучение грамоте",
+      "index": 0
+    },
+    {
+      "id": "literacy-1-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "literacy-1-2",
+      "title": "Букварь: слоги, ударение и чтение слов",
+      "quarter": 2,
+      "section": "Букварь и обучение грамоте",
+      "index": 2
+    },
+    {
+      "id": "literacy-1-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "literacy-1-3",
+      "title": "Обучение грамоте: предложение и смысл слова",
+      "quarter": 3,
+      "section": "Букварь и обучение грамоте",
+      "index": 4
+    },
+    {
+      "id": "literacy-1-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "literacy-1-4",
+      "title": "Обучение грамоте: текст, заголовок и понимание",
+      "quarter": 4,
+      "section": "Букварь и обучение грамоте",
+      "index": 6
+    },
+    {
+      "id": "literacy-1-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "literacy-1-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ]
+}

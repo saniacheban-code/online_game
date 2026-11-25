@@ -1,0 +1,89 @@
+{
+  "subject": "english",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "seniorTrack": "ЕМН",
+  "checkedOn": "2026-11-18",
+  "primary": [
+    {
+      "title": "Приказ № 323 от 05.11.2024: программа английского языка для 3–4 классов, с 01.09.2025",
+      "url": "https://law.gov.kz/api/documents/202381/rus/download/pdf"
+    },
+    {
+      "title": "Приказ № 399: приложения 23, 49, 98",
+      "url": "https://adilet.zan.kz/rus/docs/V2200029767"
+    }
+  ],
+  "supporting": [
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 3 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/3-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 4 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/4-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 5 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/5-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 6 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/6-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 7 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/7-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 8 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/8-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 9 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/9-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 10 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/10-klass"
+    },
+    {
+      "title": "Опубликованная программа и распределение по четвертям: 11 класс",
+      "url": "https://telly.kz/uchebnye-programmy/angliyskiy-yazyk/11-klass"
+    }
+  ],
+  "grammarReferences": [
+    {
+      "title": "British Council: verbs in time and if clauses",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verbs-time-clauses-if-clauses"
+    },
+    {
+      "title": "British Council: wishes and hypotheses",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/wishes-hypotheses"
+    },
+    {
+      "title": "British Council: although and despite",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/contrasting-ideas-although-despite-others?page=0"
+    }
+  ],
+  "scope": "Авторская игровая практика лексики, грамматики и чтения, а не полный КТП. 147 тематических групп и 45 повторений. Языковые умения сгруппированы по четвертям с учётом опубликованных разделов. Не каждый короткий языковой пример привязан к единственной сквозной лексической теме; чтение в разных сюжетах закрепляет общие умения. Аудирование, говорение и свободное письмо требуют отдельной работы.",
+  "gradeGuards": {
+    "secondConditional": 8,
+    "perfectContinuous": 9,
+    "futurePerfect": 11,
+    "reportedStatements": 7,
+    "reportedQuestions": 8
+  },
+  "evidence": "Программа начальной школы прочитана по официальному PDF. Для 5–11 классов содержание и четверти сверены по опубликованным планам Telly; карточка Әділет доступна как официальный адрес, но при просмотре отдаёт оболочку без полного текста. Полнота независимой сверки всех позднейших изменений не заявляется.",
+  "language": "Примеры и тексты — английский, инструкции и объяснения — русский; орфография преимущественно British English.",
+  "copyright": "Все игровые примеры и тексты написаны для этой сборки; упражнения учебников и тексты источников не копируются."
+}

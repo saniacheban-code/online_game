@@ -1,0 +1,1222 @@
+{
+  "subjectId": "informatics",
+  "name": "Информатика",
+  "grades": {
+    "5": [
+      {
+        "id": "informatics-5-information",
+        "title": "Виды и формы представления информации",
+        "section": "Представление информации",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "information"
+        ]
+      },
+      {
+        "id": "informatics-5-communication",
+        "title": "Источник, приёмник и канал связи",
+        "section": "Представление информации",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "communication"
+        ]
+      },
+      {
+        "id": "informatics-5-coding",
+        "title": "Кодирование и декодирование сообщений",
+        "section": "Представление информации",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "coding",
+          "fixedCode"
+        ]
+      },
+      {
+        "id": "informatics-5-binary",
+        "title": "Двоичное представление информации",
+        "section": "Представление информации",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "binaryPattern",
+          "coding"
+        ]
+      },
+      {
+        "id": "informatics-5-raster",
+        "title": "Растровые изображения и пиксели",
+        "section": "Компьютерная графика",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "raster",
+          "pixels"
+        ]
+      },
+      {
+        "id": "informatics-5-vector",
+        "title": "Векторные объекты, заливки и кривые",
+        "section": "Компьютерная графика",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "vector"
+        ]
+      },
+      {
+        "id": "informatics-5-robots",
+        "title": "Роботы, датчики и исполнительные устройства",
+        "section": "Робототехника",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "robotics"
+        ]
+      },
+      {
+        "id": "informatics-5-turns",
+        "title": "Гироскопический датчик и повороты",
+        "section": "Робототехника",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "robotics",
+          "robotTurns"
+        ]
+      },
+      {
+        "id": "informatics-5-movement",
+        "title": "Маршруты и движение по линии",
+        "section": "Соревнования роботов",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "robotAlgorithm",
+          "robotDistance"
+        ]
+      },
+      {
+        "id": "informatics-5-safety",
+        "title": "Безопасная работа и личные данные",
+        "section": "Компьютер и безопасность",
+        "quarter": 4,
+        "index": 9,
+        "templates": [
+          "safetyBasic",
+          "ergonomics"
+        ]
+      },
+      {
+        "id": "informatics-5-storage",
+        "title": "Цифровые носители информации",
+        "section": "Компьютер и безопасность",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "storageDevices"
+        ]
+      },
+      {
+        "id": "informatics-5-project",
+        "title": "Защита данных и проверка мини-проекта",
+        "section": "Компьютер и безопасность",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "safetyBasic",
+          "testing"
+        ]
+      },
+      {
+        "id": "informatics-5-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 12,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-5-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-5-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-5-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-5-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "6": [
+      {
+        "id": "informatics-6-computer",
+        "title": "Компоненты и работа компьютера",
+        "section": "Компьютерные системы и сети",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "hardware",
+          "software"
+        ]
+      },
+      {
+        "id": "informatics-6-network",
+        "title": "Беспроводные сети и подключения",
+        "section": "Компьютерные системы и сети",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "networkBasic"
+        ]
+      },
+      {
+        "id": "informatics-6-ergonomics",
+        "title": "Эргономика компьютерного рабочего места",
+        "section": "Компьютерные системы и сети",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "ergonomics"
+        ]
+      },
+      {
+        "id": "informatics-6-models",
+        "title": "3D-модели и преобразования объектов",
+        "section": "3D-печать",
+        "quarter": 2,
+        "index": 3,
+        "templates": [
+          "model3d"
+        ]
+      },
+      {
+        "id": "informatics-6-printing",
+        "title": "Подготовка модели к 3D-печати",
+        "section": "3D-печать",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "printing3d"
+        ]
+      },
+      {
+        "id": "informatics-6-syntax",
+        "title": "Среда разработки, переменные и типы",
+        "section": "Линейные программы Python",
+        "quarter": 3,
+        "index": 5,
+        "templates": [
+          "pythonBasics",
+          "software"
+        ]
+      },
+      {
+        "id": "informatics-6-linear",
+        "title": "Трассировка линейных программ",
+        "section": "Линейные программы Python",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "linear"
+        ]
+      },
+      {
+        "id": "informatics-6-types",
+        "title": "Числа и текст в программе",
+        "section": "Линейные программы Python",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "pythonBasics",
+          "linear"
+        ]
+      },
+      {
+        "id": "informatics-6-documents",
+        "title": "Структура документа, ссылки и оглавление",
+        "section": "Текстовые документы",
+        "quarter": 4,
+        "index": 8,
+        "templates": [
+          "documents"
+        ]
+      },
+      {
+        "id": "informatics-6-sources",
+        "title": "Авторство и использование источников",
+        "section": "Текстовые документы",
+        "quarter": 4,
+        "index": 9,
+        "templates": [
+          "authorship",
+          "documents"
+        ]
+      },
+      {
+        "id": "informatics-6-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 10,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-6-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 11,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-6-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 12,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-6-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-6-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "7": [
+      {
+        "id": "informatics-7-units",
+        "title": "Единицы информации и объём файлов",
+        "section": "Информация и память",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "bytes",
+          "fileSize",
+          "memory"
+        ]
+      },
+      {
+        "id": "informatics-7-memory",
+        "title": "Память и устройства хранения",
+        "section": "Информация и память",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "hardware",
+          "storageDevices",
+          "storage"
+        ]
+      },
+      {
+        "id": "informatics-7-network",
+        "title": "Классификация сетей и передача данных",
+        "section": "Сети и безопасность",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "networkBasic",
+          "transfer"
+        ]
+      },
+      {
+        "id": "informatics-7-security",
+        "title": "Защита данных и программ",
+        "section": "Сети и безопасность",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "security",
+          "safetyBasic"
+        ]
+      },
+      {
+        "id": "informatics-7-table",
+        "title": "Ячейки, формулы и типы данных",
+        "section": "Электронные таблицы",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "spreadsheets",
+          "tableFormula"
+        ]
+      },
+      {
+        "id": "informatics-7-formatting",
+        "title": "Условное форматирование и диаграммы",
+        "section": "Электронные таблицы",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "spreadsheets",
+          "charts"
+        ]
+      },
+      {
+        "id": "informatics-7-modeling",
+        "title": "Моделирование расчётов в таблице",
+        "section": "Электронные таблицы",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "tableFormula"
+        ]
+      },
+      {
+        "id": "informatics-7-files",
+        "title": "Чтение текстовых файлов",
+        "section": "Программирование Python",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "files",
+          "fileRead"
+        ]
+      },
+      {
+        "id": "informatics-7-branch",
+        "title": "Ветвление и вложенные условия",
+        "section": "Программирование Python",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "branch",
+          "conditions"
+        ]
+      },
+      {
+        "id": "informatics-7-combined",
+        "title": "Составные условия выбора",
+        "section": "Программирование Python",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "branch"
+        ]
+      },
+      {
+        "id": "informatics-7-project",
+        "title": "Разработка алгоритма решения",
+        "section": "Практическое программирование",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "branch",
+          "testing"
+        ]
+      },
+      {
+        "id": "informatics-7-testing",
+        "title": "Тесты, границы условий и трассировка",
+        "section": "Практическое программирование",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "testing",
+          "branch"
+        ]
+      },
+      {
+        "id": "informatics-7-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 12,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-7-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-7-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-7-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-7-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "8": [
+      {
+        "id": "informatics-8-measure",
+        "title": "Алфавитный подход и объём информации",
+        "section": "Компьютер и сети",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "alphabetVolume",
+          "bytes"
+        ]
+      },
+      {
+        "id": "informatics-8-processor",
+        "title": "Процессор, память и передача данных",
+        "section": "Компьютер и сети",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "hardware",
+          "transfer"
+        ]
+      },
+      {
+        "id": "informatics-8-security",
+        "title": "Сетевая безопасность и работа за компьютером",
+        "section": "Безопасность",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "security",
+          "ergonomics"
+        ]
+      },
+      {
+        "id": "informatics-8-stats",
+        "title": "Статистические функции таблицы",
+        "section": "Обработка табличной информации",
+        "quarter": 2,
+        "index": 3,
+        "templates": [
+          "tableStats",
+          "spreadsheets"
+        ]
+      },
+      {
+        "id": "informatics-8-applied",
+        "title": "Прикладные расчёты и анализ таблицы",
+        "section": "Обработка табличной информации",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "tableFormula",
+          "tableStats",
+          "charts"
+        ]
+      },
+      {
+        "id": "informatics-8-for",
+        "title": "Цикл for и диапазон range",
+        "section": "Циклы Python",
+        "quarter": 3,
+        "index": 5,
+        "templates": [
+          "forLoop",
+          "loops"
+        ]
+      },
+      {
+        "id": "informatics-8-while",
+        "title": "Цикл while и число повторений",
+        "section": "Циклы Python",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "whileLoop"
+        ]
+      },
+      {
+        "id": "informatics-8-control",
+        "title": "break и continue",
+        "section": "Циклы Python",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "loopControl",
+          "loops"
+        ]
+      },
+      {
+        "id": "informatics-8-trace",
+        "title": "Трассировка циклических алгоритмов",
+        "section": "Циклы Python",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "forLoop",
+          "whileLoop",
+          "loopControl"
+        ]
+      },
+      {
+        "id": "informatics-8-project",
+        "title": "Разработка и проверка программы с циклом",
+        "section": "Практическое программирование",
+        "quarter": 4,
+        "index": 9,
+        "templates": [
+          "testing",
+          "forLoop",
+          "whileLoop"
+        ]
+      },
+      {
+        "id": "informatics-8-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 10,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-8-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 11,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-8-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 12,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-8-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-8-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "9": [
+      {
+        "id": "informatics-9-information",
+        "title": "Свойства информации и надёжность источника",
+        "section": "Работа с информацией",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "informationQuality"
+        ]
+      },
+      {
+        "id": "informatics-9-collaboration",
+        "title": "Совместные документы и сетевой этикет",
+        "section": "Работа с информацией",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "collaboration"
+        ]
+      },
+      {
+        "id": "informatics-9-computer",
+        "title": "Выбор компонентов и программ",
+        "section": "Выбираем компьютер",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "hardware",
+          "software",
+          "mobileHardware"
+        ]
+      },
+      {
+        "id": "informatics-9-cost",
+        "title": "Расчёт стоимости конфигурации",
+        "section": "Выбираем компьютер",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "configCost"
+        ]
+      },
+      {
+        "id": "informatics-9-database",
+        "title": "Поля, записи и структура данных",
+        "section": "Базы данных",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "databases"
+        ]
+      },
+      {
+        "id": "informatics-9-filter",
+        "title": "Поиск, фильтрация и сортировка записей",
+        "section": "Базы данных",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "filterCount",
+          "databases"
+        ]
+      },
+      {
+        "id": "informatics-9-array",
+        "title": "Индексы и изменение элементов списка",
+        "section": "Массивы Python",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "arrayIndex",
+          "arrays"
+        ]
+      },
+      {
+        "id": "informatics-9-search",
+        "title": "Поиск и подсчёт элементов",
+        "section": "Массивы Python",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "arraySearch"
+        ]
+      },
+      {
+        "id": "informatics-9-matrix",
+        "title": "Двумерные массивы и индексы",
+        "section": "Массивы Python",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "matrix"
+        ]
+      },
+      {
+        "id": "informatics-9-sorting",
+        "title": "Сортировка числовых данных",
+        "section": "Массивы Python",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "sorting",
+          "arrays"
+        ]
+      },
+      {
+        "id": "informatics-9-game",
+        "title": "Игровой цикл, спрайты и экранные координаты",
+        "section": "2D-игры Python",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "gameDesign",
+          "gamePosition"
+        ]
+      },
+      {
+        "id": "informatics-9-project",
+        "title": "Условия и тестирование игровой логики",
+        "section": "2D-игры Python",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "gamePosition",
+          "branch",
+          "testing"
+        ]
+      },
+      {
+        "id": "informatics-9-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 12,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-9-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-9-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-9-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-9-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "10": [
+      {
+        "id": "informatics-10-network",
+        "title": "Компоненты сети, адреса и DNS",
+        "section": "Сети и информационная безопасность",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "networkAdvanced"
+        ]
+      },
+      {
+        "id": "informatics-10-security",
+        "title": "Идентификация, аутентификация и защита",
+        "section": "Сети и информационная безопасность",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "identity",
+          "security"
+        ]
+      },
+      {
+        "id": "informatics-10-bases",
+        "title": "Системы счисления и преобразование чисел",
+        "section": "Представление данных",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "binaryConversion"
+        ]
+      },
+      {
+        "id": "informatics-10-logic",
+        "title": "Логические операции и таблицы истинности",
+        "section": "Представление данных",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "boolean",
+          "truthRows"
+        ]
+      },
+      {
+        "id": "informatics-10-coding",
+        "title": "Кодирование текста и графических данных",
+        "section": "Представление данных",
+        "quarter": 1,
+        "index": 4,
+        "templates": [
+          "fileSize",
+          "imageVolume",
+          "alphabetVolume"
+        ]
+      },
+      {
+        "id": "informatics-10-functions",
+        "title": "Пользовательские функции и параметры",
+        "section": "Алгоритмизация и программирование",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "functions",
+          "functionCall"
+        ]
+      },
+      {
+        "id": "informatics-10-strings",
+        "title": "Обработка строк и срезы",
+        "section": "Алгоритмизация и программирование",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "strings",
+          "stringLength"
+        ]
+      },
+      {
+        "id": "informatics-10-files",
+        "title": "Файлы и обработка последовательностей",
+        "section": "Алгоритмизация и программирование",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "files",
+          "fileRead",
+          "arraySearch"
+        ]
+      },
+      {
+        "id": "informatics-10-sortGraph",
+        "title": "Сортировка и кратчайшие пути",
+        "section": "Алгоритмизация и программирование",
+        "quarter": 2,
+        "index": 8,
+        "templates": [
+          "sorting",
+          "graph"
+        ]
+      },
+      {
+        "id": "informatics-10-html",
+        "title": "HTML: структура страницы и таблицы",
+        "section": "Веб-проектирование",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "web",
+          "webStructure"
+        ]
+      },
+      {
+        "id": "informatics-10-interface",
+        "title": "Оформление и доступность веб-страницы",
+        "section": "Веб-проектирование",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "web",
+          "appInterface"
+        ]
+      },
+      {
+        "id": "informatics-10-relational",
+        "title": "Реляционные базы и ключи",
+        "section": "Информационные системы",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "relational",
+          "databases"
+        ]
+      },
+      {
+        "id": "informatics-10-sql",
+        "title": "Запросы SQL и агрегаты",
+        "section": "Информационные системы",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "sqlQuery",
+          "sql",
+          "filterCount"
+        ]
+      },
+      {
+        "id": "informatics-10-bigdata",
+        "title": "Большие данные и качество информации",
+        "section": "Информационные системы",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "bigdata",
+          "informationQuality"
+        ]
+      },
+      {
+        "id": "informatics-10-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-10-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-10-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-10-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-10-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "11": [
+      {
+        "id": "informatics-11-ai",
+        "title": "Обучение модели и подготовка данных",
+        "section": "Искусственный интеллект",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "ai",
+          "aiEvaluation"
+        ]
+      },
+      {
+        "id": "informatics-11-neuron",
+        "title": "Упрощённая модель нейрона",
+        "section": "Искусственный интеллект",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "neuron"
+        ]
+      },
+      {
+        "id": "informatics-11-evaluation",
+        "title": "Проверка качества классификатора",
+        "section": "Искусственный интеллект",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "accuracy",
+          "aiEvaluation"
+        ]
+      },
+      {
+        "id": "informatics-11-reality",
+        "title": "Виртуальная и дополненная реальности",
+        "section": "3D-моделирование",
+        "quarter": 2,
+        "index": 3,
+        "templates": [
+          "virtualReality"
+        ]
+      },
+      {
+        "id": "informatics-11-machines",
+        "title": "Виртуальные машины",
+        "section": "Аппаратное обеспечение",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "virtualMachines"
+        ]
+      },
+      {
+        "id": "informatics-11-mobile",
+        "title": "Характеристики мобильных устройств",
+        "section": "Аппаратное обеспечение",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "mobileHardware",
+          "storage"
+        ]
+      },
+      {
+        "id": "informatics-11-iot",
+        "title": "Интернет вещей и умный дом",
+        "section": "Интернет вещей",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "iot",
+          "sensor"
+        ]
+      },
+      {
+        "id": "informatics-11-app",
+        "title": "Мобильное приложение и события",
+        "section": "Интернет вещей",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "appInterface",
+          "sensor"
+        ]
+      },
+      {
+        "id": "informatics-11-startup",
+        "title": "Прототип, аудитория и запуск проекта",
+        "section": "IT-стартап",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "startup"
+        ]
+      },
+      {
+        "id": "informatics-11-digital",
+        "title": "Цифровые государственные сервисы",
+        "section": "Цифровая грамотность",
+        "quarter": 4,
+        "index": 9,
+        "templates": [
+          "digitalServices"
+        ]
+      },
+      {
+        "id": "informatics-11-blockchain",
+        "title": "Хеши и распределённые реестры",
+        "section": "Цифровая грамотность",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "blockchain"
+        ]
+      },
+      {
+        "id": "informatics-11-signature",
+        "title": "Подпись, сертификат и защита данных",
+        "section": "Цифровая грамотность",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "digitalServices",
+          "security",
+          "identity"
+        ]
+      },
+      {
+        "id": "informatics-11-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 12,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-11-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-11-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-11-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "informatics-11-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      }
+    ]
+  },
+  "seniorTrack": "ЕМН",
+  "sources": "sources.json"
+}

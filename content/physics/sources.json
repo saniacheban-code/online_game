@@ -1,0 +1,42 @@
+{
+  "subject": "physics",
+  "grades": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "seniorTrack": "ЕМН",
+  "checkedOn": "2026-11-17",
+  "primary": [
+    {
+      "title": "Приказ № 399: типовые учебные программы, приложения 57 и 112",
+      "url": "https://adilet.zan.kz/rus/docs/V2200029767"
+    },
+    {
+      "title": "Публикация изменений к приказу № 399 с долгосрочными планами физики на портале государственного органа",
+      "url": "https://www.gov.kz/org/zhelezin-bilim/documents/details/573172?lang=ru"
+    }
+  ],
+  "supporting": [
+    {
+      "title": "Долгосрочные планы физики 7–10 классов",
+      "url": "https://telly.kz/uchebnye-programmy/fizika/7-klass"
+    },
+    {
+      "title": "План 8 класса",
+      "url": "https://telly.kz/uchebnye-programmy/fizika/8-klass"
+    },
+    {
+      "title": "План 9 класса",
+      "url": "https://telly.kz/uchebnye-programmy/fizika/9-klass"
+    },
+    {
+      "title": "План 10 класса",
+      "url": "https://telly.kz/uchebnye-programmy/fizika/10-klass"
+    }
+  ],
+  "scope": "Игровая группировка основных тем по четвертям. Не полный КТП; лабораторные работы, доказательства и развёрнутые ответы требуют отдельной работы. 10–11 классы — ЕМН; ОГН отдельно не подключено.",
+  "constants": "g, h, c, π и другие приближённые константы указываются в условии каждого использующего их задания."
+}

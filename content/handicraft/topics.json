@@ -1,0 +1,282 @@
+{
+  "1": [
+    {
+      "id": "handicraft-1-1",
+      "title": "Материалы, инструменты и рабочее место",
+      "quarter": 1,
+      "section": "Трудовое обучение",
+      "index": 0
+    },
+    {
+      "id": "handicraft-1-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "handicraft-1-2",
+      "title": "Бумага, картон и объёмные формы",
+      "quarter": 2,
+      "section": "Трудовое обучение",
+      "index": 2
+    },
+    {
+      "id": "handicraft-1-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "handicraft-1-3",
+      "title": "Текстиль, природные материалы и традиции",
+      "quarter": 3,
+      "section": "Трудовое обучение",
+      "index": 4
+    },
+    {
+      "id": "handicraft-1-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "handicraft-1-4",
+      "title": "Конструирование, проект и оценка изделия",
+      "quarter": 4,
+      "section": "Трудовое обучение",
+      "index": 6
+    },
+    {
+      "id": "handicraft-1-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "handicraft-1-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "2": [
+    {
+      "id": "handicraft-2-1",
+      "title": "Материалы, инструменты и рабочее место · 2 класс",
+      "quarter": 1,
+      "section": "Трудовое обучение",
+      "index": 0
+    },
+    {
+      "id": "handicraft-2-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "handicraft-2-2",
+      "title": "Бумага, картон и объёмные формы · 2 класс",
+      "quarter": 2,
+      "section": "Трудовое обучение",
+      "index": 2
+    },
+    {
+      "id": "handicraft-2-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "handicraft-2-3",
+      "title": "Текстиль, природные материалы и традиции · 2 класс",
+      "quarter": 3,
+      "section": "Трудовое обучение",
+      "index": 4
+    },
+    {
+      "id": "handicraft-2-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "handicraft-2-4",
+      "title": "Конструирование, проект и оценка изделия · 2 класс",
+      "quarter": 4,
+      "section": "Трудовое обучение",
+      "index": 6
+    },
+    {
+      "id": "handicraft-2-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "handicraft-2-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "3": [
+    {
+      "id": "handicraft-3-1",
+      "title": "Материалы, инструменты и рабочее место · 3 класс",
+      "quarter": 1,
+      "section": "Трудовое обучение",
+      "index": 0
+    },
+    {
+      "id": "handicraft-3-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "handicraft-3-2",
+      "title": "Бумага, картон и объёмные формы · 3 класс",
+      "quarter": 2,
+      "section": "Трудовое обучение",
+      "index": 2
+    },
+    {
+      "id": "handicraft-3-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "handicraft-3-3",
+      "title": "Текстиль, природные материалы и традиции · 3 класс",
+      "quarter": 3,
+      "section": "Трудовое обучение",
+      "index": 4
+    },
+    {
+      "id": "handicraft-3-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "handicraft-3-4",
+      "title": "Конструирование, проект и оценка изделия · 3 класс",
+      "quarter": 4,
+      "section": "Трудовое обучение",
+      "index": 6
+    },
+    {
+      "id": "handicraft-3-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "handicraft-3-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "4": [
+    {
+      "id": "handicraft-4-1",
+      "title": "Материалы, инструменты и рабочее место · 4 класс",
+      "quarter": 1,
+      "section": "Трудовое обучение",
+      "index": 0
+    },
+    {
+      "id": "handicraft-4-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "handicraft-4-2",
+      "title": "Бумага, картон и объёмные формы · 4 класс",
+      "quarter": 2,
+      "section": "Трудовое обучение",
+      "index": 2
+    },
+    {
+      "id": "handicraft-4-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "handicraft-4-3",
+      "title": "Текстиль, природные материалы и традиции · 4 класс",
+      "quarter": 3,
+      "section": "Трудовое обучение",
+      "index": 4
+    },
+    {
+      "id": "handicraft-4-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "handicraft-4-4",
+      "title": "Конструирование, проект и оценка изделия · 4 класс",
+      "quarter": 4,
+      "section": "Трудовое обучение",
+      "index": 6
+    },
+    {
+      "id": "handicraft-4-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "handicraft-4-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ]
+}

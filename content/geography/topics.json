@@ -1,0 +1,1069 @@
+{
+  "subjectId": "geography",
+  "name": "География",
+  "grades": {
+    "7": [
+      {
+        "id": "geography-7-methods",
+        "title": "Источники данных и методы исследований",
+        "section": "Географические исследования",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "methods"
+        ]
+      },
+      {
+        "id": "geography-7-map",
+        "title": "Картосхемы, масштаб и условные обозначения",
+        "section": "Картография",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "maps",
+          "mapTypes",
+          "scale"
+        ]
+      },
+      {
+        "id": "geography-7-layers",
+        "title": "Строение литосферы и горные породы",
+        "section": "Литосфера",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "layers",
+          "rocks"
+        ]
+      },
+      {
+        "id": "geography-7-tectonics",
+        "title": "Литосферные плиты и тектонические движения",
+        "section": "Литосфера",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "tectonics"
+        ]
+      },
+      {
+        "id": "geography-7-atmosphere",
+        "title": "Атмосфера и её составные части",
+        "section": "Атмосфера",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "atmosphere"
+        ]
+      },
+      {
+        "id": "geography-7-weather",
+        "title": "Погода и метеорологические измерения",
+        "section": "Атмосфера",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "weather",
+          "temperature",
+          "precipitation"
+        ]
+      },
+      {
+        "id": "geography-7-winds",
+        "title": "Движение воздуха и местные ветры",
+        "section": "Атмосфера",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "winds"
+        ]
+      },
+      {
+        "id": "geography-7-waters",
+        "title": "Гидросфера и круговорот воды",
+        "section": "Гидросфера",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "waters"
+        ]
+      },
+      {
+        "id": "geography-7-ocean",
+        "title": "Свойства и движения вод океана",
+        "section": "Гидросфера",
+        "quarter": 2,
+        "index": 8,
+        "templates": [
+          "ocean",
+          "salinity"
+        ]
+      },
+      {
+        "id": "geography-7-biosphere",
+        "title": "Биосфера, флора и фауна",
+        "section": "Биосфера",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "biosphere"
+        ]
+      },
+      {
+        "id": "geography-7-soils",
+        "title": "Почва, плодородие и охрана почв",
+        "section": "Биосфера",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "soils"
+        ]
+      },
+      {
+        "id": "geography-7-complexes",
+        "title": "Природно-территориальные комплексы",
+        "section": "Природные комплексы",
+        "quarter": 3,
+        "index": 11,
+        "templates": [
+          "complexes"
+        ]
+      },
+      {
+        "id": "geography-7-culture",
+        "title": "Народы, языки и культурное взаимодействие",
+        "section": "География населения",
+        "quarter": 3,
+        "index": 12,
+        "templates": [
+          "culture"
+        ]
+      },
+      {
+        "id": "geography-7-resources",
+        "title": "Природные ресурсы и их использование",
+        "section": "Экономическая география",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "resources"
+        ]
+      },
+      {
+        "id": "geography-7-infrastructure",
+        "title": "Инфраструктура и транспортные связи",
+        "section": "Экономическая география",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "infrastructure"
+        ]
+      },
+      {
+        "id": "geography-7-sectors",
+        "title": "Сферы хозяйства и разделение труда",
+        "section": "Экономическая география",
+        "quarter": 4,
+        "index": 15,
+        "templates": [
+          "sectors"
+        ]
+      },
+      {
+        "id": "geography-7-countries",
+        "title": "Страны и виды географических карт",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 16,
+        "templates": [
+          "mapTypes",
+          "maps"
+        ]
+      },
+      {
+        "id": "geography-7-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-7-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-7-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-7-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 20,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-7-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 21,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "8": [
+      {
+        "id": "geography-8-methods",
+        "title": "Географические методы, данные и модели",
+        "section": "Исследования и картография",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "methods",
+          "chart"
+        ]
+      },
+      {
+        "id": "geography-8-maps",
+        "title": "Масштаб и чтение карт",
+        "section": "Исследования и картография",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "scale",
+          "maps",
+          "mapTypes"
+        ]
+      },
+      {
+        "id": "geography-8-relief",
+        "title": "Рельеф, плиты и формирование пород",
+        "section": "Литосфера",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "tectonics",
+          "rocks",
+          "layers"
+        ]
+      },
+      {
+        "id": "geography-8-climate",
+        "title": "Климатообразующие факторы и пояса",
+        "section": "Атмосфера",
+        "quarter": 2,
+        "index": 3,
+        "templates": [
+          "climateFactors",
+          "climateBelts"
+        ]
+      },
+      {
+        "id": "geography-8-climateData",
+        "title": "Температура, осадки, влажность и высота",
+        "section": "Атмосфера",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "temperature",
+          "altitude",
+          "precipitation",
+          "humidity"
+        ]
+      },
+      {
+        "id": "geography-8-rivers",
+        "title": "Реки, водосборы и режим стока",
+        "section": "Гидросфера",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "rivers",
+          "waters"
+        ]
+      },
+      {
+        "id": "geography-8-flow",
+        "title": "Расход, падение и уклон реки",
+        "section": "Гидросфера",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "riverFlow",
+          "riverSlope"
+        ]
+      },
+      {
+        "id": "geography-8-zones",
+        "title": "Природные зоны и высотная поясность",
+        "section": "Биосфера и природные комплексы",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "zones",
+          "complexes"
+        ]
+      },
+      {
+        "id": "geography-8-population",
+        "title": "Население, плотность и естественный прирост",
+        "section": "География населения",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "demography",
+          "density",
+          "demographyCalc"
+        ]
+      },
+      {
+        "id": "geography-8-urban",
+        "title": "Миграции, урбанизация и поселения",
+        "section": "География населения",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "settlements",
+          "migration",
+          "urbanization"
+        ]
+      },
+      {
+        "id": "geography-8-resources",
+        "title": "Оценка ресурсов и ресурсообеспеченность",
+        "section": "Экономическая география",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "resources",
+          "resourcesCalc"
+        ]
+      },
+      {
+        "id": "geography-8-infrastructure",
+        "title": "Инфраструктура и размещение производства",
+        "section": "Экономическая география",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "infrastructure",
+          "economy"
+        ]
+      },
+      {
+        "id": "geography-8-sectors",
+        "title": "Структура хозяйства и доли отраслей",
+        "section": "Экономическая география",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "sectors",
+          "share",
+          "chart"
+        ]
+      },
+      {
+        "id": "geography-8-country",
+        "title": "Сравнение и характеристика стран",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "countryComparison",
+          "mapTypes"
+        ]
+      },
+      {
+        "id": "geography-8-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-8-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-8-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-8-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-8-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "9": [
+      {
+        "id": "geography-9-methods",
+        "title": "Географические исследования Казахстана и данные",
+        "section": "Исследования и картография",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "methods",
+          "researchAdvanced",
+          "chart"
+        ]
+      },
+      {
+        "id": "geography-9-cartography",
+        "title": "Способы показа объектов и географические базы",
+        "section": "Исследования и картография",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "mappingAdvanced",
+          "maps",
+          "scale"
+        ]
+      },
+      {
+        "id": "geography-9-relief",
+        "title": "Рельеф и крупные формы поверхности Казахстана",
+        "section": "Литосфера Казахстана",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "kzRelief",
+          "rocks"
+        ]
+      },
+      {
+        "id": "geography-9-resources",
+        "title": "Минеральные ресурсы и их оценка",
+        "section": "Литосфера Казахстана",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "resources",
+          "resourcesCalc"
+        ]
+      },
+      {
+        "id": "geography-9-climate",
+        "title": "Климат Казахстана и его факторы",
+        "section": "Климат Казахстана",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "kzClimate",
+          "climateFactors"
+        ]
+      },
+      {
+        "id": "geography-9-climateData",
+        "title": "Анализ температуры и осадков",
+        "section": "Климат Казахстана",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "temperature",
+          "precipitation",
+          "altitude"
+        ]
+      },
+      {
+        "id": "geography-9-rivers",
+        "title": "Речные бассейны Казахстана",
+        "section": "Воды Казахстана",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "kzWaters",
+          "rivers"
+        ]
+      },
+      {
+        "id": "geography-9-waterUse",
+        "title": "Водные ресурсы и трансграничное сотрудничество",
+        "section": "Воды Казахстана",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "kzEnvironment",
+          "riverFlow"
+        ]
+      },
+      {
+        "id": "geography-9-zones",
+        "title": "Природные зоны и горные пояса Казахстана",
+        "section": "Природные комплексы Казахстана",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "kzZones",
+          "complexes"
+        ]
+      },
+      {
+        "id": "geography-9-population",
+        "title": "Население: естественное движение и миграции",
+        "section": "Население Казахстана",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "demographyCalc",
+          "migration",
+          "balance"
+        ]
+      },
+      {
+        "id": "geography-9-urbanization",
+        "title": "Урбанизация и плотность населения",
+        "section": "Население Казахстана",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "settlements",
+          "urbanization",
+          "density"
+        ]
+      },
+      {
+        "id": "geography-9-economy",
+        "title": "Хозяйство Казахстана: отрасли и размещение",
+        "section": "Экономика Казахстана",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "sectors",
+          "economy",
+          "share"
+        ]
+      },
+      {
+        "id": "geography-9-transport",
+        "title": "Транспорт, транзит и инфраструктура",
+        "section": "Экономика Казахстана",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "infrastructure",
+          "regionalDevelopment"
+        ]
+      },
+      {
+        "id": "geography-9-position",
+        "title": "Географическое положение Казахстана",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "kzPosition",
+          "territory"
+        ]
+      },
+      {
+        "id": "geography-9-indicators",
+        "title": "Показатели развития и внешняя торговля",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "indicators",
+          "perCapita",
+          "tradeCalc"
+        ]
+      },
+      {
+        "id": "geography-9-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-9-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-9-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-9-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-9-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "10": [
+      {
+        "id": "geography-10-methods",
+        "title": "Сравнение, районирование и моделирование",
+        "section": "Географические исследования",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "researchAdvanced",
+          "chart"
+        ]
+      },
+      {
+        "id": "geography-10-mapping",
+        "title": "Картографические методы и визуализация",
+        "section": "Картография и геоинформатика",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "mappingAdvanced",
+          "scale"
+        ]
+      },
+      {
+        "id": "geography-10-gis",
+        "title": "Пространственные базы данных и ГИС",
+        "section": "Картография и геоинформатика",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "gis",
+          "quality"
+        ]
+      },
+      {
+        "id": "geography-10-resources",
+        "title": "Рациональное природопользование",
+        "section": "Природопользование",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "sustainability",
+          "resourcesCalc"
+        ]
+      },
+      {
+        "id": "geography-10-geoecology",
+        "title": "Геоэкология и территориальный анализ",
+        "section": "Геоэкология",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "geoecology"
+        ]
+      },
+      {
+        "id": "geography-10-pollution",
+        "title": "Загрязнение геосфер и источники воздействия",
+        "section": "Геоэкология",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "pollution",
+          "environmentCalc"
+        ]
+      },
+      {
+        "id": "geography-10-kzEnvironment",
+        "title": "Экологические проблемы Казахстана",
+        "section": "Геоэкология",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "kzEnvironment",
+          "environmentPolicy"
+        ]
+      },
+      {
+        "id": "geography-10-location",
+        "title": "Факторы размещения и структура хозяйства",
+        "section": "Геоэкономика",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "economy",
+          "sectors"
+        ]
+      },
+      {
+        "id": "geography-10-development",
+        "title": "Показатели развития и ВВП на душу",
+        "section": "Геоэкономика",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "indicators",
+          "perCapita",
+          "share",
+          "growth"
+        ]
+      },
+      {
+        "id": "geography-10-trade",
+        "title": "Хозяйственные связи и внешняя торговля",
+        "section": "Геоэкономика",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "trade",
+          "tradeCalc"
+        ]
+      },
+      {
+        "id": "geography-10-geopolitics",
+        "title": "Геополитическое положение и территория",
+        "section": "Геополитика",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "geopolitics",
+          "territory"
+        ]
+      },
+      {
+        "id": "geography-10-regions",
+        "title": "Районирование мира и сравнение стран",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "researchAdvanced",
+          "countryComparison"
+        ]
+      },
+      {
+        "id": "geography-10-indicators",
+        "title": "Сравнительные показатели и индексы",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "indicators",
+          "growth",
+          "chart"
+        ]
+      },
+      {
+        "id": "geography-10-global",
+        "title": "Географические аспекты глобальных проблем",
+        "section": "Глобальные проблемы",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "globalProblems",
+          "environmentPolicy"
+        ]
+      },
+      {
+        "id": "geography-10-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-10-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-10-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-10-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-10-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "11": [
+      {
+        "id": "geography-11-expertise",
+        "title": "Экспертные оценки и географические модели",
+        "section": "Географические исследования",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "researchAdvanced",
+          "quality"
+        ]
+      },
+      {
+        "id": "geography-11-gis",
+        "title": "ГИС, дистанционные данные и визуализация",
+        "section": "Картография и геоинформатика",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "gis",
+          "mappingAdvanced"
+        ]
+      },
+      {
+        "id": "geography-11-production",
+        "title": "Природопользование и экологизация производства",
+        "section": "Природопользование",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "sustainability",
+          "environmentCalc"
+        ]
+      },
+      {
+        "id": "geography-11-quality",
+        "title": "Изменения и качество окружающей среды",
+        "section": "Геоэкология",
+        "quarter": 2,
+        "index": 3,
+        "templates": [
+          "quality",
+          "pollution",
+          "geoecology"
+        ]
+      },
+      {
+        "id": "geography-11-policy",
+        "title": "Экологическая политика и оценка мер",
+        "section": "Геоэкология",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "environmentPolicy",
+          "environmentCalc"
+        ]
+      },
+      {
+        "id": "geography-11-kzProblems",
+        "title": "Водные и земельные проблемы Казахстана",
+        "section": "Геоэкология",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "kzEnvironment",
+          "sustainability"
+        ]
+      },
+      {
+        "id": "geography-11-regions",
+        "title": "Региональная специализация и факторы развития",
+        "section": "Геоэкономика",
+        "quarter": 3,
+        "index": 6,
+        "templates": [
+          "regionalDevelopment",
+          "economy"
+        ]
+      },
+      {
+        "id": "geography-11-indicators",
+        "title": "Структура, динамика и показатели хозяйства",
+        "section": "Геоэкономика",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "perCapita",
+          "share",
+          "growth",
+          "chart"
+        ]
+      },
+      {
+        "id": "geography-11-trade",
+        "title": "Внешние связи и диверсификация экономики",
+        "section": "Геоэкономика",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "trade",
+          "tradeCalc"
+        ]
+      },
+      {
+        "id": "geography-11-geopolitics",
+        "title": "Положение Казахстана и геополитические факторы",
+        "section": "Геополитика",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "kzPosition",
+          "geopolitics",
+          "territory"
+        ]
+      },
+      {
+        "id": "geography-11-country",
+        "title": "Сравнительное страноведение и рейтинги",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 10,
+        "templates": [
+          "countryComparison",
+          "indicators",
+          "quality"
+        ]
+      },
+      {
+        "id": "geography-11-regional",
+        "title": "Районирование и связи территорий",
+        "section": "Страноведение",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "researchAdvanced",
+          "regionalDevelopment"
+        ]
+      },
+      {
+        "id": "geography-11-global",
+        "title": "Глобальные проблемы и устойчивые решения",
+        "section": "Глобальные проблемы",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "globalProblems",
+          "environmentPolicy"
+        ]
+      },
+      {
+        "id": "geography-11-project",
+        "title": "Оценка экологических и ресурсных решений",
+        "section": "Глобальные проблемы",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "environmentCalc",
+          "resourcesCalc",
+          "sustainability"
+        ]
+      },
+      {
+        "id": "geography-11-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-11-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-11-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-11-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "geography-11-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      }
+    ]
+  },
+  "seniorTrack": "ЕМН",
+  "sources": "sources.json"
+}

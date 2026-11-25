@@ -1,0 +1,1954 @@
+{
+  "3": [
+    {
+      "id": "english-3-0",
+      "title": "Hello: знакомимся и приветствуем",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "greetings3"
+      ]
+    },
+    {
+      "id": "english-3-1",
+      "title": "About me: am, is, are",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "be3"
+      ]
+    },
+    {
+      "id": "english-3-2",
+      "title": "My schoolbag: школьные предметы",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "school3",
+        "articles3"
+      ]
+    },
+    {
+      "id": "english-3-3",
+      "title": "One or many: множественное число",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "plural3"
+      ]
+    },
+    {
+      "id": "english-3-4",
+      "title": "Classroom: инструкции и указательные слова",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "imperative3",
+        "demonstrative3"
+      ]
+    },
+    {
+      "id": "english-3-5",
+      "title": "Numbers: числа до ста",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 5,
+      "modelKeys": [
+        "numbers3"
+      ]
+    },
+    {
+      "id": "english-3-6",
+      "title": "My family: семья и друзья",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "family3"
+      ]
+    },
+    {
+      "id": "english-3-7",
+      "title": "Have got / has got",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "have3"
+      ]
+    },
+    {
+      "id": "english-3-8",
+      "title": "Weather: погода и одежда",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 8,
+      "modelKeys": [
+        "weather3",
+        "clothes3"
+      ]
+    },
+    {
+      "id": "english-3-9",
+      "title": "Who, what, where, when",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 9,
+      "modelKeys": [
+        "questions3"
+      ]
+    },
+    {
+      "id": "english-3-10",
+      "title": "I can: умения и действия",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "can3"
+      ]
+    },
+    {
+      "id": "english-3-11",
+      "title": "My free time: Present Simple",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "present3"
+      ]
+    },
+    {
+      "id": "english-3-12",
+      "title": "Health: тело и еда",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "body3",
+        "food3"
+      ]
+    },
+    {
+      "id": "english-3-13",
+      "title": "Читаем короткие записи",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 13,
+      "modelKeys": [
+        "read3"
+      ]
+    },
+    {
+      "id": "english-3-14",
+      "title": "My home: комнаты и места",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "places3",
+        "there3"
+      ]
+    },
+    {
+      "id": "english-3-15",
+      "title": "Where is it: предлоги места",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "preplace3"
+      ]
+    },
+    {
+      "id": "english-3-16",
+      "title": "Holidays: транспорт и время",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 16,
+      "modelKeys": [
+        "transport3",
+        "time3"
+      ]
+    },
+    {
+      "id": "english-3-17",
+      "title": "Понимаем короткий текст",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 17,
+      "modelKeys": [
+        "read3"
+      ]
+    },
+    {
+      "id": "english-3-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-3-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-3-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-3-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-3-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "4": [
+    {
+      "id": "english-4-0",
+      "title": "Daily routine: распорядок дня",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "present3",
+        "frequency4"
+      ]
+    },
+    {
+      "id": "english-4-1",
+      "title": "My things: принадлежность",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "possessive4"
+      ]
+    },
+    {
+      "id": "english-4-2",
+      "title": "Questions: общение и знакомство",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "questions3",
+        "be3"
+      ]
+    },
+    {
+      "id": "english-4-3",
+      "title": "Читаем о школьном дне",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read4"
+      ]
+    },
+    {
+      "id": "english-4-4",
+      "title": "Ordinal numbers: место по порядку",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "ordinal4"
+      ]
+    },
+    {
+      "id": "english-4-5",
+      "title": "Hobbies: like, enjoy и цель",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "purpose4"
+      ]
+    },
+    {
+      "id": "english-4-6",
+      "title": "Sports: can, must и инструкции",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "can3",
+        "must4"
+      ]
+    },
+    {
+      "id": "english-4-7",
+      "title": "People and jobs: профессии",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "jobs4"
+      ]
+    },
+    {
+      "id": "english-4-8",
+      "title": "Как часто: наречия частоты",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 8,
+      "modelKeys": [
+        "frequency4"
+      ]
+    },
+    {
+      "id": "english-4-9",
+      "title": "Meals: продукты и предложения",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "food3",
+        "articles3"
+      ]
+    },
+    {
+      "id": "english-4-10",
+      "title": "Animals: описываем животных",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "animals4"
+      ]
+    },
+    {
+      "id": "english-4-11",
+      "title": "Bigger or smaller: сравнение",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "comparative4"
+      ]
+    },
+    {
+      "id": "english-4-12",
+      "title": "What is happening: Present Continuous",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "continuous4"
+      ]
+    },
+    {
+      "id": "english-4-13",
+      "title": "Travelling: места и направления",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "places3",
+        "transport3",
+        "preplace3"
+      ]
+    },
+    {
+      "id": "english-4-14",
+      "title": "Yesterday: was и were",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "was4"
+      ]
+    },
+    {
+      "id": "english-4-15",
+      "title": "Wonderful world: чтение и вывод",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "read4"
+      ]
+    },
+    {
+      "id": "english-4-16",
+      "title": "Языковая редактура простых предложений",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 16,
+      "modelKeys": [
+        "possessive4",
+        "comparative4",
+        "must4"
+      ]
+    },
+    {
+      "id": "english-4-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-4-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-4-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-4-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-4-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "5": [
+    {
+      "id": "english-5-0",
+      "title": "Home and away: описываем место",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "there3",
+        "preplace3"
+      ]
+    },
+    {
+      "id": "english-5-1",
+      "title": "Living things: лексика природы",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "nature5"
+      ]
+    },
+    {
+      "id": "english-5-2",
+      "title": "Questions: do и does",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "dosimple5"
+      ]
+    },
+    {
+      "id": "english-5-3",
+      "title": "Чтение: тема и точные сведения",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "english-5-4",
+      "title": "Values: some, any, each, every",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "someany5"
+      ]
+    },
+    {
+      "id": "english-5-5",
+      "title": "World of work: Present Simple и наречия",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "dosimple5",
+        "adverbs5",
+        "jobs4"
+      ]
+    },
+    {
+      "id": "english-5-6",
+      "title": "How much / how many",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "quantifiers5"
+      ]
+    },
+    {
+      "id": "english-5-7",
+      "title": "Опыт: Present Perfect",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "perfect5"
+      ]
+    },
+    {
+      "id": "english-5-8",
+      "title": "Stories: Past Simple",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "past5"
+      ]
+    },
+    {
+      "id": "english-5-9",
+      "title": "Fantasy: описываем действие сейчас",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "continuous4"
+      ]
+    },
+    {
+      "id": "english-5-10",
+      "title": "Reading for pleasure: понимание текста",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "english-5-11",
+      "title": "Точная форма слова в контексте",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "adverbs5",
+        "comparative4"
+      ]
+    },
+    {
+      "id": "english-5-12",
+      "title": "Holidays: will и going to",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "future5"
+      ]
+    },
+    {
+      "id": "english-5-13",
+      "title": "Sport: привычки и прошлые события",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "present3",
+        "past5"
+      ]
+    },
+    {
+      "id": "english-5-14",
+      "title": "Планы и уже выполненные действия",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "future5",
+        "perfect5"
+      ]
+    },
+    {
+      "id": "english-5-15",
+      "title": "Проверяем вывод по тексту",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "english-5-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-5-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-5-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-5-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-5-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "6": [
+    {
+      "id": "english-6-0",
+      "title": "Our class: нормы общения и вопросы",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "dosimple5",
+        "modal6"
+      ]
+    },
+    {
+      "id": "english-6-1",
+      "title": "Heroes: опыт и длительность",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "perfect5",
+        "sincefor6"
+      ]
+    },
+    {
+      "id": "english-6-2",
+      "title": "Сравнение и количество",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "comparative4",
+        "countable6"
+      ]
+    },
+    {
+      "id": "english-6-3",
+      "title": "Чтение: цель и детали",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read6"
+      ]
+    },
+    {
+      "id": "english-6-4",
+      "title": "Our countryside: who, which, where, whose",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "relative6"
+      ]
+    },
+    {
+      "id": "english-6-5",
+      "title": "Drama and comedy: Past Continuous",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "pastcontinuous6"
+      ]
+    },
+    {
+      "id": "english-6-6",
+      "title": "Артикль по звуку и контексту",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "articles6"
+      ]
+    },
+    {
+      "id": "english-6-7",
+      "title": "Past Simple или процесс в прошлом",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "past5",
+        "pastcontinuous6"
+      ]
+    },
+    {
+      "id": "english-6-8",
+      "title": "Health: совет и отсутствие необходимости",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "modal6"
+      ]
+    },
+    {
+      "id": "english-6-9",
+      "title": "Travel: транспортная лексика",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "travel6"
+      ]
+    },
+    {
+      "id": "english-6-10",
+      "title": "Reading: последовательность и вывод",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "read6"
+      ]
+    },
+    {
+      "id": "english-6-11",
+      "title": "Infinitive or -ing",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "gerund6",
+        "purpose4"
+      ]
+    },
+    {
+      "id": "english-6-12",
+      "title": "Our neighbours: first conditional",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "firstconditional6"
+      ]
+    },
+    {
+      "id": "english-6-13",
+      "title": "Transport: места и маршрут",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "travel6",
+        "preplace3"
+      ]
+    },
+    {
+      "id": "english-6-14",
+      "title": "For или since",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "sincefor6"
+      ]
+    },
+    {
+      "id": "english-6-15",
+      "title": "Редактируем форму и значение",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "gerund6",
+        "articles6",
+        "countable6"
+      ]
+    },
+    {
+      "id": "english-6-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-6-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-6-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-6-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-6-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "7": [
+    {
+      "id": "english-7-0",
+      "title": "Hobbies: устойчивые сочетания",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "collocations7"
+      ]
+    },
+    {
+      "id": "english-7-1",
+      "title": "Technology: лексика сообщений",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "media7"
+      ]
+    },
+    {
+      "id": "english-7-2",
+      "title": "Вопросы с коротким хвостиком",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "tags7"
+      ]
+    },
+    {
+      "id": "english-7-3",
+      "title": "Recent experience: Present Perfect",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "perfect5",
+        "sincefor6"
+      ]
+    },
+    {
+      "id": "english-7-4",
+      "title": "Holidays: рассказываем о чужих словах",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "reported7"
+      ]
+    },
+    {
+      "id": "english-7-5",
+      "title": "Space and Earth: прошлые события и процесс",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "past5",
+        "pastcontinuous6"
+      ]
+    },
+    {
+      "id": "english-7-6",
+      "title": "When, as soon as, until о будущем",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "futuretime7"
+      ]
+    },
+    {
+      "id": "english-7-7",
+      "title": "Чтение: подготовка и проверка источника",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "english-7-8",
+      "title": "Reading for pleasure: смысл и подтверждение",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "english-7-9",
+      "title": "Entertainment: сообщение и подпись",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "media7"
+      ]
+    },
+    {
+      "id": "english-7-10",
+      "title": "Natural events: косвенная речь",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "reported7"
+      ]
+    },
+    {
+      "id": "english-7-11",
+      "title": "Предлог и форма после глагола",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "gerund6",
+        "collocations7"
+      ]
+    },
+    {
+      "id": "english-7-12",
+      "title": "Healthy habits: советы и условия",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "modal6",
+        "firstconditional6"
+      ]
+    },
+    {
+      "id": "english-7-13",
+      "title": "Clothes: точное описание и сравнение",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "comparative4",
+        "adverbs5"
+      ]
+    },
+    {
+      "id": "english-7-14",
+      "title": "Проверяем доступность и точность информации",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "english-7-15",
+      "title": "Редакторская практика",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "reported7",
+        "tags7",
+        "futuretime7"
+      ]
+    },
+    {
+      "id": "english-7-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-7-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-7-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-7-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-7-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "8": [
+    {
+      "id": "english-8-0",
+      "title": "Our world: описываем связь предметов",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "relative6"
+      ]
+    },
+    {
+      "id": "english-8-1",
+      "title": "Daily life: Past Perfect",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "pastperfect8"
+      ]
+    },
+    {
+      "id": "english-8-2",
+      "title": "Shopping: too и enough",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "tooenough8"
+      ]
+    },
+    {
+      "id": "english-8-3",
+      "title": "Чтение: фактор и обоснование",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "english-8-4",
+      "title": "Media: косвенные вопросы",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "reportedquestions8"
+      ]
+    },
+    {
+      "id": "english-8-5",
+      "title": "Sport: second conditional",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "secondconditional7"
+      ]
+    },
+    {
+      "id": "english-8-6",
+      "title": "Health: степени сравнения",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "degree8"
+      ]
+    },
+    {
+      "id": "english-8-7",
+      "title": "Passive: действие над предметом",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "passive7",
+        "passivepast8"
+      ]
+    },
+    {
+      "id": "english-8-8",
+      "title": "Reading for pleasure: оценка и пример",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "english-8-9",
+      "title": "Nature: Past Simple Passive",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "passivepast8"
+      ]
+    },
+    {
+      "id": "english-8-10",
+      "title": "Travel: фразовые глаголы",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "phrasal8"
+      ]
+    },
+    {
+      "id": "english-8-11",
+      "title": "Событие до события: Past Perfect",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "pastperfect8"
+      ]
+    },
+    {
+      "id": "english-8-12",
+      "title": "Food: enough, too и количество",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "tooenough8",
+        "countable6"
+      ]
+    },
+    {
+      "id": "english-8-13",
+      "title": "World of work: трудоустройство",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "work8"
+      ]
+    },
+    {
+      "id": "english-8-14",
+      "title": "Косвенные вопросы и условие",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "reportedquestions8",
+        "secondconditional7"
+      ]
+    },
+    {
+      "id": "english-8-15",
+      "title": "Редактура и вывод по тексту",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "read8",
+        "degree8"
+      ]
+    },
+    {
+      "id": "english-8-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-8-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-8-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-8-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-8-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "9": [
+    {
+      "id": "english-9-0",
+      "title": "Hobbies: длительность процесса",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "perfectcontinuous7"
+      ]
+    },
+    {
+      "id": "english-9-1",
+      "title": "Sport: активный и пассивный залог",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "perfectpassive9",
+        "passivepast8"
+      ]
+    },
+    {
+      "id": "english-9-2",
+      "title": "Словообразование в предложении",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "wordformation9"
+      ]
+    },
+    {
+      "id": "english-9-3",
+      "title": "Чтение: тезис и ограничения",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "english-9-4",
+      "title": "Our planet: third conditional",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "thirdconditional9"
+      ]
+    },
+    {
+      "id": "english-9-5",
+      "title": "Charity: точность обещаний",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "english-9-6",
+      "title": "Передаём просьбы и модальные формы",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "reportedmodals9"
+      ]
+    },
+    {
+      "id": "english-9-7",
+      "title": "Although или despite",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "contrast9"
+      ]
+    },
+    {
+      "id": "english-9-8",
+      "title": "Traditions: relative clauses",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "relative9"
+      ]
+    },
+    {
+      "id": "english-9-9",
+      "title": "Music and films: источник и интерпретация",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "english-9-10",
+      "title": "Образование слов и уместная форма",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "wordformation9"
+      ]
+    },
+    {
+      "id": "english-9-11",
+      "title": "Present Perfect Continuous",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "perfectcontinuous7"
+      ]
+    },
+    {
+      "id": "english-9-12",
+      "title": "Tourism: проверяем формулировки",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "english-9-13",
+      "title": "Science: исследовательская лексика",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "science9"
+      ]
+    },
+    {
+      "id": "english-9-14",
+      "title": "Пассивные совершённые формы",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "perfectpassive9"
+      ]
+    },
+    {
+      "id": "english-9-15",
+      "title": "Редактура сложной фразы",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "thirdconditional9",
+        "contrast9",
+        "relative9"
+      ]
+    },
+    {
+      "id": "english-9-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-9-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-9-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-9-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-9-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "10": [
+    {
+      "id": "english-10-0",
+      "title": "Science: точность академического высказывания",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "academic10",
+        "science9"
+      ]
+    },
+    {
+      "id": "english-10-1",
+      "title": "Исследование: активный и пассивный залог",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "perfectpassive9",
+        "passivepast8"
+      ]
+    },
+    {
+      "id": "english-10-2",
+      "title": "События и свидетельства: косвенная речь",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "reportedmodals9",
+        "reportedquestions8"
+      ]
+    },
+    {
+      "id": "english-10-3",
+      "title": "Чтение: условия и границы вывода",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read10"
+      ]
+    },
+    {
+      "id": "english-10-4",
+      "title": "Virtual reality: технологии и модели",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "technology10"
+      ]
+    },
+    {
+      "id": "english-10-5",
+      "title": "Future Continuous: будущий процесс",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "futurecontinuous10"
+      ]
+    },
+    {
+      "id": "english-10-6",
+      "title": "Выполненная для нас работа: have something done",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "causative10"
+      ]
+    },
+    {
+      "id": "english-10-7",
+      "title": "Сравниваем объяснения и доказательства",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "read10",
+        "academic10"
+      ]
+    },
+    {
+      "id": "english-10-8",
+      "title": "Reading: критическое понимание текста",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "read10"
+      ]
+    },
+    {
+      "id": "english-10-9",
+      "title": "Human potential: wish и сожаление",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "wish10"
+      ]
+    },
+    {
+      "id": "english-10-10",
+      "title": "Advanced technology: лексическая точность",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "technology10",
+        "wordformation9"
+      ]
+    },
+    {
+      "id": "english-10-11",
+      "title": "Союз и смысловая связь",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "contrast9",
+        "thirdconditional9"
+      ]
+    },
+    {
+      "id": "english-10-12",
+      "title": "Space projects: планы и процессы",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "futurecontinuous10",
+        "future5"
+      ]
+    },
+    {
+      "id": "english-10-13",
+      "title": "Научное сообщение: осторожный вывод",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "academic10"
+      ]
+    },
+    {
+      "id": "english-10-14",
+      "title": "Редактируем время и залог",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "causative10",
+        "wish10",
+        "perfectpassive9"
+      ]
+    },
+    {
+      "id": "english-10-15",
+      "title": "Проверяем интерпретацию данных",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "read10"
+      ]
+    },
+    {
+      "id": "english-10-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-10-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-10-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-10-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-10-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "11": [
+    {
+      "id": "english-11-0",
+      "title": "Biology: лексика исследования",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "research11"
+      ]
+    },
+    {
+      "id": "english-11-1",
+      "title": "Animal research: чтение и роль условий",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "read11"
+      ]
+    },
+    {
+      "id": "english-11-2",
+      "title": "Present Perfect: данные и пассивный залог",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "perfectpassive9",
+        "perfectcontinuous7"
+      ]
+    },
+    {
+      "id": "english-11-3",
+      "title": "Официальная формулировка и точность пересказа",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "hedging11"
+      ]
+    },
+    {
+      "id": "english-11-4",
+      "title": "Human brain: зависимые предлоги",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "dependent11"
+      ]
+    },
+    {
+      "id": "english-11-5",
+      "title": "Timekeeping: сравниваем результаты",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "read11",
+        "research11"
+      ]
+    },
+    {
+      "id": "english-11-6",
+      "title": "Предположение о прошлом: modal perfect",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "modalperfect11"
+      ]
+    },
+    {
+      "id": "english-11-7",
+      "title": "Точные связи: although, despite, whereas",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "contrast9",
+        "conjunction11"
+      ]
+    },
+    {
+      "id": "english-11-8",
+      "title": "Work and inventions: Future Perfect",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "futureperfect10"
+      ]
+    },
+    {
+      "id": "english-11-9",
+      "title": "STEM: условие и ограничение",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "conjunction11",
+        "hedging11"
+      ]
+    },
+    {
+      "id": "english-11-10",
+      "title": "Reading: прогноз и факт",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "read11"
+      ]
+    },
+    {
+      "id": "english-11-11",
+      "title": "Participle clauses: общий деятель",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "participle11"
+      ]
+    },
+    {
+      "id": "english-11-12",
+      "title": "Technology: доказательство и доступность",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read11"
+      ]
+    },
+    {
+      "id": "english-11-13",
+      "title": "Future Perfect или Future Continuous",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "futureperfect10",
+        "futurecontinuous10"
+      ]
+    },
+    {
+      "id": "english-11-14",
+      "title": "Точный пересказ научного утверждения",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "hedging11"
+      ]
+    },
+    {
+      "id": "english-11-15",
+      "title": "Академическая редактура",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "dependent11",
+        "modalperfect11",
+        "participle11",
+        "conjunction11"
+      ]
+    },
+    {
+      "id": "english-11-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-11-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-11-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-11-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "english-11-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ]
+}

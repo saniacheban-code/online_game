@@ -1,0 +1,1897 @@
+{
+  "2": [
+    {
+      "id": "russian-2-0",
+      "title": "Жи–ши, ча–ща, чу–щу",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "zhi"
+      ]
+    },
+    {
+      "id": "russian-2-1",
+      "title": "Чк и чн: пишем без мягкого знака",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "chk"
+      ]
+    },
+    {
+      "id": "russian-2-2",
+      "title": "Перенос слов",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "transfer"
+      ]
+    },
+    {
+      "id": "russian-2-3",
+      "title": "Проверяем гласную и согласную в корне",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "vowels",
+        "consonants"
+      ]
+    },
+    {
+      "id": "russian-2-4",
+      "title": "Корень и родственные слова",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "root2"
+      ]
+    },
+    {
+      "id": "russian-2-5",
+      "title": "Ласковые названия и суффиксы",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "suffix2"
+      ]
+    },
+    {
+      "id": "russian-2-6",
+      "title": "Приставка или предлог",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "prefix2"
+      ]
+    },
+    {
+      "id": "russian-2-7",
+      "title": "Слова, которые проверяем по словарю",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "dictionary2"
+      ]
+    },
+    {
+      "id": "russian-2-8",
+      "title": "Имена и названия с большой буквы",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "names2"
+      ]
+    },
+    {
+      "id": "russian-2-9",
+      "title": "Предмет, признак и действие",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "wordroles2"
+      ]
+    },
+    {
+      "id": "russian-2-10",
+      "title": "Читаем и находим ответ в тексте",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "read2"
+      ]
+    },
+    {
+      "id": "russian-2-11",
+      "title": "Точка, вопрос и восклицание",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "end2"
+      ]
+    },
+    {
+      "id": "russian-2-12",
+      "title": "Текст: тема, признаки и события",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read2"
+      ]
+    },
+    {
+      "id": "russian-2-13",
+      "title": "Редактируем короткие записи",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "dictionary2",
+        "zhi",
+        "chk",
+        "end2"
+      ]
+    },
+    {
+      "id": "russian-2-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-2-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-2-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-2-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-2-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "3": [
+    {
+      "id": "russian-3-0",
+      "title": "Разделительные мягкий и твёрдый знаки",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "signs3"
+      ]
+    },
+    {
+      "id": "russian-3-1",
+      "title": "Проверка корня и трудные согласные",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "vowels",
+        "consonants",
+        "silent3"
+      ]
+    },
+    {
+      "id": "russian-3-2",
+      "title": "Понимание текста и порядок событий",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "read3"
+      ]
+    },
+    {
+      "id": "russian-3-3",
+      "title": "Синонимы и противоположные значения",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "synonyms"
+      ]
+    },
+    {
+      "id": "russian-3-4",
+      "title": "Смысл слова в контексте",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "polysemy"
+      ]
+    },
+    {
+      "id": "russian-3-5",
+      "title": "Приставка, корень, суффикс, окончание",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "morpheme3",
+        "prefix3",
+        "suffix3"
+      ]
+    },
+    {
+      "id": "russian-3-6",
+      "title": "Какой источник поможет ответить",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "read3"
+      ]
+    },
+    {
+      "id": "russian-3-7",
+      "title": "Род и число существительных",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "noun3"
+      ]
+    },
+    {
+      "id": "russian-3-8",
+      "title": "Падеж по вопросу и связи слов",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "case3"
+      ]
+    },
+    {
+      "id": "russian-3-9",
+      "title": "Прилагательное рядом с существительным",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "adjective3"
+      ]
+    },
+    {
+      "id": "russian-3-10",
+      "title": "Мягкий знак после шипящих у существительных",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "softnoun",
+        "names2"
+      ]
+    },
+    {
+      "id": "russian-3-11",
+      "title": "Время глагола и форма прошедшего времени",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "verb3"
+      ]
+    },
+    {
+      "id": "russian-3-12",
+      "title": "Не с глаголами",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "neverb"
+      ]
+    },
+    {
+      "id": "russian-3-13",
+      "title": "Главная информация и вывод по тексту",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "read3"
+      ]
+    },
+    {
+      "id": "russian-3-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-3-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-3-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-3-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-3-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "4": [
+    {
+      "id": "russian-4-0",
+      "title": "Проверяем написание слова по его частям",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "vowels",
+        "silent3",
+        "morpheme3",
+        "prefix3"
+      ]
+    },
+    {
+      "id": "russian-4-1",
+      "title": "Род, число и падеж существительного",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "noun3",
+        "case3"
+      ]
+    },
+    {
+      "id": "russian-4-2",
+      "title": "Тема и основная мысль",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "read4"
+      ]
+    },
+    {
+      "id": "russian-4-3",
+      "title": "Падежные окончания существительных",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "case4"
+      ]
+    },
+    {
+      "id": "russian-4-4",
+      "title": "Мягкий знак на конце существительных",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "softnoun"
+      ]
+    },
+    {
+      "id": "russian-4-5",
+      "title": "Согласование прилагательного",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "adjective3"
+      ]
+    },
+    {
+      "id": "russian-4-6",
+      "title": "План текста и последовательность",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "read4"
+      ]
+    },
+    {
+      "id": "russian-4-7",
+      "title": "Как пишутся числительные",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "numerals4"
+      ]
+    },
+    {
+      "id": "russian-4-8",
+      "title": "Личные местоимения и предлоги",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "pronouns4"
+      ]
+    },
+    {
+      "id": "russian-4-9",
+      "title": "Тся или ться",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "tsya"
+      ]
+    },
+    {
+      "id": "russian-4-10",
+      "title": "Личные окончания глаголов",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "verb4"
+      ]
+    },
+    {
+      "id": "russian-4-11",
+      "title": "Однородные члены: перечисляем точно",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "homogeneous4"
+      ]
+    },
+    {
+      "id": "russian-4-12",
+      "title": "Текст: наблюдение, оценка и замысел",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read4"
+      ]
+    },
+    {
+      "id": "russian-4-13",
+      "title": "Редактируем орфографию и пунктуацию",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "tsya",
+        "verb4",
+        "homogeneous4",
+        "case4"
+      ]
+    },
+    {
+      "id": "russian-4-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-4-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-4-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-4-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-4-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "5": [
+    {
+      "id": "russian-5-0",
+      "title": "Части речи в общении",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "parts5"
+      ]
+    },
+    {
+      "id": "russian-5-1",
+      "title": "Грамматическая основа предложения",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "base5"
+      ]
+    },
+    {
+      "id": "russian-5-2",
+      "title": "Согласование и формы слов",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "agreement5"
+      ]
+    },
+    {
+      "id": "russian-5-3",
+      "title": "Правописание корня",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "vowels",
+        "consonants",
+        "silent3"
+      ]
+    },
+    {
+      "id": "russian-5-4",
+      "title": "Чтение: сведения и главная мысль",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "russian-5-5",
+      "title": "Синонимы и антонимы в речи",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "synonyms"
+      ]
+    },
+    {
+      "id": "russian-5-6",
+      "title": "Переносное значение и многозначность",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "polysemy"
+      ]
+    },
+    {
+      "id": "russian-5-7",
+      "title": "Эпитет, сравнение, гипербола",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "figures5"
+      ]
+    },
+    {
+      "id": "russian-5-8",
+      "title": "Редактируем смысл и выбираем источник",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 8,
+      "modelKeys": [
+        "read5",
+        "agreement5"
+      ]
+    },
+    {
+      "id": "russian-5-9",
+      "title": "Обращение и запятые",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "address5"
+      ]
+    },
+    {
+      "id": "russian-5-10",
+      "title": "Прямая речь после слов автора",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "direct5"
+      ]
+    },
+    {
+      "id": "russian-5-11",
+      "title": "Перечисление и обобщающее слово",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "general5",
+        "homogeneous4"
+      ]
+    },
+    {
+      "id": "russian-5-12",
+      "title": "Художественный вымысел и точные сведения",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "russian-5-13",
+      "title": "Не с прилагательными: слитно или раздельно",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "ne5"
+      ]
+    },
+    {
+      "id": "russian-5-14",
+      "title": "Редактируем формы и окончания",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "agreement5",
+        "case4",
+        "verb4"
+      ]
+    },
+    {
+      "id": "russian-5-15",
+      "title": "Пунктуационная мастерская",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "address5",
+        "direct5",
+        "general5"
+      ]
+    },
+    {
+      "id": "russian-5-16",
+      "title": "Сравниваем информацию и проверяем вывод",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 16,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "russian-5-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-5-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-5-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-5-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-5-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "6": [
+    {
+      "id": "russian-6-0",
+      "title": "Разделительные знаки и сложные слова",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "signs3",
+        "compound6"
+      ]
+    },
+    {
+      "id": "russian-6-1",
+      "title": "Вводные слова в предложении",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "intro6"
+      ]
+    },
+    {
+      "id": "russian-6-2",
+      "title": "Чтение и выбор источника",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "read6"
+      ]
+    },
+    {
+      "id": "russian-6-3",
+      "title": "Степени сравнения без ошибок",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "comparison6"
+      ]
+    },
+    {
+      "id": "russian-6-4",
+      "title": "Падежные формы числительных",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "numerals6"
+      ]
+    },
+    {
+      "id": "russian-6-5",
+      "title": "Грамматические нормы в диалоге",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "comparison6",
+        "numerals6",
+        "agreement5"
+      ]
+    },
+    {
+      "id": "russian-6-6",
+      "title": "Неопределённые местоимения",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 6,
+      "modelKeys": [
+        "indefinite6"
+      ]
+    },
+    {
+      "id": "russian-6-7",
+      "title": "Фразеологизмы и их смысл",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "phrase6"
+      ]
+    },
+    {
+      "id": "russian-6-8",
+      "title": "Сложные слова: слитно и через дефис",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "compound6"
+      ]
+    },
+    {
+      "id": "russian-6-9",
+      "title": "Смысл и аргументация короткого текста",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "read6"
+      ]
+    },
+    {
+      "id": "russian-6-10",
+      "title": "Правописание в речевом контексте",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "indefinite6",
+        "compound6"
+      ]
+    },
+    {
+      "id": "russian-6-11",
+      "title": "Пунктуация при вводных словах и прямой речи",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "intro6",
+        "direct5"
+      ]
+    },
+    {
+      "id": "russian-6-12",
+      "title": "Данные, оценка и обоснованный вывод",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read6"
+      ]
+    },
+    {
+      "id": "russian-6-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-6-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-6-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-6-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-6-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "7": [
+    {
+      "id": "russian-7-0",
+      "title": "Гласные после шипящих и ц",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "sh7"
+      ]
+    },
+    {
+      "id": "russian-7-1",
+      "title": "Не с причастиями",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "nepart7"
+      ]
+    },
+    {
+      "id": "russian-7-2",
+      "title": "Причастный оборот: границы и запятые",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "participle7"
+      ]
+    },
+    {
+      "id": "russian-7-3",
+      "title": "Проверяем выводы по тексту",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "russian-7-4",
+      "title": "Глагол, причастие и деепричастие",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "tense7",
+        "partforms7"
+      ]
+    },
+    {
+      "id": "russian-7-5",
+      "title": "Паронимы: выбираем по смыслу",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "paronyms7"
+      ]
+    },
+    {
+      "id": "russian-7-6",
+      "title": "Речевые нормы и аргументация",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "russian-7-7",
+      "title": "Производные предлоги",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "prepositions7"
+      ]
+    },
+    {
+      "id": "russian-7-8",
+      "title": "Союзы и сходные сочетания",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "particles7"
+      ]
+    },
+    {
+      "id": "russian-7-9",
+      "title": "Деепричастный оборот и общий деятель",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "gerund7"
+      ]
+    },
+    {
+      "id": "russian-7-10",
+      "title": "Проверяем конкретность сообщений",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "russian-7-11",
+      "title": "Управление: согласно, благодаря, вопреки",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "government7"
+      ]
+    },
+    {
+      "id": "russian-7-12",
+      "title": "Мастерская обособления",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "participle7",
+        "gerund7"
+      ]
+    },
+    {
+      "id": "russian-7-13",
+      "title": "Уместное слово и точная форма",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "paronyms7",
+        "tense7",
+        "government7"
+      ]
+    },
+    {
+      "id": "russian-7-14",
+      "title": "Обоснование позиции читателя",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "russian-7-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-7-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-7-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-7-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-7-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "8": [
+    {
+      "id": "russian-8-0",
+      "title": "Предлог и самостоятельное слово",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "homonym8"
+      ]
+    },
+    {
+      "id": "russian-8-1",
+      "title": "Обособленные определения и обстоятельства",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "participle7",
+        "gerund7"
+      ]
+    },
+    {
+      "id": "russian-8-2",
+      "title": "Цель текста и адресат",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "russian-8-3",
+      "title": "Термин и речевая избыточность",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "professional8"
+      ]
+    },
+    {
+      "id": "russian-8-4",
+      "title": "Цитата: точность и оформление",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "quote8"
+      ]
+    },
+    {
+      "id": "russian-8-5",
+      "title": "Неполное предложение: восстановим смысл",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "ellipsis8"
+      ]
+    },
+    {
+      "id": "russian-8-6",
+      "title": "Аргументируем оценку текста",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "russian-8-7",
+      "title": "Уточняем место и время",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "detailing8"
+      ]
+    },
+    {
+      "id": "russian-8-8",
+      "title": "Обособление и грамматическая правильность",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "gerund7",
+        "participle7"
+      ]
+    },
+    {
+      "id": "russian-8-9",
+      "title": "Факт, оценка и предложение автора",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "russian-8-10",
+      "title": "Редактируем повторы и штампы",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "professional8"
+      ]
+    },
+    {
+      "id": "russian-8-11",
+      "title": "Пунктуация в цитатах и уточнениях",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "quote8",
+        "detailing8"
+      ]
+    },
+    {
+      "id": "russian-8-12",
+      "title": "Сравниваем объяснения и доказательства",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "russian-8-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-8-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-8-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-8-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-8-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "9": [
+    {
+      "id": "russian-9-0",
+      "title": "Простое или сложное предложение",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "complex9"
+      ]
+    },
+    {
+      "id": "russian-9-1",
+      "title": "Союз и союзное слово",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "connect9"
+      ]
+    },
+    {
+      "id": "russian-9-2",
+      "title": "Логика выбора и общие критерии",
+      "section": "Языковая практика",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "russian-9-3",
+      "title": "Виды придаточных: вопрос и смысл",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "subordinate9"
+      ]
+    },
+    {
+      "id": "russian-9-4",
+      "title": "Границы частей сложного предложения",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "complexpunct9"
+      ]
+    },
+    {
+      "id": "russian-9-5",
+      "title": "Смысловые отношения без союза",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "bsp9"
+      ]
+    },
+    {
+      "id": "russian-9-6",
+      "title": "Речь в разных ситуациях общения",
+      "section": "Языковая практика",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "style9"
+      ]
+    },
+    {
+      "id": "russian-9-7",
+      "title": "Придаточная часть внутри главной",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "complexpunct9",
+        "connect9"
+      ]
+    },
+    {
+      "id": "russian-9-8",
+      "title": "Проверяем первоисточник и границы вывода",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "russian-9-9",
+      "title": "Точная формулировка и стиль сообщения",
+      "section": "Языковая практика",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "style9",
+        "professional8"
+      ]
+    },
+    {
+      "id": "russian-9-10",
+      "title": "Пунктуационная редактура сложных предложений",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "complexpunct9"
+      ]
+    },
+    {
+      "id": "russian-9-11",
+      "title": "Бессоюзная связь и смысл",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "bsp9"
+      ]
+    },
+    {
+      "id": "russian-9-12",
+      "title": "Заголовок, позиция и достоверность",
+      "section": "Языковая практика",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "russian-9-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-9-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-9-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-9-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-9-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "10": [
+    {
+      "id": "russian-10-0",
+      "title": "Культура диалога и точность понятий",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "read10culture",
+        "paronyms7"
+      ]
+    },
+    {
+      "id": "russian-10-1",
+      "title": "Лексика и стилистические средства",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "means10",
+        "style9"
+      ]
+    },
+    {
+      "id": "russian-10-2",
+      "title": "Грамматические нормы письменной речи",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "editing10"
+      ]
+    },
+    {
+      "id": "russian-10-3",
+      "title": "Научное объяснение и границы вывода",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "read10science"
+      ]
+    },
+    {
+      "id": "russian-10-4",
+      "title": "Уместный стиль и точная формулировка",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "style9",
+        "editing10"
+      ]
+    },
+    {
+      "id": "russian-10-5",
+      "title": "Синтаксис научного сообщения",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "complexpunct9",
+        "subordinate9"
+      ]
+    },
+    {
+      "id": "russian-10-6",
+      "title": "Технологии: факт, допущение и реклама",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 6,
+      "modelKeys": [
+        "read10science"
+      ]
+    },
+    {
+      "id": "russian-10-7",
+      "title": "Редактируем морфологию и управление",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "editing10",
+        "government7",
+        "comparison6"
+      ]
+    },
+    {
+      "id": "russian-10-8",
+      "title": "Образность и аргументация",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "means10",
+        "read10science"
+      ]
+    },
+    {
+      "id": "russian-10-9",
+      "title": "Данные и сравнение в публичном тексте",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "read10science"
+      ]
+    },
+    {
+      "id": "russian-10-10",
+      "title": "Редактируем сложную фразу",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "complexpunct9",
+        "gerund7",
+        "editing10"
+      ]
+    },
+    {
+      "id": "russian-10-11",
+      "title": "Лексическая точность и уместность",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "paronyms7",
+        "professional8",
+        "means10"
+      ]
+    },
+    {
+      "id": "russian-10-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-10-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-10-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-10-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-10-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "11": [
+    {
+      "id": "russian-11-0",
+      "title": "Экологический текст: данные и прогноз",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "read11eco"
+      ]
+    },
+    {
+      "id": "russian-11-1",
+      "title": "Синтаксическая норма и редактирование",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "syntax11"
+      ]
+    },
+    {
+      "id": "russian-11-2",
+      "title": "Стилистические фигуры в аргументации",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "figures11",
+        "means10"
+      ]
+    },
+    {
+      "id": "russian-11-3",
+      "title": "Научный проект: доводы и допущения",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "read11business"
+      ]
+    },
+    {
+      "id": "russian-11-4",
+      "title": "Логические ошибки и достаточность данных",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "logic11"
+      ]
+    },
+    {
+      "id": "russian-11-5",
+      "title": "Редактируем грамматику и пунктуацию",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "syntax11",
+        "complexpunct9"
+      ]
+    },
+    {
+      "id": "russian-11-6",
+      "title": "Полнота передачи чужой позиции",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 6,
+      "modelKeys": [
+        "read11youth"
+      ]
+    },
+    {
+      "id": "russian-11-7",
+      "title": "Речевое воздействие и фигуры речи",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "figures11"
+      ]
+    },
+    {
+      "id": "russian-11-8",
+      "title": "Причина, следствие и аргумент",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "logic11",
+        "bsp9"
+      ]
+    },
+    {
+      "id": "russian-11-9",
+      "title": "Технологии и этическая аргументация",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "read11ethics"
+      ]
+    },
+    {
+      "id": "russian-11-10",
+      "title": "Логика и синтаксис итогового текста",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "syntax11",
+        "logic11"
+      ]
+    },
+    {
+      "id": "russian-11-11",
+      "title": "Редакторская мастерская",
+      "section": "Языковая практика · ЕМН",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "figures11",
+        "complexpunct9",
+        "editing10"
+      ]
+    },
+    {
+      "id": "russian-11-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-11-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-11-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-11-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "russian-11-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ]
+}

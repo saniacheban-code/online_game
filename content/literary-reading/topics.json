@@ -1,0 +1,212 @@
+{
+  "2": [
+    {
+      "id": "literary-reading-2-1",
+      "title": "Школа, дружба и понимание поступка",
+      "quarter": 1,
+      "section": "Литературное чтение",
+      "index": 0
+    },
+    {
+      "id": "literary-reading-2-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "literary-reading-2-2",
+      "title": "Родной край и описательный текст",
+      "quarter": 2,
+      "section": "Литературное чтение",
+      "index": 2
+    },
+    {
+      "id": "literary-reading-2-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "literary-reading-2-3",
+      "title": "Добрые дела, сказка и поучение",
+      "quarter": 3,
+      "section": "Литературное чтение",
+      "index": 4
+    },
+    {
+      "id": "literary-reading-2-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "literary-reading-2-4",
+      "title": "Природа, путешествие и последовательность",
+      "quarter": 4,
+      "section": "Литературное чтение",
+      "index": 6
+    },
+    {
+      "id": "literary-reading-2-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "literary-reading-2-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "3": [
+    {
+      "id": "literary-reading-3-1",
+      "title": "Характер героя и подтверждение выводов",
+      "quarter": 1,
+      "section": "Литературное чтение",
+      "index": 0
+    },
+    {
+      "id": "literary-reading-3-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "literary-reading-3-2",
+      "title": "Время, память и детали повествования",
+      "quarter": 2,
+      "section": "Литературное чтение",
+      "index": 2
+    },
+    {
+      "id": "literary-reading-3-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "literary-reading-3-3",
+      "title": "Искусство слова и авторский замысел",
+      "quarter": 3,
+      "section": "Литературное чтение",
+      "index": 4
+    },
+    {
+      "id": "literary-reading-3-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "literary-reading-3-4",
+      "title": "Экология, причинные связи и план текста",
+      "quarter": 4,
+      "section": "Литературное чтение",
+      "index": 6
+    },
+    {
+      "id": "literary-reading-3-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "literary-reading-3-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "4": [
+    {
+      "id": "literary-reading-4-1",
+      "title": "Ценности, мотивы и нравственный выбор",
+      "quarter": 1,
+      "section": "Литературное чтение",
+      "index": 0
+    },
+    {
+      "id": "literary-reading-4-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "literary-reading-4-2",
+      "title": "Наследие, источник и точность пересказа",
+      "quarter": 2,
+      "section": "Литературное чтение",
+      "index": 2
+    },
+    {
+      "id": "literary-reading-4-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "literary-reading-4-3",
+      "title": "Природа, образ и точка зрения",
+      "quarter": 3,
+      "section": "Литературное чтение",
+      "index": 4
+    },
+    {
+      "id": "literary-reading-4-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "literary-reading-4-4",
+      "title": "Будущее, аргумент и самостоятельный вывод",
+      "quarter": 4,
+      "section": "Литературное чтение",
+      "index": 6
+    },
+    {
+      "id": "literary-reading-4-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "literary-reading-4-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ]
+}

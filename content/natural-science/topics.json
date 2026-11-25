@@ -1,0 +1,1384 @@
+{
+  "1": [
+    {
+      "id": "natural-science-1-research",
+      "title": "Наблюдения и вопросы о природе",
+      "section": "Я — исследователь",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "research1"
+      ]
+    },
+    {
+      "id": "natural-science-1-parts",
+      "title": "Части растений",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "plantParts"
+      ]
+    },
+    {
+      "id": "natural-science-1-forms",
+      "title": "Деревья, кустарники и травы",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "plantForms"
+      ]
+    },
+    {
+      "id": "natural-science-1-care",
+      "title": "Условия жизни и уход за растениями",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "plantNeeds"
+      ]
+    },
+    {
+      "id": "natural-science-1-animals",
+      "title": "Дикие, домашние животные и сезоны",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "animals1"
+      ]
+    },
+    {
+      "id": "natural-science-1-body",
+      "title": "Части тела и органы чувств",
+      "section": "Человек",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "body1"
+      ]
+    },
+    {
+      "id": "natural-science-1-needs",
+      "title": "Потребности и рост человека",
+      "section": "Человек",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "lifeNeeds"
+      ]
+    },
+    {
+      "id": "natural-science-1-motion",
+      "title": "Как движутся предметы",
+      "section": "Физика природы",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "motion1"
+      ]
+    },
+    {
+      "id": "natural-science-1-space",
+      "title": "Земля, Солнце, Луна и телескоп",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "space1"
+      ]
+    },
+    {
+      "id": "natural-science-1-time",
+      "title": "Дни, месяцы и измерение времени",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "time1"
+      ]
+    },
+    {
+      "id": "natural-science-1-heat",
+      "title": "Для чего нужно тепло",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "heat1"
+      ]
+    },
+    {
+      "id": "natural-science-1-electric",
+      "title": "Электричество в быту",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "electric1"
+      ]
+    },
+    {
+      "id": "natural-science-1-magnets",
+      "title": "Что притягивает магнит",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "magnets1"
+      ]
+    },
+    {
+      "id": "natural-science-1-light",
+      "title": "Свет, темнота и источники света",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "light1"
+      ]
+    },
+    {
+      "id": "natural-science-1-sound",
+      "title": "Звуки природы и приборов",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "sound1"
+      ]
+    },
+    {
+      "id": "natural-science-1-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-1-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-1-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-1-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-1-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "2": [
+    {
+      "id": "natural-science-2-research",
+      "title": "План и результаты наблюдений",
+      "section": "Я — исследователь",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "research2"
+      ]
+    },
+    {
+      "id": "natural-science-2-plants",
+      "title": "Части растений и их работа",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "plantParts",
+        "plantNeeds"
+      ]
+    },
+    {
+      "id": "natural-science-2-adapt",
+      "title": "Растения и условия обитания",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "plantAdapt"
+      ]
+    },
+    {
+      "id": "natural-science-2-growth",
+      "title": "Наблюдаем рост растения",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "growth"
+      ]
+    },
+    {
+      "id": "natural-science-2-groups",
+      "title": "Группы животных",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "animalGroups"
+      ]
+    },
+    {
+      "id": "natural-science-2-body",
+      "title": "Кости, мышцы и движение человека",
+      "section": "Человек",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "body2",
+        "lifeNeeds"
+      ]
+    },
+    {
+      "id": "natural-science-2-air",
+      "title": "Воздух и его свойства",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "air2"
+      ]
+    },
+    {
+      "id": "natural-science-2-water",
+      "title": "Вода и её состояния",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "water2"
+      ]
+    },
+    {
+      "id": "natural-science-2-resources",
+      "title": "Природные материалы и ресурсы",
+      "section": "Природные ресурсы",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "resources2"
+      ]
+    },
+    {
+      "id": "natural-science-2-earth",
+      "title": "Земля и её спутник",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "space1"
+      ]
+    },
+    {
+      "id": "natural-science-2-planets",
+      "title": "Порядок планет",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "planets2"
+      ]
+    },
+    {
+      "id": "natural-science-2-time",
+      "title": "Единицы времени и длительность наблюдения",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "time1",
+        "timeUnits",
+        "observeTime"
+      ]
+    },
+    {
+      "id": "natural-science-2-motion",
+      "title": "Быстрее, медленнее и измерение массы",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "forces2"
+      ]
+    },
+    {
+      "id": "natural-science-2-light",
+      "title": "Какие материалы пропускают свет",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "light2"
+      ]
+    },
+    {
+      "id": "natural-science-2-sound",
+      "title": "Источники звука",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "sound1"
+      ]
+    },
+    {
+      "id": "natural-science-2-heat",
+      "title": "Температура и учебный термометр",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "heat1",
+        "thermometer"
+      ]
+    },
+    {
+      "id": "natural-science-2-magnets",
+      "title": "Применение магнитов",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 16,
+      "modelKeys": [
+        "magnets1"
+      ]
+    },
+    {
+      "id": "natural-science-2-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-2-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-2-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-2-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-2-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "3": [
+    {
+      "id": "natural-science-3-research",
+      "title": "Методы исследования и источники сведений",
+      "section": "Я — исследователь",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "science3"
+      ]
+    },
+    {
+      "id": "natural-science-3-plants",
+      "title": "Растения: питание, опыление и семена",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "plants3",
+        "plantAdapt"
+      ]
+    },
+    {
+      "id": "natural-science-3-growth",
+      "title": "Сравниваем прорастание и рост",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "growth",
+        "sprouts"
+      ]
+    },
+    {
+      "id": "natural-science-3-animals",
+      "title": "Позвоночные, беспозвоночные и питание",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "animals3",
+        "animalGroups"
+      ]
+    },
+    {
+      "id": "natural-science-3-organs",
+      "title": "Внутренние органы человека",
+      "section": "Человек",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "organs3"
+      ]
+    },
+    {
+      "id": "natural-science-3-states",
+      "title": "Твёрдые тела, жидкости и газы",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "states3"
+      ]
+    },
+    {
+      "id": "natural-science-3-air",
+      "title": "Состав и чистота воздуха",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "air3"
+      ]
+    },
+    {
+      "id": "natural-science-3-water",
+      "title": "Состояния, очистка и экономия воды",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 7,
+      "modelKeys": [
+        "water3",
+        "waterSave"
+      ]
+    },
+    {
+      "id": "natural-science-3-soil",
+      "title": "Почва и плодородие",
+      "section": "Природные ресурсы",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "soil3"
+      ]
+    },
+    {
+      "id": "natural-science-3-spheres",
+      "title": "Оболочки Земли",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "spheres"
+      ]
+    },
+    {
+      "id": "natural-science-3-space",
+      "title": "Космические исследования и день-ночь",
+      "section": "Земля и космос",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "space3"
+      ]
+    },
+    {
+      "id": "natural-science-3-forces",
+      "title": "Упругость, трение и тяжесть",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "forces3",
+        "mass"
+      ]
+    },
+    {
+      "id": "natural-science-3-light",
+      "title": "Свет, отражение и тень",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "light2"
+      ]
+    },
+    {
+      "id": "natural-science-3-sound",
+      "title": "Громкость, расстояние и эхо",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "sound3"
+      ]
+    },
+    {
+      "id": "natural-science-3-circuit",
+      "title": "Простая электрическая цепь",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "circuit3"
+      ]
+    },
+    {
+      "id": "natural-science-3-magnets",
+      "title": "Магниты и материалы",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 15,
+      "modelKeys": [
+        "magnets1"
+      ]
+    },
+    {
+      "id": "natural-science-3-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-3-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-3-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-3-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-3-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "4": [
+    {
+      "id": "natural-science-4-research",
+      "title": "Выбор метода и выводы исследования",
+      "section": "Я — исследователь",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "science3",
+        "dataRead"
+      ]
+    },
+    {
+      "id": "natural-science-4-plants",
+      "title": "Растения в пищевых цепях",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "plants4",
+        "plants3"
+      ]
+    },
+    {
+      "id": "natural-science-4-animals",
+      "title": "Взаимосвязи животных и охрана видов",
+      "section": "Живая природа",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "animals4",
+        "animals3"
+      ]
+    },
+    {
+      "id": "natural-science-4-body",
+      "title": "Выделительная и нервная системы",
+      "section": "Человек",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "organs4"
+      ]
+    },
+    {
+      "id": "natural-science-4-materials",
+      "title": "Свойства и применение материалов",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "materials4",
+        "states3"
+      ]
+    },
+    {
+      "id": "natural-science-4-air",
+      "title": "Применение воздуха",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "air4"
+      ]
+    },
+    {
+      "id": "natural-science-4-water",
+      "title": "Круговорот и сохранение воды",
+      "section": "Вещества и их свойства",
+      "quarter": 2,
+      "index": 6,
+      "modelKeys": [
+        "waterCycle",
+        "waterSave"
+      ]
+    },
+    {
+      "id": "natural-science-4-light",
+      "title": "Преграды и отражение света",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "light2"
+      ]
+    },
+    {
+      "id": "natural-science-4-sound",
+      "title": "Как преграды влияют на звук",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 8,
+      "modelKeys": [
+        "sound3"
+      ]
+    },
+    {
+      "id": "natural-science-4-heat",
+      "title": "Теплопроводность и температура",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 9,
+      "modelKeys": [
+        "thermal4",
+        "thermometer",
+        "temperature"
+      ]
+    },
+    {
+      "id": "natural-science-4-electric",
+      "title": "Электропроводность и цепь",
+      "section": "Физика природы",
+      "quarter": 3,
+      "index": 10,
+      "modelKeys": [
+        "electric4",
+        "circuit3"
+      ]
+    },
+    {
+      "id": "natural-science-4-minerals",
+      "title": "Полезные ископаемые и их применение",
+      "section": "Природные ресурсы",
+      "quarter": 3,
+      "index": 11,
+      "modelKeys": [
+        "minerals4",
+        "environment5"
+      ]
+    },
+    {
+      "id": "natural-science-4-relief",
+      "title": "Равнины, горы и небесные тела",
+      "section": "Земля и космос",
+      "quarter": 4,
+      "index": 12,
+      "modelKeys": [
+        "earth4"
+      ]
+    },
+    {
+      "id": "natural-science-4-orbit",
+      "title": "Годовое движение и смена сезонов",
+      "section": "Земля и космос",
+      "quarter": 4,
+      "index": 13,
+      "modelKeys": [
+        "space4"
+      ]
+    },
+    {
+      "id": "natural-science-4-buoyancy",
+      "title": "Плавание, погружение и выталкивание",
+      "section": "Физика природы",
+      "quarter": 4,
+      "index": 14,
+      "modelKeys": [
+        "buoyancy4"
+      ]
+    },
+    {
+      "id": "natural-science-4-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-4-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-4-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 17,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-4-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 18,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-4-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "5": [
+    {
+      "id": "natural-science-5-science",
+      "title": "Естественные науки и вопрос исследования",
+      "section": "Мир науки",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "science5",
+        "research5"
+      ]
+    },
+    {
+      "id": "natural-science-5-measure",
+      "title": "Измерения, единицы и объём образца",
+      "section": "Мир науки",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "unitLength",
+        "mass",
+        "volume"
+      ]
+    },
+    {
+      "id": "natural-science-5-data",
+      "title": "Повторные измерения и среднее значение",
+      "section": "Мир науки",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "mean",
+        "dataRead"
+      ]
+    },
+    {
+      "id": "natural-science-5-earth",
+      "title": "Макромир, микромир и строение Земли",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "earth5"
+      ]
+    },
+    {
+      "id": "natural-science-5-spheres",
+      "title": "Оболочки и условия жизни на Земле",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "spheres",
+        "earth6"
+      ]
+    },
+    {
+      "id": "natural-science-5-maps",
+      "title": "План местности и условные знаки",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 5,
+      "modelKeys": [
+        "map5"
+      ]
+    },
+    {
+      "id": "natural-science-5-continents",
+      "title": "Материки и океаны",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 6,
+      "modelKeys": [
+        "continents"
+      ]
+    },
+    {
+      "id": "natural-science-5-people",
+      "title": "Расселение и равенство людей",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 7,
+      "modelKeys": [
+        "humanity"
+      ]
+    },
+    {
+      "id": "natural-science-5-particles",
+      "title": "Частицы, свойства и явления",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 8,
+      "modelKeys": [
+        "particles5",
+        "states3"
+      ]
+    },
+    {
+      "id": "natural-science-5-mixtures",
+      "title": "Чистые вещества и разделение смесей",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 9,
+      "modelKeys": [
+        "mixtures5"
+      ]
+    },
+    {
+      "id": "natural-science-5-solutions",
+      "title": "Состав раствора и массовая доля",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 10,
+      "modelKeys": [
+        "solution"
+      ]
+    },
+    {
+      "id": "natural-science-5-materials",
+      "title": "Природные и искусственные материалы",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 11,
+      "modelKeys": [
+        "materials5",
+        "materials4"
+      ]
+    },
+    {
+      "id": "natural-science-5-process",
+      "title": "Процессы неживой природы",
+      "section": "Процессы в природе",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "processes5",
+        "waterCycle"
+      ]
+    },
+    {
+      "id": "natural-science-5-cells",
+      "title": "Клетка и учебный микроскоп",
+      "section": "Процессы в природе",
+      "quarter": 3,
+      "index": 13,
+      "modelKeys": [
+        "cells5",
+        "microscope"
+      ]
+    },
+    {
+      "id": "natural-science-5-plants",
+      "title": "Фотосинтез и условия жизни растений",
+      "section": "Процессы в природе",
+      "quarter": 3,
+      "index": 14,
+      "modelKeys": [
+        "plants3",
+        "sprouts"
+      ]
+    },
+    {
+      "id": "natural-science-5-energy",
+      "title": "Энергия, тепло и превращения",
+      "section": "Энергия и движение",
+      "quarter": 3,
+      "index": 15,
+      "modelKeys": [
+        "energy5",
+        "temperature"
+      ]
+    },
+    {
+      "id": "natural-science-5-motion",
+      "title": "Движение и действие сил",
+      "section": "Энергия и движение",
+      "quarter": 3,
+      "index": 16,
+      "modelKeys": [
+        "forces3",
+        "motion1"
+      ]
+    },
+    {
+      "id": "natural-science-5-ecosystems",
+      "title": "Компоненты и виды экосистем",
+      "section": "Экология и устойчивое развитие",
+      "quarter": 4,
+      "index": 17,
+      "modelKeys": [
+        "ecosystems5",
+        "plants4"
+      ]
+    },
+    {
+      "id": "natural-science-5-kingdoms",
+      "title": "Многообразие клеточных организмов",
+      "section": "Экология и устойчивое развитие",
+      "quarter": 4,
+      "index": 18,
+      "modelKeys": [
+        "kingdoms5"
+      ]
+    },
+    {
+      "id": "natural-science-5-nature",
+      "title": "Экологические проблемы и охрана природы",
+      "section": "Экология и устойчивое развитие",
+      "quarter": 4,
+      "index": 19,
+      "modelKeys": [
+        "environment5",
+        "animals4"
+      ]
+    },
+    {
+      "id": "natural-science-5-discoveries",
+      "title": "Открытия, приборы и энергия будущего",
+      "section": "Открытия, меняющие мир",
+      "quarter": 4,
+      "index": 20,
+      "modelKeys": [
+        "discoveries",
+        "research5"
+      ]
+    },
+    {
+      "id": "natural-science-5-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-5-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-5-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-5-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 24,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-5-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 25,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "6": [
+    {
+      "id": "natural-science-6-variables",
+      "title": "Переменные и план эксперимента",
+      "section": "Мир науки",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "variables6",
+        "research5"
+      ]
+    },
+    {
+      "id": "natural-science-6-data",
+      "title": "Единицы и анализ данных",
+      "section": "Мир науки",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "unitLength",
+        "mean",
+        "dataRead",
+        "volume"
+      ]
+    },
+    {
+      "id": "natural-science-6-earth",
+      "title": "Свойства Земли и условия обитаемости",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "earth6",
+        "earth5"
+      ]
+    },
+    {
+      "id": "natural-science-6-spheres",
+      "title": "Взаимодействие оболочек Земли",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "spheres",
+        "waterCycle"
+      ]
+    },
+    {
+      "id": "natural-science-6-maps",
+      "title": "Координаты, карты и масштаб",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 4,
+      "modelKeys": [
+        "maps6",
+        "map5",
+        "scale"
+      ]
+    },
+    {
+      "id": "natural-science-6-time",
+      "title": "Время на учебной карте поясов",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 5,
+      "modelKeys": [
+        "timezone"
+      ]
+    },
+    {
+      "id": "natural-science-6-continents",
+      "title": "Особенности материков и океанов",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 6,
+      "modelKeys": [
+        "continents"
+      ]
+    },
+    {
+      "id": "natural-science-6-population",
+      "title": "Размещение и плотность населения",
+      "section": "Человек. Земля. Вселенная",
+      "quarter": 1,
+      "index": 7,
+      "modelKeys": [
+        "humanity",
+        "population"
+      ]
+    },
+    {
+      "id": "natural-science-6-atoms",
+      "title": "Атомы, молекулы и состав веществ",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 8,
+      "modelKeys": [
+        "atoms6",
+        "substances6"
+      ]
+    },
+    {
+      "id": "natural-science-6-classify",
+      "title": "Органические вещества и среды растворов",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 9,
+      "modelKeys": [
+        "organic",
+        "acids6"
+      ]
+    },
+    {
+      "id": "natural-science-6-materials",
+      "title": "Природные и искусственные материалы",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 10,
+      "modelKeys": [
+        "materials5",
+        "materials4"
+      ]
+    },
+    {
+      "id": "natural-science-6-minerals",
+      "title": "Полезные ископаемые Казахстана",
+      "section": "Вещества и материалы",
+      "quarter": 2,
+      "index": 11,
+      "modelKeys": [
+        "mineralKZ",
+        "minerals4",
+        "environment5"
+      ]
+    },
+    {
+      "id": "natural-science-6-processes",
+      "title": "Превращения в неживой природе",
+      "section": "Процессы в природе",
+      "quarter": 3,
+      "index": 12,
+      "modelKeys": [
+        "particles5",
+        "processes5"
+      ]
+    },
+    {
+      "id": "natural-science-6-cells",
+      "title": "Клетка и процессы жизнедеятельности",
+      "section": "Процессы в природе",
+      "quarter": 3,
+      "index": 13,
+      "modelKeys": [
+        "cells5",
+        "life6",
+        "microscope"
+      ]
+    },
+    {
+      "id": "natural-science-6-energy",
+      "title": "Источники и превращения энергии",
+      "section": "Энергия и движение",
+      "quarter": 3,
+      "index": 14,
+      "modelKeys": [
+        "energy5",
+        "discoveries"
+      ]
+    },
+    {
+      "id": "natural-science-6-motion",
+      "title": "Относительность движения и давление",
+      "section": "Энергия и движение",
+      "quarter": 3,
+      "index": 15,
+      "modelKeys": [
+        "motion6",
+        "forces3"
+      ]
+    },
+    {
+      "id": "natural-science-6-ecosystems",
+      "title": "Связи и смена экосистем",
+      "section": "Экология и устойчивое развитие",
+      "quarter": 4,
+      "index": 16,
+      "modelKeys": [
+        "ecosystems6",
+        "ecosystems5",
+        "plants4"
+      ]
+    },
+    {
+      "id": "natural-science-6-diversity",
+      "title": "Многообразие и определение организмов",
+      "section": "Экология и устойчивое развитие",
+      "quarter": 4,
+      "index": 17,
+      "modelKeys": [
+        "animalGroups",
+        "kingdoms5",
+        "ecosystems6"
+      ]
+    },
+    {
+      "id": "natural-science-6-nature",
+      "title": "Причины экологических проблем и решения",
+      "section": "Экология и устойчивое развитие",
+      "quarter": 4,
+      "index": 18,
+      "modelKeys": [
+        "environment5",
+        "animals4"
+      ]
+    },
+    {
+      "id": "natural-science-6-discoveries",
+      "title": "Значение открытий и исследовательские идеи",
+      "section": "Открытия, меняющие мир",
+      "quarter": 4,
+      "index": 19,
+      "modelKeys": [
+        "discoveries",
+        "science5",
+        "research5"
+      ]
+    },
+    {
+      "id": "natural-science-6-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-6-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-6-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-6-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "natural-science-6-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 24,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ]
+}

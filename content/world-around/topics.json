@@ -1,0 +1,282 @@
+{
+  "1": [
+    {
+      "id": "world-around-1-1",
+      "title": "Я — школьник. Режим дня и школьное сообщество",
+      "quarter": 1,
+      "section": "Познание мира",
+      "index": 0
+    },
+    {
+      "id": "world-around-1-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "world-around-1-2",
+      "title": "Семья, друзья и родной край",
+      "quarter": 2,
+      "section": "Познание мира",
+      "index": 2
+    },
+    {
+      "id": "world-around-1-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "world-around-1-3",
+      "title": "Путешествия и традиции Казахстана",
+      "quarter": 3,
+      "section": "Познание мира",
+      "index": 4
+    },
+    {
+      "id": "world-around-1-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "world-around-1-4",
+      "title": "Еда, здоровье и безопасный отдых",
+      "quarter": 4,
+      "section": "Познание мира",
+      "index": 6
+    },
+    {
+      "id": "world-around-1-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "world-around-1-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "2": [
+    {
+      "id": "world-around-2-1",
+      "title": "Потребности, семья и обязанности",
+      "quarter": 1,
+      "section": "Познание мира",
+      "index": 0
+    },
+    {
+      "id": "world-around-2-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "world-around-2-2",
+      "title": "Школа и ориентирование в родном крае",
+      "quarter": 2,
+      "section": "Познание мира",
+      "index": 2
+    },
+    {
+      "id": "world-around-2-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "world-around-2-3",
+      "title": "Здоровье, общение и культурные традиции",
+      "quarter": 3,
+      "section": "Познание мира",
+      "index": 4
+    },
+    {
+      "id": "world-around-2-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "world-around-2-4",
+      "title": "Природа, путешествия и бережное поведение",
+      "quarter": 4,
+      "section": "Познание мира",
+      "index": 6
+    },
+    {
+      "id": "world-around-2-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "world-around-2-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "3": [
+    {
+      "id": "world-around-3-1",
+      "title": "Человек, природа и нравственный выбор",
+      "quarter": 1,
+      "section": "Познание мира",
+      "index": 0
+    },
+    {
+      "id": "world-around-3-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "world-around-3-2",
+      "title": "Время, история и архитектура",
+      "quarter": 2,
+      "section": "Познание мира",
+      "index": 2
+    },
+    {
+      "id": "world-around-3-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "world-around-3-3",
+      "title": "Культура Казахстана и известные деятели",
+      "quarter": 3,
+      "section": "Познание мира",
+      "index": 4
+    },
+    {
+      "id": "world-around-3-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "world-around-3-4",
+      "title": "Вода, отдых и совместные решения",
+      "quarter": 4,
+      "section": "Познание мира",
+      "index": 6
+    },
+    {
+      "id": "world-around-3-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "world-around-3-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "4": [
+    {
+      "id": "world-around-4-1",
+      "title": "Казахстан, гражданские ценности и права",
+      "quarter": 1,
+      "section": "Познание мира",
+      "index": 0
+    },
+    {
+      "id": "world-around-4-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "world-around-4-2",
+      "title": "Наследие, профессии и семейный бюджет",
+      "quarter": 2,
+      "section": "Познание мира",
+      "index": 2
+    },
+    {
+      "id": "world-around-4-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "world-around-4-3",
+      "title": "Природные явления и охрана окружающей среды",
+      "quarter": 3,
+      "section": "Познание мира",
+      "index": 4
+    },
+    {
+      "id": "world-around-4-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "world-around-4-4",
+      "title": "Путешествия, достижения и ответственное будущее",
+      "quarter": 4,
+      "section": "Познание мира",
+      "index": 6
+    },
+    {
+      "id": "world-around-4-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "world-around-4-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ]
+}

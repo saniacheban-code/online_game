@@ -1,0 +1,1454 @@
+{
+  "7": [
+    {
+      "id": "physics-7-methods",
+      "title": "Физические явления и методы исследования",
+      "section": "Введение",
+      "quarter": 1,
+      "modelKeys": [
+        "science"
+      ],
+      "goals": [],
+      "index": 0
+    },
+    {
+      "id": "physics-7-si",
+      "title": "Единицы СИ. Скалярные и векторные величины",
+      "section": "Измерения",
+      "quarter": 1,
+      "modelKeys": [
+        "measure",
+        "units"
+      ],
+      "goals": [],
+      "index": 1
+    },
+    {
+      "id": "physics-7-measurement",
+      "title": "Цена деления. Метод рядов. Перевод единиц",
+      "section": "Измерения",
+      "quarter": 1,
+      "modelKeys": [
+        "measure"
+      ],
+      "goals": [],
+      "index": 2
+    },
+    {
+      "id": "physics-7-motion",
+      "title": "Путь, перемещение и система отсчёта",
+      "section": "Движение",
+      "quarter": 1,
+      "modelKeys": [
+        "displacement",
+        "speed"
+      ],
+      "goals": [],
+      "index": 3
+    },
+    {
+      "id": "physics-7-speed",
+      "title": "Равномерное движение и средняя скорость",
+      "section": "Движение",
+      "quarter": 1,
+      "modelKeys": [
+        "speed",
+        "average"
+      ],
+      "goals": [],
+      "index": 4
+    },
+    {
+      "id": "physics-7-density",
+      "title": "Масса, объём и плотность вещества",
+      "section": "Плотность",
+      "quarter": 2,
+      "modelKeys": [
+        "density",
+        "measure"
+      ],
+      "goals": [],
+      "index": 5
+    },
+    {
+      "id": "physics-7-forces",
+      "title": "Инерция. Сила и равнодействующая",
+      "section": "Силы",
+      "quarter": 2,
+      "modelKeys": [
+        "forceSum",
+        "inertiaBasic"
+      ],
+      "goals": [],
+      "index": 6
+    },
+    {
+      "id": "physics-7-gravity",
+      "title": "Сила тяжести и вес неподвижного тела",
+      "section": "Силы",
+      "quarter": 2,
+      "modelKeys": [
+        "gravity"
+      ],
+      "goals": [],
+      "index": 7
+    },
+    {
+      "id": "physics-7-elasticity",
+      "title": "Деформация и закон Гука",
+      "section": "Силы",
+      "quarter": 2,
+      "modelKeys": [
+        "hooke"
+      ],
+      "goals": [],
+      "index": 8
+    },
+    {
+      "id": "physics-7-friction",
+      "title": "Сила трения",
+      "section": "Силы",
+      "quarter": 2,
+      "modelKeys": [
+        "friction"
+      ],
+      "goals": [],
+      "index": 9
+    },
+    {
+      "id": "physics-7-pressure",
+      "title": "Давление твёрдых тел",
+      "section": "Давление",
+      "quarter": 3,
+      "modelKeys": [
+        "pressure"
+      ],
+      "goals": [],
+      "index": 10
+    },
+    {
+      "id": "physics-7-hydro",
+      "title": "Давление жидкости. Закон Паскаля",
+      "section": "Давление",
+      "quarter": 3,
+      "modelKeys": [
+        "hydro",
+        "pressure"
+      ],
+      "goals": [],
+      "index": 11
+    },
+    {
+      "id": "physics-7-archimedes",
+      "title": "Закон Архимеда и плавание тел",
+      "section": "Давление",
+      "quarter": 3,
+      "modelKeys": [
+        "archimedes"
+      ],
+      "goals": [],
+      "index": 12
+    },
+    {
+      "id": "physics-7-work",
+      "title": "Механическая работа",
+      "section": "Работа и мощность",
+      "quarter": 3,
+      "modelKeys": [
+        "work"
+      ],
+      "goals": [],
+      "index": 13
+    },
+    {
+      "id": "physics-7-power",
+      "title": "Мощность",
+      "section": "Работа и мощность",
+      "quarter": 3,
+      "modelKeys": [
+        "power"
+      ],
+      "goals": [],
+      "index": 14
+    },
+    {
+      "id": "physics-7-energy",
+      "title": "Кинетическая и потенциальная энергия",
+      "section": "Энергия",
+      "quarter": 4,
+      "modelKeys": [
+        "kinetic",
+        "potential"
+      ],
+      "goals": [],
+      "index": 15
+    },
+    {
+      "id": "physics-7-moment",
+      "title": "Момент силы и равновесие рычага",
+      "section": "Простые механизмы",
+      "quarter": 4,
+      "modelKeys": [
+        "moment",
+        "lever"
+      ],
+      "goals": [],
+      "index": 16
+    },
+    {
+      "id": "physics-7-efficiency",
+      "title": "КПД простых механизмов",
+      "section": "Простые механизмы",
+      "quarter": 4,
+      "modelKeys": [
+        "efficiency",
+        "work"
+      ],
+      "goals": [],
+      "index": 17
+    },
+    {
+      "id": "physics-7-solar",
+      "title": "Солнечная система и календарь",
+      "section": "Земля и космос",
+      "quarter": 4,
+      "modelKeys": [
+        "solarTheory",
+        "calendar"
+      ],
+      "goals": [],
+      "index": 18
+    },
+    {
+      "id": "physics-7-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 19,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-7-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-7-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-7-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-7-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "8": [
+    {
+      "id": "physics-8-mkt",
+      "title": "Тепловое движение. Диффузия. Строение вещества",
+      "section": "Тепловые явления",
+      "quarter": 1,
+      "modelKeys": [
+        "states"
+      ],
+      "goals": [],
+      "index": 0
+    },
+    {
+      "id": "physics-8-temperature",
+      "title": "Температура и температурные шкалы",
+      "section": "Тепловые явления",
+      "quarter": 1,
+      "modelKeys": [
+        "temperature"
+      ],
+      "goals": [],
+      "index": 1
+    },
+    {
+      "id": "physics-8-transfer",
+      "title": "Внутренняя энергия и теплопередача",
+      "section": "Тепловые явления",
+      "quarter": 1,
+      "modelKeys": [
+        "transfer"
+      ],
+      "goals": [],
+      "index": 2
+    },
+    {
+      "id": "physics-8-heat",
+      "title": "Количество теплоты и теплоёмкость",
+      "section": "Тепловые явления",
+      "quarter": 1,
+      "modelKeys": [
+        "heat"
+      ],
+      "goals": [],
+      "index": 3
+    },
+    {
+      "id": "physics-8-fuel",
+      "title": "Удельная теплота сгорания топлива",
+      "section": "Тепловые явления",
+      "quarter": 1,
+      "modelKeys": [
+        "fuel"
+      ],
+      "goals": [],
+      "index": 4
+    },
+    {
+      "id": "physics-8-balance",
+      "title": "Тепловой баланс",
+      "section": "Тепловые явления",
+      "quarter": 1,
+      "modelKeys": [
+        "balance"
+      ],
+      "goals": [],
+      "index": 5
+    },
+    {
+      "id": "physics-8-phase",
+      "title": "Плавление, парообразование и конденсация",
+      "section": "Фазовые переходы",
+      "quarter": 1,
+      "modelKeys": [
+        "melting",
+        "vapor",
+        "states"
+      ],
+      "goals": [],
+      "index": 6
+    },
+    {
+      "id": "physics-8-thermo",
+      "title": "Первый закон термодинамики",
+      "section": "Термодинамика",
+      "quarter": 2,
+      "modelKeys": [
+        "thermo"
+      ],
+      "goals": [],
+      "index": 7
+    },
+    {
+      "id": "physics-8-engines",
+      "title": "Тепловые двигатели и КПД",
+      "section": "Термодинамика",
+      "quarter": 2,
+      "modelKeys": [
+        "efficiency",
+        "thermo"
+      ],
+      "goals": [],
+      "index": 8
+    },
+    {
+      "id": "physics-8-charge",
+      "title": "Заряд. Электризация. Проводники и диэлектрики",
+      "section": "Электростатика",
+      "quarter": 2,
+      "modelKeys": [
+        "chargeTheory"
+      ],
+      "goals": [],
+      "index": 9
+    },
+    {
+      "id": "physics-8-coulomb",
+      "title": "Закон Кулона",
+      "section": "Электростатика",
+      "quarter": 2,
+      "modelKeys": [
+        "coulomb"
+      ],
+      "goals": [],
+      "index": 10
+    },
+    {
+      "id": "physics-8-field",
+      "title": "Электрическое поле и конденсатор",
+      "section": "Электростатика",
+      "quarter": 2,
+      "modelKeys": [
+        "field",
+        "capacitor"
+      ],
+      "goals": [],
+      "index": 11
+    },
+    {
+      "id": "physics-8-current",
+      "title": "Электрический ток, заряд и время",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "current",
+        "circuitTheory"
+      ],
+      "goals": [],
+      "index": 12
+    },
+    {
+      "id": "physics-8-ohm",
+      "title": "Закон Ома для участка цепи",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "ohm"
+      ],
+      "goals": [],
+      "index": 13
+    },
+    {
+      "id": "physics-8-connections",
+      "title": "Последовательное и параллельное соединение",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "series"
+      ],
+      "goals": [],
+      "index": 14
+    },
+    {
+      "id": "physics-8-epower",
+      "title": "Работа и мощность тока",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "epower",
+        "power"
+      ],
+      "goals": [],
+      "index": 15
+    },
+    {
+      "id": "physics-8-joule",
+      "title": "Закон Джоуля — Ленца",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "joule"
+      ],
+      "goals": [],
+      "index": 16
+    },
+    {
+      "id": "physics-8-magnetic",
+      "title": "Магнитное поле тока. Электромагниты",
+      "section": "Магнитные явления",
+      "quarter": 3,
+      "modelKeys": [
+        "magnetBasic"
+      ],
+      "goals": [],
+      "index": 17
+    },
+    {
+      "id": "physics-8-light",
+      "title": "Свет. Отражение и плоское зеркало",
+      "section": "Геометрическая оптика",
+      "quarter": 4,
+      "modelKeys": [
+        "reflection"
+      ],
+      "goals": [],
+      "index": 18
+    },
+    {
+      "id": "physics-8-refraction",
+      "title": "Преломление света",
+      "section": "Геометрическая оптика",
+      "quarter": 4,
+      "modelKeys": [
+        "refract"
+      ],
+      "goals": [],
+      "index": 19
+    },
+    {
+      "id": "physics-8-lenses",
+      "title": "Тонкая линза и изображение",
+      "section": "Геометрическая оптика",
+      "quarter": 4,
+      "modelKeys": [
+        "lens"
+      ],
+      "goals": [],
+      "index": 20
+    },
+    {
+      "id": "physics-8-optical-power",
+      "title": "Фокусное расстояние и оптическая сила",
+      "section": "Геометрическая оптика",
+      "quarter": 4,
+      "modelKeys": [
+        "lenspower"
+      ],
+      "goals": [],
+      "index": 21
+    },
+    {
+      "id": "physics-8-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-8-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-8-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 24,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-8-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 25,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-8-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 26,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "9": [
+    {
+      "id": "physics-9-vectors",
+      "title": "Движение, векторы и относительная скорость",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "relative",
+        "displacement"
+      ],
+      "goals": [],
+      "index": 0
+    },
+    {
+      "id": "physics-9-acceleration",
+      "title": "Ускорение и скорость",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "acceleration"
+      ],
+      "goals": [],
+      "index": 1
+    },
+    {
+      "id": "physics-9-motion",
+      "title": "Перемещение при равноускоренном движении",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "motion"
+      ],
+      "goals": [],
+      "index": 2
+    },
+    {
+      "id": "physics-9-fall",
+      "title": "Свободное падение и горизонтальный бросок",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "fall",
+        "projectile"
+      ],
+      "goals": [],
+      "index": 3
+    },
+    {
+      "id": "physics-9-circle",
+      "title": "Равномерное движение по окружности",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "angular",
+        "centripetal"
+      ],
+      "goals": [],
+      "index": 4
+    },
+    {
+      "id": "physics-9-astronomy",
+      "title": "Небесные тела. Законы Кеплера",
+      "section": "Астрономия",
+      "quarter": 1,
+      "modelKeys": [
+        "kepler"
+      ],
+      "goals": [],
+      "index": 5
+    },
+    {
+      "id": "physics-9-parallax",
+      "title": "Расстояния до звёзд и параллакс",
+      "section": "Астрономия",
+      "quarter": 1,
+      "modelKeys": [
+        "parallax"
+      ],
+      "goals": [],
+      "index": 6
+    },
+    {
+      "id": "physics-9-newton",
+      "title": "Законы Ньютона и силы",
+      "section": "Динамика",
+      "quarter": 2,
+      "modelKeys": [
+        "newton",
+        "forceSum",
+        "inertia"
+      ],
+      "goals": [],
+      "index": 7
+    },
+    {
+      "id": "physics-9-gravitation",
+      "title": "Всемирное тяготение",
+      "section": "Динамика",
+      "quarter": 2,
+      "modelKeys": [
+        "gravitation"
+      ],
+      "goals": [],
+      "index": 8
+    },
+    {
+      "id": "physics-9-weight",
+      "title": "Вес тела и невесомость",
+      "section": "Динамика",
+      "quarter": 2,
+      "modelKeys": [
+        "weight",
+        "gravity"
+      ],
+      "goals": [],
+      "index": 9
+    },
+    {
+      "id": "physics-9-momentum",
+      "title": "Импульс. Неупругое столкновение",
+      "section": "Законы сохранения",
+      "quarter": 3,
+      "modelKeys": [
+        "momentum",
+        "collision"
+      ],
+      "goals": [],
+      "index": 10
+    },
+    {
+      "id": "physics-9-energy",
+      "title": "Работа и сохранение энергии",
+      "section": "Законы сохранения",
+      "quarter": 3,
+      "modelKeys": [
+        "work",
+        "kinetic",
+        "conservation"
+      ],
+      "goals": [],
+      "index": 11
+    },
+    {
+      "id": "physics-9-period",
+      "title": "Период и частота колебаний",
+      "section": "Колебания",
+      "quarter": 3,
+      "modelKeys": [
+        "period"
+      ],
+      "goals": [],
+      "index": 12
+    },
+    {
+      "id": "physics-9-harmonic",
+      "title": "Гармонические колебания",
+      "section": "Колебания",
+      "quarter": 3,
+      "modelKeys": [
+        "harmonic"
+      ],
+      "goals": [],
+      "index": 13
+    },
+    {
+      "id": "physics-9-pendulum",
+      "title": "Математический и пружинный маятники",
+      "section": "Колебания",
+      "quarter": 3,
+      "modelKeys": [
+        "pendulum",
+        "springPeriod"
+      ],
+      "goals": [],
+      "index": 14
+    },
+    {
+      "id": "physics-9-resonance",
+      "title": "Свободные и вынужденные колебания. Резонанс",
+      "section": "Колебания",
+      "quarter": 3,
+      "modelKeys": [
+        "oscillation"
+      ],
+      "goals": [],
+      "index": 15
+    },
+    {
+      "id": "physics-9-wave",
+      "title": "Скорость, частота и длина волны",
+      "section": "Волны и звук",
+      "quarter": 3,
+      "modelKeys": [
+        "wave"
+      ],
+      "goals": [],
+      "index": 16
+    },
+    {
+      "id": "physics-9-sound",
+      "title": "Звук, эхо и электромагнитные волны",
+      "section": "Волны и звук",
+      "quarter": 3,
+      "modelKeys": [
+        "echo",
+        "waves"
+      ],
+      "goals": [],
+      "index": 17
+    },
+    {
+      "id": "physics-9-photon",
+      "title": "Кванты света. Формула Планка",
+      "section": "Атомная физика",
+      "quarter": 4,
+      "modelKeys": [
+        "photon",
+        "lightwave"
+      ],
+      "goals": [],
+      "index": 18
+    },
+    {
+      "id": "physics-9-photoeffect",
+      "title": "Внешний фотоэффект",
+      "section": "Атомная физика",
+      "quarter": 4,
+      "modelKeys": [
+        "photoelectric",
+        "photoTheory"
+      ],
+      "goals": [],
+      "index": 19
+    },
+    {
+      "id": "physics-9-nucleus",
+      "title": "Состав ядра и энергия связи",
+      "section": "Ядерная физика",
+      "quarter": 4,
+      "modelKeys": [
+        "nuclear",
+        "binding"
+      ],
+      "goals": [],
+      "index": 20
+    },
+    {
+      "id": "physics-9-decay",
+      "title": "Радиоактивность и период полураспада",
+      "section": "Ядерная физика",
+      "quarter": 4,
+      "modelKeys": [
+        "halflife",
+        "nuclearTheory"
+      ],
+      "goals": [],
+      "index": 21
+    },
+    {
+      "id": "physics-9-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-9-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-9-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 24,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-9-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 25,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-9-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 26,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "10": [
+    {
+      "id": "physics-10-kinematics",
+      "title": "Прямолинейное и относительное движение",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "motion",
+        "relative"
+      ],
+      "goals": [],
+      "index": 0
+    },
+    {
+      "id": "physics-10-curved",
+      "title": "Криволинейное движение",
+      "section": "Кинематика",
+      "quarter": 1,
+      "modelKeys": [
+        "angular",
+        "centripetal",
+        "projectile"
+      ],
+      "goals": [],
+      "index": 1
+    },
+    {
+      "id": "physics-10-dynamics",
+      "title": "Силы и законы Ньютона",
+      "section": "Динамика",
+      "quarter": 1,
+      "modelKeys": [
+        "newton",
+        "forceSum"
+      ],
+      "goals": [],
+      "index": 2
+    },
+    {
+      "id": "physics-10-gravity",
+      "title": "Движение в поле тяжести",
+      "section": "Динамика",
+      "quarter": 1,
+      "modelKeys": [
+        "gravitation",
+        "projectile"
+      ],
+      "goals": [],
+      "index": 3
+    },
+    {
+      "id": "physics-10-statics",
+      "title": "Центр масс и равновесие",
+      "section": "Статика",
+      "quarter": 1,
+      "modelKeys": [
+        "center",
+        "lever",
+        "moment"
+      ],
+      "goals": [],
+      "index": 4
+    },
+    {
+      "id": "physics-10-conservation",
+      "title": "Законы сохранения",
+      "section": "Механика",
+      "quarter": 1,
+      "modelKeys": [
+        "collision",
+        "conservation"
+      ],
+      "goals": [],
+      "index": 5
+    },
+    {
+      "id": "physics-10-fluid",
+      "title": "Гидростатика и движение жидкости",
+      "section": "Механика жидкостей",
+      "quarter": 1,
+      "modelKeys": [
+        "hydro",
+        "continuity"
+      ],
+      "goals": [],
+      "index": 6
+    },
+    {
+      "id": "physics-10-mkt",
+      "title": "Молекулярная физика и абсолютная температура",
+      "section": "Тепловая физика",
+      "quarter": 2,
+      "modelKeys": [
+        "temperature",
+        "idealGas"
+      ],
+      "goals": [],
+      "index": 7
+    },
+    {
+      "id": "physics-10-gas",
+      "title": "Газовые законы и изопроцессы",
+      "section": "Тепловая физика",
+      "quarter": 2,
+      "modelKeys": [
+        "gas",
+        "idealGas"
+      ],
+      "goals": [],
+      "index": 8
+    },
+    {
+      "id": "physics-10-thermo",
+      "title": "Первый закон термодинамики",
+      "section": "Тепловая физика",
+      "quarter": 2,
+      "modelKeys": [
+        "thermo"
+      ],
+      "goals": [],
+      "index": 9
+    },
+    {
+      "id": "physics-10-engines",
+      "title": "Тепловые двигатели",
+      "section": "Тепловая физика",
+      "quarter": 2,
+      "modelKeys": [
+        "efficiency"
+      ],
+      "goals": [],
+      "index": 10
+    },
+    {
+      "id": "physics-10-humidity",
+      "title": "Влажность воздуха",
+      "section": "Жидкие и твёрдые тела",
+      "quarter": 2,
+      "modelKeys": [
+        "humidity"
+      ],
+      "goals": [],
+      "index": 11
+    },
+    {
+      "id": "physics-10-elasticity",
+      "title": "Упругая деформация и модуль Юнга",
+      "section": "Жидкие и твёрдые тела",
+      "quarter": 2,
+      "modelKeys": [
+        "young",
+        "hooke"
+      ],
+      "goals": [],
+      "index": 12
+    },
+    {
+      "id": "physics-10-field",
+      "title": "Заряд и электрическое поле",
+      "section": "Электростатика",
+      "quarter": 3,
+      "modelKeys": [
+        "coulomb",
+        "field"
+      ],
+      "goals": [],
+      "index": 13
+    },
+    {
+      "id": "physics-10-capacitors",
+      "title": "Конденсаторы и соединения",
+      "section": "Электростатика",
+      "quarter": 3,
+      "modelKeys": [
+        "capacitor",
+        "capJoin"
+      ],
+      "goals": [],
+      "index": 14
+    },
+    {
+      "id": "physics-10-circuits",
+      "title": "Смешанные соединения и закон Ома",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "series",
+        "ohm"
+      ],
+      "goals": [],
+      "index": 15
+    },
+    {
+      "id": "physics-10-full-circuit",
+      "title": "ЭДС и закон Ома для полной цепи",
+      "section": "Постоянный ток",
+      "quarter": 3,
+      "modelKeys": [
+        "fullCircuit"
+      ],
+      "goals": [],
+      "index": 16
+    },
+    {
+      "id": "physics-10-media",
+      "title": "Ток в различных средах. Полупроводники",
+      "section": "Электричество",
+      "quarter": 3,
+      "modelKeys": [
+        "media"
+      ],
+      "goals": [],
+      "index": 17
+    },
+    {
+      "id": "physics-10-magnetic",
+      "title": "Магнитное поле и магнитный поток",
+      "section": "Магнитное поле",
+      "quarter": 4,
+      "modelKeys": [
+        "flux",
+        "magnetism"
+      ],
+      "goals": [],
+      "index": 18
+    },
+    {
+      "id": "physics-10-forces",
+      "title": "Силы Ампера и Лоренца",
+      "section": "Магнитное поле",
+      "quarter": 4,
+      "modelKeys": [
+        "ampere",
+        "lorentz"
+      ],
+      "goals": [],
+      "index": 19
+    },
+    {
+      "id": "physics-10-induction",
+      "title": "Электромагнитная индукция",
+      "section": "Индукция",
+      "quarter": 4,
+      "modelKeys": [
+        "induction"
+      ],
+      "goals": [],
+      "index": 20
+    },
+    {
+      "id": "physics-10-devices",
+      "title": "Электромагнитные приборы",
+      "section": "Индукция",
+      "quarter": 4,
+      "modelKeys": [
+        "magnetism",
+        "transformer"
+      ],
+      "goals": [],
+      "index": 21
+    },
+    {
+      "id": "physics-10-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-10-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-10-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 24,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-10-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 25,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-10-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 26,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "11": [
+    {
+      "id": "physics-11-harmonic",
+      "title": "Гармонические механические колебания",
+      "section": "Колебания",
+      "quarter": 1,
+      "modelKeys": [
+        "harmonic",
+        "pendulum",
+        "springPeriod"
+      ],
+      "goals": [],
+      "index": 0
+    },
+    {
+      "id": "physics-11-lc",
+      "title": "Электромагнитные колебания и LC-контур",
+      "section": "Колебания",
+      "quarter": 1,
+      "modelKeys": [
+        "lc",
+        "oscillation"
+      ],
+      "goals": [],
+      "index": 1
+    },
+    {
+      "id": "physics-11-ac",
+      "title": "Переменный ток и действующее значение",
+      "section": "Переменный ток",
+      "quarter": 1,
+      "modelKeys": [
+        "ac",
+        "epower"
+      ],
+      "goals": [],
+      "index": 2
+    },
+    {
+      "id": "physics-11-resonance",
+      "title": "Резонанс и энергия колебаний",
+      "section": "Переменный ток",
+      "quarter": 1,
+      "modelKeys": [
+        "lc",
+        "oscillation"
+      ],
+      "goals": [],
+      "index": 3
+    },
+    {
+      "id": "physics-11-transformer",
+      "title": "Трансформатор и передача энергии",
+      "section": "Переменный ток",
+      "quarter": 1,
+      "modelKeys": [
+        "transformer",
+        "joule"
+      ],
+      "goals": [],
+      "index": 4
+    },
+    {
+      "id": "physics-11-em-waves",
+      "title": "Электромагнитные волны и радиосвязь",
+      "section": "Электромагнитные волны",
+      "quarter": 2,
+      "modelKeys": [
+        "lightwave",
+        "waves"
+      ],
+      "goals": [],
+      "index": 5
+    },
+    {
+      "id": "physics-11-wave-optics",
+      "title": "Интерференция, дифракция и поляризация",
+      "section": "Волновая оптика",
+      "quarter": 2,
+      "modelKeys": [
+        "waveOpticsTheory",
+        "diffraction"
+      ],
+      "goals": [],
+      "index": 6
+    },
+    {
+      "id": "physics-11-grating",
+      "title": "Дифракционная решётка",
+      "section": "Волновая оптика",
+      "quarter": 2,
+      "modelKeys": [
+        "diffraction"
+      ],
+      "goals": [],
+      "index": 7
+    },
+    {
+      "id": "physics-11-refraction",
+      "title": "Преломление и оптоволокно",
+      "section": "Геометрическая оптика",
+      "quarter": 2,
+      "modelKeys": [
+        "refract",
+        "fiberTheory"
+      ],
+      "goals": [],
+      "index": 8
+    },
+    {
+      "id": "physics-11-lenses",
+      "title": "Оптические приборы и линзы",
+      "section": "Геометрическая оптика",
+      "quarter": 2,
+      "modelKeys": [
+        "lens",
+        "lenspower"
+      ],
+      "goals": [],
+      "index": 9
+    },
+    {
+      "id": "physics-11-photon",
+      "title": "Фотоны и квантовая природа света",
+      "section": "Квантовая физика",
+      "quarter": 3,
+      "modelKeys": [
+        "photon",
+        "lightwave"
+      ],
+      "goals": [],
+      "index": 10
+    },
+    {
+      "id": "physics-11-spectra",
+      "title": "Спектры и лазеры",
+      "section": "Квантовая физика",
+      "quarter": 3,
+      "modelKeys": [
+        "spectraTheory"
+      ],
+      "goals": [],
+      "index": 11
+    },
+    {
+      "id": "physics-11-photoeffect",
+      "title": "Фотоэффект и уравнение Эйнштейна",
+      "section": "Квантовая физика",
+      "quarter": 3,
+      "modelKeys": [
+        "photoelectric"
+      ],
+      "goals": [],
+      "index": 12
+    },
+    {
+      "id": "physics-11-decay",
+      "title": "Закон радиоактивного распада",
+      "section": "Ядерная физика",
+      "quarter": 3,
+      "modelKeys": [
+        "halflife"
+      ],
+      "goals": [],
+      "index": 13
+    },
+    {
+      "id": "physics-11-nuclear",
+      "title": "Ядерные реакции и энергия связи",
+      "section": "Ядерная физика",
+      "quarter": 3,
+      "modelKeys": [
+        "nuclear",
+        "binding",
+        "nuclearTheory"
+      ],
+      "goals": [],
+      "index": 14
+    },
+    {
+      "id": "physics-11-nano",
+      "title": "Масштабы нанотехнологий",
+      "section": "Нанотехнологии",
+      "quarter": 3,
+      "modelKeys": [
+        "nano"
+      ],
+      "goals": [],
+      "index": 15
+    },
+    {
+      "id": "physics-11-stars",
+      "title": "Светимость и температура звёзд",
+      "section": "Космология",
+      "quarter": 4,
+      "modelKeys": [
+        "luminosity"
+      ],
+      "goals": [],
+      "index": 16
+    },
+    {
+      "id": "physics-11-distances",
+      "title": "Расстояния до звёзд",
+      "section": "Космология",
+      "quarter": 4,
+      "modelKeys": [
+        "parallax"
+      ],
+      "goals": [],
+      "index": 17
+    },
+    {
+      "id": "physics-11-hubble",
+      "title": "Красное смещение и закон Хаббла",
+      "section": "Космология",
+      "quarter": 4,
+      "modelKeys": [
+        "hubble"
+      ],
+      "goals": [],
+      "index": 18
+    },
+    {
+      "id": "physics-11-universe",
+      "title": "Расширение и ранняя Вселенная",
+      "section": "Космология",
+      "quarter": 4,
+      "modelKeys": [
+        "cosmology"
+      ],
+      "goals": [],
+      "index": 19
+    },
+    {
+      "id": "physics-11-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 20,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-11-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 21,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-11-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 22,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-11-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 23,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "physics-11-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 24,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ]
+}

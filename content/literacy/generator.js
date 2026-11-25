@@ -1,0 +1,1 @@
+Arena.registerPrimary(Arena.primaryData);

@@ -1,0 +1,1093 @@
+{
+  "subjectId": "chemistry",
+  "name": "Химия",
+  "grades": {
+    "7": [
+      {
+        "id": "chemistry-7-intro",
+        "title": "Введение в химию и работа в кабинете",
+        "section": "Введение в химию",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "intro"
+        ]
+      },
+      {
+        "id": "chemistry-7-mixtures",
+        "title": "Чистые вещества, смеси и их разделение",
+        "section": "Вещества и смеси",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "mixtures"
+        ]
+      },
+      {
+        "id": "chemistry-7-changes",
+        "title": "Физические и химические явления",
+        "section": "Изменения состояния веществ",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "states"
+        ]
+      },
+      {
+        "id": "chemistry-7-states",
+        "title": "Агрегатные состояния, нагревание и охлаждение",
+        "section": "Изменения состояния веществ",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "states"
+        ]
+      },
+      {
+        "id": "chemistry-7-elements",
+        "title": "Атомы, молекулы, простые и сложные вещества",
+        "section": "Атомы и молекулы",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "elements",
+          "countAtoms"
+        ]
+      },
+      {
+        "id": "chemistry-7-atom",
+        "title": "Строение атома и изотопы",
+        "section": "Атомы и молекулы",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "atomicBasic",
+          "elements"
+        ]
+      },
+      {
+        "id": "chemistry-7-air",
+        "title": "Воздух и горение",
+        "section": "Воздух и горение",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "air"
+        ]
+      },
+      {
+        "id": "chemistry-7-indicators",
+        "title": "Кислоты, щёлочи, индикаторы и нейтрализация",
+        "section": "Химические реакции",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "indicators"
+        ]
+      },
+      {
+        "id": "chemistry-7-acids",
+        "title": "Разбавленные кислоты, металлы и карбонаты",
+        "section": "Химические реакции",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "acids"
+        ]
+      },
+      {
+        "id": "chemistry-7-table",
+        "title": "Группы и периоды таблицы элементов",
+        "section": "Периодическая таблица",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "periodic"
+        ]
+      },
+      {
+        "id": "chemistry-7-formula",
+        "title": "Химические формулы и относительная формульная масса",
+        "section": "Простейшие формулы",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "mr",
+          "countAtoms"
+        ]
+      },
+      {
+        "id": "chemistry-7-food",
+        "title": "Питательные вещества и дыхание",
+        "section": "Организм человека",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "food"
+        ]
+      },
+      {
+        "id": "chemistry-7-minerals",
+        "title": "Руды, минеральное сырьё и экология добычи",
+        "section": "Геологические соединения",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "minerals"
+        ]
+      },
+      {
+        "id": "chemistry-7-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 13,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-7-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 14,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-7-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-7-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-7-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "8": [
+      {
+        "id": "chemistry-8-electrons",
+        "title": "Электронные слои и образование ионов",
+        "section": "Движение электронов",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "electrons",
+          "atom"
+        ]
+      },
+      {
+        "id": "chemistry-8-formula",
+        "title": "Формулы и массовая доля элемента",
+        "section": "Формулы веществ",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "fraction",
+          "countAtoms",
+          "mr"
+        ]
+      },
+      {
+        "id": "chemistry-8-equations",
+        "title": "Уравнения реакций и сохранение массы",
+        "section": "Уравнения реакций",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "balance",
+          "conservation",
+          "reactionTypes"
+        ]
+      },
+      {
+        "id": "chemistry-8-activity",
+        "title": "Ряд активности, замещение и коррозия",
+        "section": "Активность металлов",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "activity"
+        ]
+      },
+      {
+        "id": "chemistry-8-mole",
+        "title": "Количество вещества, масса и число частиц",
+        "section": "Количество вещества",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "mole",
+          "particles"
+        ]
+      },
+      {
+        "id": "chemistry-8-stoich",
+        "title": "Расчёты по уравнениям реакций",
+        "section": "Стехиометрия",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "stoich",
+          "balance"
+        ]
+      },
+      {
+        "id": "chemistry-8-gas",
+        "title": "Закон Авогадро и молярный объём газа",
+        "section": "Стехиометрия",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "gas"
+        ]
+      },
+      {
+        "id": "chemistry-8-energy",
+        "title": "Тепловые эффекты и горение топлива",
+        "section": "Энергия реакций",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "heat",
+          "energy"
+        ]
+      },
+      {
+        "id": "chemistry-8-oxygen",
+        "title": "Водород, кислород и озон",
+        "section": "Водород и кислород",
+        "quarter": 2,
+        "index": 8,
+        "templates": [
+          "oxygen"
+        ]
+      },
+      {
+        "id": "chemistry-8-periodic",
+        "title": "Периодическая система и закономерности",
+        "section": "Периодическая система",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "periodic",
+          "electrons"
+        ]
+      },
+      {
+        "id": "chemistry-8-bond",
+        "title": "Виды связи и кристаллические решётки",
+        "section": "Химическая связь",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "bond"
+        ]
+      },
+      {
+        "id": "chemistry-8-solutions",
+        "title": "Растворимость и массовая доля вещества",
+        "section": "Растворы",
+        "quarter": 3,
+        "index": 11,
+        "templates": [
+          "solution",
+          "solubility"
+        ]
+      },
+      {
+        "id": "chemistry-8-classes",
+        "title": "Классы неорганических соединений и их связи",
+        "section": "Неорганические соединения",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "classes",
+          "reactionTypes",
+          "acids"
+        ]
+      },
+      {
+        "id": "chemistry-8-carbon",
+        "title": "Углерод, аллотропия и оксиды углерода",
+        "section": "Углерод",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "carbon"
+        ]
+      },
+      {
+        "id": "chemistry-8-water",
+        "title": "Вода, жёсткость и охрана водных ресурсов",
+        "section": "Вода",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "water"
+        ]
+      },
+      {
+        "id": "chemistry-8-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 15,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-8-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-8-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-8-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-8-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "9": [
+      {
+        "id": "chemistry-9-disso",
+        "title": "Электролиты и степень диссоциации",
+        "section": "Электролитическая диссоциация",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "electrolytes",
+          "dissociation"
+        ]
+      },
+      {
+        "id": "chemistry-9-ionic",
+        "title": "Ионный обмен, среда раствора и гидролиз",
+        "section": "Электролитическая диссоциация",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "electrolytes",
+          "indicators"
+        ]
+      },
+      {
+        "id": "chemistry-9-analysis",
+        "title": "Качественные реакции на ионы",
+        "section": "Качественный анализ",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "analysis"
+        ]
+      },
+      {
+        "id": "chemistry-9-excess",
+        "title": "Расчёты с избытком одного реагента",
+        "section": "Стехиометрические расчёты",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "limiting",
+          "stoich"
+        ]
+      },
+      {
+        "id": "chemistry-9-kinetics",
+        "title": "Скорость реакций, катализ и равновесие",
+        "section": "Скорость и равновесие",
+        "quarter": 1,
+        "index": 4,
+        "templates": [
+          "kinetics"
+        ]
+      },
+      {
+        "id": "chemistry-9-redox",
+        "title": "Окисление, восстановление и степени окисления",
+        "section": "ОВР",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "oxidation",
+          "redox"
+        ]
+      },
+      {
+        "id": "chemistry-9-metals",
+        "title": "Металлы, сплавы и способы получения",
+        "section": "Металлы и сплавы",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "metals",
+          "activity"
+        ]
+      },
+      {
+        "id": "chemistry-9-impurities",
+        "title": "Расчёты по образцам с примесями",
+        "section": "Металлы и сплавы",
+        "quarter": 2,
+        "index": 7,
+        "templates": [
+          "impurity"
+        ]
+      },
+      {
+        "id": "chemistry-9-groups",
+        "title": "Элементы 1, 2 и 13 групп",
+        "section": "Металлы групп 1, 2 и 13",
+        "quarter": 2,
+        "index": 8,
+        "templates": [
+          "metals"
+        ]
+      },
+      {
+        "id": "chemistry-9-halogen",
+        "title": "Галогены и хлороводородная кислота",
+        "section": "Неметаллы",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "halogens",
+          "acids"
+        ]
+      },
+      {
+        "id": "chemistry-9-sulfur",
+        "title": "Сера, её оксиды и серная кислота",
+        "section": "Неметаллы",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "sulfur",
+          "oxidation"
+        ]
+      },
+      {
+        "id": "chemistry-9-nitrogen",
+        "title": "Азот, аммиак и азотные удобрения",
+        "section": "Неметаллы",
+        "quarter": 3,
+        "index": 11,
+        "templates": [
+          "nitrogen"
+        ]
+      },
+      {
+        "id": "chemistry-9-silicon",
+        "title": "Фосфор, кремний и их соединения",
+        "section": "Неметаллы",
+        "quarter": 3,
+        "index": 12,
+        "templates": [
+          "silicon"
+        ]
+      },
+      {
+        "id": "chemistry-9-yield",
+        "title": "Выход продукта реакции",
+        "section": "Стехиометрические расчёты",
+        "quarter": 3,
+        "index": 13,
+        "templates": [
+          "yield",
+          "stoich"
+        ]
+      },
+      {
+        "id": "chemistry-9-body",
+        "title": "Химия организма и питание",
+        "section": "Химия человека",
+        "quarter": 3,
+        "index": 14,
+        "templates": [
+          "body",
+          "food"
+        ]
+      },
+      {
+        "id": "chemistry-9-organic",
+        "title": "Органические вещества и гомологические ряды",
+        "section": "Введение в органическую химию",
+        "quarter": 4,
+        "index": 15,
+        "templates": [
+          "organic",
+          "hydrocarbon"
+        ]
+      },
+      {
+        "id": "chemistry-9-fuel",
+        "title": "Углеводороды и топливо",
+        "section": "Углеводороды",
+        "quarter": 4,
+        "index": 16,
+        "templates": [
+          "hydrocarbon",
+          "organic",
+          "combustion"
+        ]
+      },
+      {
+        "id": "chemistry-9-alcohol",
+        "title": "Спирты и карбоновые кислоты",
+        "section": "Кислородсодержащие соединения",
+        "quarter": 4,
+        "index": 17,
+        "templates": [
+          "alcohol",
+          "carbonyl"
+        ]
+      },
+      {
+        "id": "chemistry-9-bio",
+        "title": "Жиры, углеводы и белки",
+        "section": "Органические вещества пищи",
+        "quarter": 4,
+        "index": 18,
+        "templates": [
+          "bio",
+          "food"
+        ]
+      },
+      {
+        "id": "chemistry-9-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-9-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 20,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-9-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 21,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-9-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 22,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-9-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 23,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "10": [
+      {
+        "id": "chemistry-10-atom",
+        "title": "Изотопный состав, уровни и орбитали",
+        "section": "Строение атома",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "isotope",
+          "advanced"
+        ]
+      },
+      {
+        "id": "chemistry-10-periodic",
+        "title": "Периодичность свойств элементов и соединений",
+        "section": "Периодичность свойств",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "periodic",
+          "classes"
+        ]
+      },
+      {
+        "id": "chemistry-10-bond",
+        "title": "Виды химической связи и гибридизация",
+        "section": "Химическая связь",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "bond",
+          "advanced"
+        ]
+      },
+      {
+        "id": "chemistry-10-stoich",
+        "title": "Стехиометрия: концентрация, избыток, примеси и выход",
+        "section": "Стехиометрия",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "concentration",
+          "limiting",
+          "impurity",
+          "yield",
+          "stoich"
+        ]
+      },
+      {
+        "id": "chemistry-10-rate",
+        "title": "Средняя скорость реакции",
+        "section": "Кинетика",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "rate",
+          "kinetics"
+        ]
+      },
+      {
+        "id": "chemistry-10-law",
+        "title": "Кинетическое уравнение и факторы скорости",
+        "section": "Кинетика",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "rateFactor",
+          "kinetics"
+        ]
+      },
+      {
+        "id": "chemistry-10-equilibrium",
+        "title": "Химическое равновесие и константа",
+        "section": "Химическое равновесие",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "equilibrium",
+          "kinetics"
+        ]
+      },
+      {
+        "id": "chemistry-10-redox",
+        "title": "ОВР, гальванический элемент и электролиз",
+        "section": "Электрохимия",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "redox",
+          "electrochem",
+          "oxidation"
+        ]
+      },
+      {
+        "id": "chemistry-10-halogen",
+        "title": "Элементы 17 группы",
+        "section": "Галогены",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "halogens"
+        ]
+      },
+      {
+        "id": "chemistry-10-calcium",
+        "title": "Элементы 2 группы и природные карбонаты",
+        "section": "Элементы 2 группы",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "calcium",
+          "impurity"
+        ]
+      },
+      {
+        "id": "chemistry-10-organic",
+        "title": "Строение органических веществ, изомерия и алканы",
+        "section": "Органическая химия",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "organic",
+          "hydrocarbon",
+          "combustion"
+        ]
+      },
+      {
+        "id": "chemistry-10-unsaturated",
+        "title": "Алкены, алкадиены и алкины",
+        "section": "Непредельные углеводороды",
+        "quarter": 4,
+        "index": 11,
+        "templates": [
+          "organic",
+          "hydrocarbon",
+          "unsaturated"
+        ]
+      },
+      {
+        "id": "chemistry-10-polymer",
+        "title": "Полимеризация и полиэтилен",
+        "section": "Непредельные углеводороды",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "polymer",
+          "polymers"
+        ]
+      },
+      {
+        "id": "chemistry-10-fuels",
+        "title": "Нефть, газ и переработка топлива",
+        "section": "Природное топливо",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "fuels",
+          "combustion"
+        ]
+      },
+      {
+        "id": "chemistry-10-halogeno",
+        "title": "Галогеноалканы и замещение",
+        "section": "Галогеноалканы",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "halogeno"
+        ]
+      },
+      {
+        "id": "chemistry-10-alcohol",
+        "title": "Одноатомные и многоатомные спирты, фенол",
+        "section": "Спирты",
+        "quarter": 4,
+        "index": 15,
+        "templates": [
+          "alcohol"
+        ]
+      },
+      {
+        "id": "chemistry-10-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-10-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-10-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-10-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-10-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 20,
+        "mixed": true,
+        "templates": []
+      }
+    ],
+    "11": [
+      {
+        "id": "chemistry-11-aromatic",
+        "title": "Бензол, гомологи и ароматическая связь",
+        "section": "Ароматические соединения",
+        "quarter": 1,
+        "index": 0,
+        "templates": [
+          "aromatic"
+        ]
+      },
+      {
+        "id": "chemistry-11-carbonyl",
+        "title": "Альдегиды, кетоны и карбоновые кислоты",
+        "section": "Карбонильные соединения",
+        "quarter": 1,
+        "index": 1,
+        "templates": [
+          "carbonyl"
+        ]
+      },
+      {
+        "id": "chemistry-11-esters",
+        "title": "Этерификация, сложные эфиры, жиры и мыла",
+        "section": "Карбонильные соединения",
+        "quarter": 1,
+        "index": 2,
+        "templates": [
+          "esters"
+        ]
+      },
+      {
+        "id": "chemistry-11-amines",
+        "title": "Амины, аминокислоты и пептидная связь",
+        "section": "Амины и аминокислоты",
+        "quarter": 1,
+        "index": 3,
+        "templates": [
+          "amines",
+          "peptide"
+        ]
+      },
+      {
+        "id": "chemistry-11-bio",
+        "title": "Углеводы, белки, ферменты и нуклеиновые кислоты",
+        "section": "Химия живого",
+        "quarter": 2,
+        "index": 4,
+        "templates": [
+          "bio",
+          "biomolecules",
+          "peptide"
+        ]
+      },
+      {
+        "id": "chemistry-11-polymers",
+        "title": "Синтетические полимеры и поликонденсация",
+        "section": "Полимеры",
+        "quarter": 2,
+        "index": 5,
+        "templates": [
+          "polymers",
+          "polymer"
+        ]
+      },
+      {
+        "id": "chemistry-11-synthesis",
+        "title": "Функциональные группы и органический синтез",
+        "section": "Органический синтез",
+        "quarter": 2,
+        "index": 6,
+        "templates": [
+          "carbonyl",
+          "alcohol",
+          "synthesis"
+        ]
+      },
+      {
+        "id": "chemistry-11-group14",
+        "title": "Элементы 14 группы и свойства их соединений",
+        "section": "Элементы 14 группы",
+        "quarter": 3,
+        "index": 7,
+        "templates": [
+          "carbon",
+          "silicon"
+        ]
+      },
+      {
+        "id": "chemistry-11-nitrogen",
+        "title": "Азот, аммиак, удобрения и экология",
+        "section": "Азот и сера",
+        "quarter": 3,
+        "index": 8,
+        "templates": [
+          "nitrogen"
+        ]
+      },
+      {
+        "id": "chemistry-11-sulfur",
+        "title": "Сера, сероводород и производство серной кислоты",
+        "section": "Азот и сера",
+        "quarter": 3,
+        "index": 9,
+        "templates": [
+          "sulfur",
+          "oxidation"
+        ]
+      },
+      {
+        "id": "chemistry-11-ph",
+        "title": "Растворы кислот и оснований, pH",
+        "section": "Кислоты и основания",
+        "quarter": 3,
+        "index": 10,
+        "templates": [
+          "ph",
+          "buffers"
+        ]
+      },
+      {
+        "id": "chemistry-11-buffers",
+        "title": "Кислотно-основные теории и буферные растворы",
+        "section": "Кислоты и основания",
+        "quarter": 3,
+        "index": 11,
+        "templates": [
+          "buffers"
+        ]
+      },
+      {
+        "id": "chemistry-11-production",
+        "title": "Металлургия, сплавы и электролиз",
+        "section": "Производство металлов",
+        "quarter": 4,
+        "index": 12,
+        "templates": [
+          "metals",
+          "electrochem",
+          "impurity"
+        ]
+      },
+      {
+        "id": "chemistry-11-transition",
+        "title": "Переходные металлы и комплексные соединения",
+        "section": "Переходные металлы",
+        "quarter": 4,
+        "index": 13,
+        "templates": [
+          "materials",
+          "analysis"
+        ]
+      },
+      {
+        "id": "chemistry-11-nano",
+        "title": "Новые материалы и нанотехнологии",
+        "section": "Новые вещества и материалы",
+        "quarter": 4,
+        "index": 14,
+        "templates": [
+          "materials"
+        ]
+      },
+      {
+        "id": "chemistry-11-green",
+        "title": "Зелёная химия и охрана окружающей среды",
+        "section": "Зелёная химия",
+        "quarter": 4,
+        "index": 15,
+        "templates": [
+          "green"
+        ]
+      },
+      {
+        "id": "chemistry-11-review-1",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 1,
+        "index": 16,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-11-review-2",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 2,
+        "index": 17,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-11-review-3",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 3,
+        "index": 18,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-11-review-4",
+        "title": "Повторение тем четверти",
+        "section": "Повторение",
+        "quarter": 4,
+        "index": 19,
+        "mixed": true,
+        "templates": []
+      },
+      {
+        "id": "chemistry-11-review-year",
+        "title": "Все темы года вперемешку",
+        "section": "Повторение",
+        "quarter": 0,
+        "index": 20,
+        "mixed": true,
+        "templates": []
+      }
+    ]
+  },
+  "track": "10–11 классы — ЕМН",
+  "source": "sources.json"
+}

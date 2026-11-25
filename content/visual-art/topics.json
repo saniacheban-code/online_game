@@ -1,0 +1,282 @@
+{
+  "1": [
+    {
+      "id": "visual-art-1-1",
+      "title": "Линия, форма и первые изображения",
+      "quarter": 1,
+      "section": "Изобразительное искусство",
+      "index": 0
+    },
+    {
+      "id": "visual-art-1-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "visual-art-1-2",
+      "title": "Цвет и настроение",
+      "quarter": 2,
+      "section": "Изобразительное искусство",
+      "index": 2
+    },
+    {
+      "id": "visual-art-1-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "visual-art-1-3",
+      "title": "Узоры и декоративное искусство",
+      "quarter": 3,
+      "section": "Изобразительное искусство",
+      "index": 4
+    },
+    {
+      "id": "visual-art-1-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "visual-art-1-4",
+      "title": "Композиция и рассказы в рисунке",
+      "quarter": 4,
+      "section": "Изобразительное искусство",
+      "index": 6
+    },
+    {
+      "id": "visual-art-1-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "visual-art-1-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "2": [
+    {
+      "id": "visual-art-2-1",
+      "title": "Линия, форма и первые изображения · практика 2 класса",
+      "quarter": 1,
+      "section": "Изобразительное искусство",
+      "index": 0
+    },
+    {
+      "id": "visual-art-2-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "visual-art-2-2",
+      "title": "Цвет и настроение · практика 2 класса",
+      "quarter": 2,
+      "section": "Изобразительное искусство",
+      "index": 2
+    },
+    {
+      "id": "visual-art-2-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "visual-art-2-3",
+      "title": "Узоры и декоративное искусство · практика 2 класса",
+      "quarter": 3,
+      "section": "Изобразительное искусство",
+      "index": 4
+    },
+    {
+      "id": "visual-art-2-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "visual-art-2-4",
+      "title": "Композиция и рассказы в рисунке · практика 2 класса",
+      "quarter": 4,
+      "section": "Изобразительное искусство",
+      "index": 6
+    },
+    {
+      "id": "visual-art-2-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "visual-art-2-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "3": [
+    {
+      "id": "visual-art-3-1",
+      "title": "Линия, форма и первые изображения · практика 3 класса",
+      "quarter": 1,
+      "section": "Изобразительное искусство",
+      "index": 0
+    },
+    {
+      "id": "visual-art-3-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "visual-art-3-2",
+      "title": "Цвет и настроение · практика 3 класса",
+      "quarter": 2,
+      "section": "Изобразительное искусство",
+      "index": 2
+    },
+    {
+      "id": "visual-art-3-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "visual-art-3-3",
+      "title": "Узоры и декоративное искусство · практика 3 класса",
+      "quarter": 3,
+      "section": "Изобразительное искусство",
+      "index": 4
+    },
+    {
+      "id": "visual-art-3-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "visual-art-3-4",
+      "title": "Композиция и рассказы в рисунке · практика 3 класса",
+      "quarter": 4,
+      "section": "Изобразительное искусство",
+      "index": 6
+    },
+    {
+      "id": "visual-art-3-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "visual-art-3-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ],
+  "4": [
+    {
+      "id": "visual-art-4-1",
+      "title": "Линия, форма и первые изображения · практика 4 класса",
+      "quarter": 1,
+      "section": "Изобразительное искусство",
+      "index": 0
+    },
+    {
+      "id": "visual-art-4-review-1",
+      "title": "Повторение четверти",
+      "quarter": 1,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 1
+    },
+    {
+      "id": "visual-art-4-2",
+      "title": "Цвет и настроение · практика 4 класса",
+      "quarter": 2,
+      "section": "Изобразительное искусство",
+      "index": 2
+    },
+    {
+      "id": "visual-art-4-review-2",
+      "title": "Повторение четверти",
+      "quarter": 2,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 3
+    },
+    {
+      "id": "visual-art-4-3",
+      "title": "Узоры и декоративное искусство · практика 4 класса",
+      "quarter": 3,
+      "section": "Изобразительное искусство",
+      "index": 4
+    },
+    {
+      "id": "visual-art-4-review-3",
+      "title": "Повторение четверти",
+      "quarter": 3,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 5
+    },
+    {
+      "id": "visual-art-4-4",
+      "title": "Композиция и рассказы в рисунке · практика 4 класса",
+      "quarter": 4,
+      "section": "Изобразительное искусство",
+      "index": 6
+    },
+    {
+      "id": "visual-art-4-review-4",
+      "title": "Повторение четверти",
+      "quarter": 4,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 7
+    },
+    {
+      "id": "visual-art-4-year",
+      "title": "Все темы года",
+      "quarter": 0,
+      "section": "Повторение",
+      "mixed": true,
+      "index": 8
+    }
+  ]
+}

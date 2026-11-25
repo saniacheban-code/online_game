@@ -1,0 +1,1051 @@
+{
+  "5": [
+    {
+      "id": "world-history-5-0",
+      "title": "Учебная лента времени: год, век, эра",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "century5"
+      ]
+    },
+    {
+      "id": "world-history-5-1",
+      "title": "От присваивающего к производящему хозяйству",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "origins5"
+      ]
+    },
+    {
+      "id": "world-history-5-2",
+      "title": "Древние цивилизации речных долин",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "rivers5"
+      ]
+    },
+    {
+      "id": "world-history-5-3",
+      "title": "Египет: власть, письмо и культура",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 3,
+      "modelKeys": [
+        "egypt5"
+      ]
+    },
+    {
+      "id": "world-history-5-4",
+      "title": "Древние государства и империи",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "empires5"
+      ]
+    },
+    {
+      "id": "world-history-5-5",
+      "title": "Древняя Индия: общество и религии",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "india5"
+      ]
+    },
+    {
+      "id": "world-history-5-6",
+      "title": "Древний Китай: государство и знания",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 6,
+      "modelKeys": [
+        "china5"
+      ]
+    },
+    {
+      "id": "world-history-5-7",
+      "title": "Греческие полисы и культурное наследие",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "greece5"
+      ]
+    },
+    {
+      "id": "world-history-5-8",
+      "title": "Рим: республика, империя и общество",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "rome5"
+      ]
+    },
+    {
+      "id": "world-history-5-9",
+      "title": "Древний мир: выводы по находкам",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "read5"
+      ]
+    },
+    {
+      "id": "world-history-5-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 10,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-5-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 11,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-5-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-5-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-5-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "6": [
+    {
+      "id": "world-history-6-0",
+      "title": "От античности к средневековью: Византия",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "byzantium6"
+      ]
+    },
+    {
+      "id": "world-history-6-1",
+      "title": "Средневековые сословия и хозяйство",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "feudal6"
+      ]
+    },
+    {
+      "id": "world-history-6-2",
+      "title": "Возникновение ислама и культурный обмен",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "islam6"
+      ]
+    },
+    {
+      "id": "world-history-6-3",
+      "title": "Крестовые походы: причины и последствия",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "crusades6"
+      ]
+    },
+    {
+      "id": "world-history-6-4",
+      "title": "Монгольская империя и Евразия",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "mongols6"
+      ]
+    },
+    {
+      "id": "world-history-6-5",
+      "title": "Средневековый город и общественные изменения",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 5,
+      "modelKeys": [
+        "towns6"
+      ]
+    },
+    {
+      "id": "world-history-6-6",
+      "title": "Монархии Запада и Востока",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 6,
+      "modelKeys": [
+        "absolutism6"
+      ]
+    },
+    {
+      "id": "world-history-6-7",
+      "title": "Торговля и океанские путешествия",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "voyages6"
+      ]
+    },
+    {
+      "id": "world-history-6-8",
+      "title": "Возрождение и научное мышление",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "renaissance6"
+      ]
+    },
+    {
+      "id": "world-history-6-9",
+      "title": "Реформация и религиозные изменения",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "reformation6"
+      ]
+    },
+    {
+      "id": "world-history-6-10",
+      "title": "Средневековье: работа с историческим описанием",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "read6"
+      ]
+    },
+    {
+      "id": "world-history-6-11",
+      "title": "Хронология: повторение курса",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "dates6"
+      ]
+    },
+    {
+      "id": "world-history-6-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-6-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-6-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-6-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-6-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "7": [
+    {
+      "id": "world-history-7-0",
+      "title": "Английская революция и политические изменения",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "english7"
+      ]
+    },
+    {
+      "id": "world-history-7-1",
+      "title": "Промышленный переворот",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "industry7"
+      ]
+    },
+    {
+      "id": "world-history-7-2",
+      "title": "Просвещение и независимость США",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "enlightenment7"
+      ]
+    },
+    {
+      "id": "world-history-7-3",
+      "title": "Французская революция и Наполеон",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "france7"
+      ]
+    },
+    {
+      "id": "world-history-7-4",
+      "title": "Имперское соперничество XIX века",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "empires7"
+      ]
+    },
+    {
+      "id": "world-history-7-5",
+      "title": "Китай и колониальная экспансия",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 5,
+      "modelKeys": [
+        "china7"
+      ]
+    },
+    {
+      "id": "world-history-7-6",
+      "title": "Революции и объединения XIX века",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 6,
+      "modelKeys": [
+        "nations7"
+      ]
+    },
+    {
+      "id": "world-history-7-7",
+      "title": "Колониальное господство и сопротивление",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 7,
+      "modelKeys": [
+        "colonial7"
+      ]
+    },
+    {
+      "id": "world-history-7-8",
+      "title": "США и Япония в XIX веке",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "usaJapan7"
+      ]
+    },
+    {
+      "id": "world-history-7-9",
+      "title": "Наука, литература и общество XIX века",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "culture7"
+      ]
+    },
+    {
+      "id": "world-history-7-10",
+      "title": "Новое время: аргумент и социальные последствия",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 10,
+      "modelKeys": [
+        "read7"
+      ]
+    },
+    {
+      "id": "world-history-7-11",
+      "title": "Хронология: повторение курса",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 11,
+      "modelKeys": [
+        "dates7"
+      ]
+    },
+    {
+      "id": "world-history-7-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-7-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-7-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-7-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 15,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-7-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 16,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "8": [
+    {
+      "id": "world-history-8-0",
+      "title": "Мир в начале XX века",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "world1900_8"
+      ]
+    },
+    {
+      "id": "world-history-8-1",
+      "title": "Первая мировая война",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "ww1_8"
+      ]
+    },
+    {
+      "id": "world-history-8-2",
+      "title": "Революции 1917 года и послевоенное устройство",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 2,
+      "modelKeys": [
+        "revolutions8"
+      ]
+    },
+    {
+      "id": "world-history-8-3",
+      "title": "Азия между мировыми войнами",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "asia8"
+      ]
+    },
+    {
+      "id": "world-history-8-4",
+      "title": "Великая депрессия и экономическая политика",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 4,
+      "modelKeys": [
+        "depression8"
+      ]
+    },
+    {
+      "id": "world-history-8-5",
+      "title": "Политические режимы и общество",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 5,
+      "modelKeys": [
+        "regimes8"
+      ]
+    },
+    {
+      "id": "world-history-8-6",
+      "title": "Вторая мировая война: события и уроки",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 6,
+      "modelKeys": [
+        "ww2_8"
+      ]
+    },
+    {
+      "id": "world-history-8-7",
+      "title": "Культура и наука первой половины XX века",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 7,
+      "modelKeys": [
+        "culture8"
+      ]
+    },
+    {
+      "id": "world-history-8-8",
+      "title": "Первая половина XX века: источник и вывод",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "read8"
+      ]
+    },
+    {
+      "id": "world-history-8-9",
+      "title": "Хронология: повторение курса",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "dates8"
+      ]
+    },
+    {
+      "id": "world-history-8-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 10,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-8-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 11,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-8-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-8-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-8-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "9": [
+    {
+      "id": "world-history-9-0",
+      "title": "Послевоенный мир и холодная война",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "coldwar9"
+      ]
+    },
+    {
+      "id": "world-history-9-1",
+      "title": "Деколонизация и независимость",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "decolonization9"
+      ]
+    },
+    {
+      "id": "world-history-9-2",
+      "title": "ООН, права человека и европейское сотрудничество",
+      "section": "Всемирная история",
+      "quarter": 1,
+      "index": 2,
+      "modelKeys": [
+        "organizations9"
+      ]
+    },
+    {
+      "id": "world-history-9-3",
+      "title": "Мировая экономика и социальная политика",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "welfare9"
+      ]
+    },
+    {
+      "id": "world-history-9-4",
+      "title": "Завершение холодной войны и международные проблемы",
+      "section": "Всемирная история",
+      "quarter": 2,
+      "index": 4,
+      "modelKeys": [
+        "latecold9"
+      ]
+    },
+    {
+      "id": "world-history-9-5",
+      "title": "Послевоенные модели развития Запада и Азии",
+      "section": "Всемирная история",
+      "quarter": 3,
+      "index": 5,
+      "modelKeys": [
+        "development9"
+      ]
+    },
+    {
+      "id": "world-history-9-6",
+      "title": "Глобализация и культурное разнообразие",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 6,
+      "modelKeys": [
+        "global9"
+      ]
+    },
+    {
+      "id": "world-history-9-7",
+      "title": "Научно-технические изменения и массовая культура",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 7,
+      "modelKeys": [
+        "science9"
+      ]
+    },
+    {
+      "id": "world-history-9-8",
+      "title": "Послевоенный мир: сравнение данных и объяснений",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "read9"
+      ]
+    },
+    {
+      "id": "world-history-9-9",
+      "title": "Хронология: повторение курса",
+      "section": "Всемирная история",
+      "quarter": 4,
+      "index": 9,
+      "modelKeys": [
+        "dates9"
+      ]
+    },
+    {
+      "id": "world-history-9-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 10,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-9-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 11,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-9-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-9-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-9-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 14,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "10": [
+    {
+      "id": "world-history-10-0",
+      "title": "Типы цивилизаций и хозяйство",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "civilization10"
+      ]
+    },
+    {
+      "id": "world-history-10-1",
+      "title": "Взаимодействие цивилизаций",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "contact10"
+      ]
+    },
+    {
+      "id": "world-history-10-2",
+      "title": "Антропогенез и этногенез",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 2,
+      "index": 2,
+      "modelKeys": [
+        "ethnicity10"
+      ]
+    },
+    {
+      "id": "world-history-10-3",
+      "title": "Социальная структура и межэтнические отношения",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "social10"
+      ]
+    },
+    {
+      "id": "world-history-10-4",
+      "title": "Государство и политические режимы",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 3,
+      "index": 4,
+      "modelKeys": [
+        "state10"
+      ]
+    },
+    {
+      "id": "world-history-10-5",
+      "title": "Войны, революции и исторические изменения",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 3,
+      "index": 5,
+      "modelKeys": [
+        "change10"
+      ]
+    },
+    {
+      "id": "world-history-10-6",
+      "title": "Культурное наследие и музеи",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 4,
+      "index": 6,
+      "modelKeys": [
+        "heritage10"
+      ]
+    },
+    {
+      "id": "world-history-10-7",
+      "title": "Искусство, массовая культура и ценности",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 4,
+      "index": 7,
+      "modelKeys": [
+        "art10"
+      ]
+    },
+    {
+      "id": "world-history-10-8",
+      "title": "Историческое исследование: сравнение и доказательство",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "read10"
+      ]
+    },
+    {
+      "id": "world-history-10-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 9,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-10-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 10,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-10-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 11,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-10-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-10-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ],
+  "11": [
+    {
+      "id": "world-history-11-0",
+      "title": "Исторические типы экономических систем",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 1,
+      "index": 0,
+      "modelKeys": [
+        "systems11"
+      ]
+    },
+    {
+      "id": "world-history-11-1",
+      "title": "Неравномерность развития и преодоление ограничений",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 1,
+      "index": 1,
+      "modelKeys": [
+        "development11"
+      ]
+    },
+    {
+      "id": "world-history-11-2",
+      "title": "Правовое государство как историческая идея",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 2,
+      "index": 2,
+      "modelKeys": [
+        "law11"
+      ]
+    },
+    {
+      "id": "world-history-11-3",
+      "title": "Гражданское общество и международные отношения",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 2,
+      "index": 3,
+      "modelKeys": [
+        "civil11"
+      ]
+    },
+    {
+      "id": "world-history-11-4",
+      "title": "Общественно-политические идеи нового времени",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 3,
+      "index": 4,
+      "modelKeys": [
+        "ideas11"
+      ]
+    },
+    {
+      "id": "world-history-11-5",
+      "title": "Ненасильственное сопротивление и гражданское равноправие",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 3,
+      "index": 5,
+      "modelKeys": [
+        "leaders11"
+      ]
+    },
+    {
+      "id": "world-history-11-6",
+      "title": "История образования и доступ к знаниям",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 4,
+      "index": 6,
+      "modelKeys": [
+        "education11"
+      ]
+    },
+    {
+      "id": "world-history-11-7",
+      "title": "Научно-технические революции и общественный выбор",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 4,
+      "index": 7,
+      "modelKeys": [
+        "science11"
+      ]
+    },
+    {
+      "id": "world-history-11-8",
+      "title": "Старшая школа: критический анализ исторических данных",
+      "section": "Всемирная история · ЕМН",
+      "quarter": 4,
+      "index": 8,
+      "modelKeys": [
+        "read11"
+      ]
+    },
+    {
+      "id": "world-history-11-review-1",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 1,
+      "index": 9,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-11-review-2",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 2,
+      "index": 10,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-11-review-3",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 3,
+      "index": 11,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-11-review-4",
+      "title": "Повторение тем четверти",
+      "section": "Повторение",
+      "quarter": 4,
+      "index": 12,
+      "mixed": true,
+      "modelKeys": []
+    },
+    {
+      "id": "world-history-11-review-year",
+      "title": "Все темы года вперемешку",
+      "section": "Повторение",
+      "quarter": 0,
+      "index": 13,
+      "mixed": true,
+      "modelKeys": []
+    }
+  ]
+}
