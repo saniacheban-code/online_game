@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Математический лабиринт · Математическая арена</title>
+    <link rel="stylesheet" href="../../assets/css/2590e4e0fdbe.css">
+<link rel="stylesheet" href="../../assets/css/0c7527b62ac2.css"><link rel="stylesheet" href="../../assets/css/fb4807208a74.css"><link rel="stylesheet" href="../../assets/css/arena-navigation.css"><link rel="stylesheet" href="../../assets/css/solo-study.css"><link rel="stylesheet" href="../../assets/css/game-comfort.css"><link rel="stylesheet" href="../../mobile/game.css"></head>
+<body data-play-mode="solo" data-game-id="maze"><aside class="arena-display-bar" id="arenaDisplayBar" aria-label="Настройки экрана"><label class="arena-display-label" for="arenaTextSize">Текст:</label><select id="arenaTextSize" aria-label="Размер текста"><option value="auto">Авто</option><option value="large">Крупный текст</option><option value="xl">Очень крупный</option></select><span class="arena-display-hint">Размеры подстраиваются под экран</span><a class="arena-change-subject" href="../../index.html" target="_top">Сменить предмет</a><button type="button" class="arena-fullscreen">На весь экран</button><span class="arena-display-announcement" aria-live="polite"></span></aside><div class="arena-fit-stage" id="arenaFitStage">
+
+    <!-- Шапка -->
+    <header>
+        <div class="header-title">
+            <span style="font-size:28px;">🧮</span>
+            <h1>Математический Лабиринт</h1>
+            <span id="grade-badge" class="grade-badge"></span>
+        </div>
+        <div class="topic-text">
+            Тема: <span id="topic-title-text" style="color:#facc15;"></span>
+        </div>
+        <button onclick="leaveMaze()" class="btn-select-grade">← К темам</button>
+    </header>
+
+    <!-- Игровое поле -->
+    <main class="board-root">
+        
+        <!-- ВЫ -->
+        <section class="player-side player-side-p1">
+            <div class="player-header p1-header">
+                <div>👤 Вы</div>
+                <div class="progress-box">Решено: <span id="p1-progress" style="color:#38bdf8;">0</span></div>
+            </div>
+
+            <div class="maze-box"><img class="maze-scene" alt="Зачарованные руины">
+                <canvas id="canvas-maze-p1"></canvas>
+                <div id="p1-status-msg" class="status-msg hidden"></div>
+            </div>
+
+            <div class="controls-box">
+                <!-- Панель задач P1 -->
+                <div class="card-panel">
+                    <div id="p1-move-controls" style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; gap:8px;">
+                        <span style="font-size:13px; font-weight:900; color:#38bdf8;">ВЫБЕРИТЕ НАПРАВЛЕНИЕ:</span>
+                        <div class="move-grid">
+                            <div></div>
+                            <button onclick="selectDirection(1, 'up')" id="p1-btn-up" class="touch-btn p1-btn">⬆️</button>
+                            <div></div>
+                            <button onclick="selectDirection(1, 'left')" id="p1-btn-left" class="touch-btn p1-btn">⬅️</button>
+                            <button onclick="selectDirection(1, 'down')" id="p1-btn-down" class="touch-btn p1-btn">⬇️</button>
+                            <button onclick="selectDirection(1, 'right')" id="p1-btn-right" class="touch-btn p1-btn">➡️</button>
+                        </div>
+                    </div>
+
+                    <div id="p1-math-gate" class="math-gate hidden">
+                        <div style="display:flex; justify-between; align-items:center;">
+                            <span style="font-size:11px; font-weight:900; color:#38bdf8;">РЕШИТЕ ПРИМЕР:</span>
+                            <span id="p1-dir-indicator" style="font-size:11px; font-weight:900; color:#facc15;"></span>
+                        </div>
+                        <div id="p1-math-question" class="math-question"></div>
+                        
+                        <div class="answer-row" id="p1-numeric-row">
+                            <input type="text" id="p1-answer-input" placeholder="Ответ" readonly class="answer-input">
+                            <button onclick="submitAnswer(1)" class="btn-ok p1-ok">OK</button>
+                        </div>
+
+                        <div class="numpad" id="p1-numpad">
+                            <button onclick="appendInput(1, '1')" class="num-btn">1</button>
+                            <button onclick="appendInput(1, '2')" class="num-btn">2</button>
+                            <button onclick="appendInput(1, '3')" class="num-btn">3</button>
+                            <button onclick="appendInput(1, '-')" class="num-btn num-op">-</button>
+                            <button onclick="appendInput(1, '4')" class="num-btn">4</button>
+                            <button onclick="appendInput(1, '5')" class="num-btn">5</button>
+                            <button onclick="appendInput(1, '6')" class="num-btn">6</button>
+                            <button onclick="appendInput(1, '.')" class="num-btn">,</button>
+                            <button onclick="appendInput(1, '7')" class="num-btn">7</button>
+                            <button onclick="appendInput(1, '8')" class="num-btn">8</button>
+                            <button onclick="appendInput(1, '9')" class="num-btn">9</button>
+                            <button onclick="appendInput(1, '/')" class="num-btn num-frac">/</button>
+                            <button onclick="appendInput(1, '0')" class="num-btn" style="grid-column: span 2;">0</button>
+                            <button onclick="clearInput(1)" class="num-btn num-del">⌫</button>
+                        </div><div class="answer-options hidden" id="p1-options"></div><button class="mode-btn" id="p1-mode" onclick="toggleAnswerMode(1)">Выбрать из четырёх вариантов</button>
+                    </div>
+                </div>
+
+                <!-- Черновик P1 -->
+                <div class="card-panel">
+                    <div class="scratch-header">
+                        <span>ЧЕРНОВИК P1</span>
+                        <div class="scratch-tools">
+                            <button onclick="setScratchTool(1, 'pen')" id="p1-tool-pen" class="tool-btn" style="background-color:#0284c7; color:#fff;">✏️</button>
+                            <button onclick="setScratchTool(1, 'eraser')" id="p1-tool-eraser" class="tool-btn">🧹</button>
+                            <button onclick="clearScratchpad(1)" class="tool-btn" style="background-color:#881337; color:#fecdd3;">Очистить</button>
+                        </div>
+                    </div>
+                    <div class="scratch-container">
+                        <canvas id="scratchpad-p1" class="scratchpad-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- КОМПЬЮТЕР -->
+        <section class="player-side player-side-p2">
+            <div class="player-header p2-header">
+                <div>👤 Компьютер</div>
+                <div class="progress-box">Решено: <span id="p2-progress" style="color:#34d399;">0</span></div>
+            </div>
+
+            <div class="maze-box"><img class="maze-scene" alt="Зачарованные руины">
+                <canvas id="canvas-maze-p2"></canvas>
+                <div id="p2-status-msg" class="status-msg hidden"></div>
+            </div>
+
+            <div class="controls-box">
+                <!-- Панель задач P2 -->
+                <div class="card-panel">
+                    <div id="p2-move-controls" style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; gap:8px;">
+                        <span style="font-size:13px; font-weight:900; color:#34d399;">ВЫБЕРИТЕ НАПРАВЛЕНИЕ:</span>
+                        <div class="move-grid">
+                            <div></div>
+                            <button onclick="selectDirection(2, 'up')" id="p2-btn-up" class="touch-btn p2-btn">⬆️</button>
+                            <div></div>
+                            <button onclick="selectDirection(2, 'left')" id="p2-btn-left" class="touch-btn p2-btn">⬅️</button>
+                            <button onclick="selectDirection(2, 'down')" id="p2-btn-down" class="touch-btn p2-btn">⬇️</button>
+                            <button onclick="selectDirection(2, 'right')" id="p2-btn-right" class="touch-btn p2-btn">➡️</button>
+                        </div>
+                    </div>
+
+                    <div id="p2-math-gate" class="math-gate hidden">
+                        <div style="display:flex; justify-between; align-items:center;">
+                            <span style="font-size:11px; font-weight:900; color:#34d399;">РЕШИТЕ ПРИМЕР:</span>
+                            <span id="p2-dir-indicator" style="font-size:11px; font-weight:900; color:#facc15;"></span>
+                        </div>
+                        <div id="p2-math-question" class="math-question"></div>
+                        
+                        <div class="answer-row" id="p2-numeric-row">
+                            <input type="text" id="p2-answer-input" placeholder="Ответ" readonly class="answer-input">
+                            <button onclick="submitAnswer(2)" class="btn-ok p2-ok">OK</button>
+                        </div>
+
+                        <div class="numpad" id="p2-numpad">
+                            <button onclick="appendInput(2, '1')" class="num-btn">1</button>
+                            <button onclick="appendInput(2, '2')" class="num-btn">2</button>
+                            <button onclick="appendInput(2, '3')" class="num-btn">3</button>
+                            <button onclick="appendInput(2, '-')" class="num-btn num-op">-</button>
+                            <button onclick="appendInput(2, '4')" class="num-btn">4</button>
+                            <button onclick="appendInput(2, '5')" class="num-btn">5</button>
+                            <button onclick="appendInput(2, '6')" class="num-btn">6</button>
+                            <button onclick="appendInput(2, '.')" class="num-btn">,</button>
+                            <button onclick="appendInput(2, '7')" class="num-btn">7</button>
+                            <button onclick="appendInput(2, '8')" class="num-btn">8</button>
+                            <button onclick="appendInput(2, '9')" class="num-btn">9</button>
+                            <button onclick="appendInput(2, '/')" class="num-btn num-frac">/</button>
+                            <button onclick="appendInput(2, '0')" class="num-btn" style="grid-column: span 2;">0</button>
+                            <button onclick="clearInput(2)" class="num-btn num-del">⌫</button>
+                        </div><div class="answer-options hidden" id="p2-options"></div><button class="mode-btn" id="p2-mode" onclick="toggleAnswerMode(2)">Выбрать из четырёх вариантов</button>
+                    </div>
+                </div>
+
+                <!-- Черновик P2 -->
+                <div class="card-panel">
+                    <div class="scratch-header">
+                        <span>ЧЕРНОВИК P2</span>
+                        <div class="scratch-tools">
+                            <button onclick="setScratchTool(2, 'pen')" id="p2-tool-pen" class="tool-btn" style="background-color:#059669; color:#fff;">✏️</button>
+                            <button onclick="setScratchTool(2, 'eraser')" id="p2-tool-eraser" class="tool-btn">🧹</button>
+                            <button onclick="clearScratchpad(2)" class="tool-btn" style="background-color:#881337; color:#fecdd3;">Очистить</button>
+                        </div>
+                    </div>
+                    <div class="scratch-container">
+                        <canvas id="scratchpad-p2" class="scratchpad-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="grade-modal" class="modal-overlay"><div class="modal-card"><img id="maze-intro" class="intro-art" alt="Зачарованные руины"><h2>Математический лабиринт</h2><p id="selected-topic" class="intro-topic"></p><p class="intro-rules">Найдите выход из зачарованного лабиринта. Выберите направление и решите задание: герой пройдёт до ближайшего поворота или развилки. Достигните золотого портала.</p><p class="intro-rules">Управление: WASD или экранные стрелки. Используйте черновик, ввод ответа или варианты. Справа — правило и пример для текущего задания.</p><button class="btn-select-grade" onclick="startNewGame()">Начать путешествие</button> <button class="btn-select-grade secondary" onclick="leaveMaze()">← К темам</button></div></div>
+    <!-- Модальное окно победы -->
+    <div id="victory-modal" class="modal-overlay hidden">
+        <div class="modal-card" style="max-width:500px;">
+            <div style="font-size:72px; margin-bottom:12px;">🏆</div>
+            <h2 id="winner-title" style="font-size:32px; font-weight:900; color:#ffffff;">Победа!</h2>
+            <button class="btn-select-grade secondary" onclick="leaveMaze()" style="margin:10px">← Сменить тему</button>
+            <p id="winner-desc" style="color:#cbd5e1; font-size:20px; margin:12px 0 24px 0;">Игрок успешно прошел лабиринт!</p>
+            <button onclick="startNewGame()" class="btn-select-grade" style="width:100%; padding:16px; font-size:20px;">Новый лабиринт</button>
+        </div>
+    </div>
+
+    <script src="../../core/runtime.js"></script><script src="../../core/solo-study.js"></script><script src="solo-engine.js"></script><script src="../../core/solo-install.js"></script>
+</div><script src="../../assets/js/615689193633.js"></script><script src="../../assets/js/1118c0569ebf.js"></script><script src="../../assets/js/game-comfort.js"></script><script src="../../mobile/game.js"></script></body>
+</html>

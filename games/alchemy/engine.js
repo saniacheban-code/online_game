@@ -1,0 +1,1 @@
+mountEnergyGame('alchemy');

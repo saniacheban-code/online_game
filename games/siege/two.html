@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,viewport-fit=cover">
+ <title>Штурм мастерских — Учебная арена</title>
+ <link rel="stylesheet" href="../../assets/css/siege.css">
+ <link rel="stylesheet" href="../../assets/css/arena-navigation.css">
+<link rel="stylesheet" href="../../assets/css/game-comfort.css"><link rel="stylesheet" href="../../mobile/game.css"></head>
+<body data-game-id="siege" data-play-mode="two">
+ <aside class="arena-display-bar" id="arenaDisplayBar" aria-label="Настройки экрана">
+  <label for="arenaTextSize">Текст:</label><select id="arenaTextSize"><option value="auto">Авто</option><option value="large">Крупный</option><option value="xl">Очень крупный</option></select>
+  <span class="arena-display-hint">Размеры подстраиваются под экран</span>
+  <a class="arena-change-subject" href="../../index.html" target="_top">Сменить предмет</a>
+  <button class="arena-fullscreen" type="button">На весь экран</button><span class="arena-display-announcement" aria-live="polite"></span>
+ </aside>
+ <div class="arena-fit-stage" id="arenaFitStage">
+  <div class="siege-app" id="siegeApp">
+   <header class="siege-nav"><div><h1>Штурм мастерских</h1><p id="course">Подключение заданий…</p></div><div class="nav-actions"><button id="sound" aria-pressed="false">Звук: выкл.</button><button id="pause" disabled>Пауза</button><button id="exit">← К темам</button></div></header>
+   <section class="battle-wrap" aria-label="Поле поединка"><canvas id="battle" aria-label="Две мастерские, полёт заводных сов и разрушение укреплений"></canvas><div class="battle-caption"><span>СВОИ ИДЕИ · ТОЧНЫЕ ОТВЕТЫ</span><span id="battleStatus" role="status">По 8 заводных сов у каждого игрока</span></div></section>
+   <main class="siege-players" id="players"></main>
+  </div>
+  <div class="modal siege-modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="dialogTitle"><div class="card siege-card" id="card"></div></div>
+ </div>
+ <script src="../../core/runtime.js"></script>
+ <script src="../../core/input-answer.js"></script>
+ <script src="model.js"></script>
+ <script src="engine.js"></script>
+ <script src="../../assets/js/615689193633.js"></script>
+ <script src="../../assets/js/1118c0569ebf.js"></script>
+<script src="../../assets/js/game-comfort.js"></script><script src="../../mobile/game.js"></script></body>
+</html>
