@@ -1,0 +1,381 @@
+{
+  "release": "Mobile 1.3",
+  "seed": 1302026,
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Математика",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 268,
+      "questions": 18475,
+      "worked": 9793,
+      "guided": 8682,
+      "parallelExamples": 9597,
+      "ruleExamples": 8878,
+      "currentExamples": 0,
+      "templateBranchesObserved": 837
+    },
+    {
+      "id": "physics",
+      "name": "Физика",
+      "grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 130,
+      "questions": 3120,
+      "worked": 3120,
+      "guided": 0,
+      "parallelExamples": 3092,
+      "ruleExamples": 0,
+      "currentExamples": 28,
+      "templateBranchesObserved": 418
+    },
+    {
+      "id": "chemistry",
+      "name": "Химия",
+      "grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 104,
+      "questions": 2496,
+      "worked": 2496,
+      "guided": 0,
+      "parallelExamples": 2496,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 307
+    },
+    {
+      "id": "biology",
+      "name": "Биология",
+      "grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 99,
+      "questions": 2376,
+      "worked": 2376,
+      "guided": 0,
+      "parallelExamples": 2341,
+      "ruleExamples": 0,
+      "currentExamples": 35,
+      "templateBranchesObserved": 280
+    },
+    {
+      "id": "geography",
+      "name": "География",
+      "grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 99,
+      "questions": 2376,
+      "worked": 2376,
+      "guided": 0,
+      "parallelExamples": 2376,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 264
+    },
+    {
+      "id": "informatics",
+      "name": "Информатика",
+      "grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 117,
+      "questions": 2808,
+      "worked": 2808,
+      "guided": 0,
+      "parallelExamples": 2808,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 344
+    },
+    {
+      "id": "natural-science",
+      "name": "Естествознание",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": 134,
+      "questions": 3216,
+      "worked": 3216,
+      "guided": 0,
+      "parallelExamples": 3216,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 376
+    },
+    {
+      "id": "russian",
+      "name": "Русский язык",
+      "grades": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 187,
+      "questions": 4488,
+      "worked": 4488,
+      "guided": 0,
+      "parallelExamples": 4488,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 337
+    },
+    {
+      "id": "english",
+      "name": "Английский язык",
+      "grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 192,
+      "questions": 4608,
+      "worked": 4608,
+      "guided": 0,
+      "parallelExamples": 4608,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 368
+    },
+    {
+      "id": "kazakhstan-history",
+      "name": "История Казахстана",
+      "grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 105,
+      "questions": 2520,
+      "worked": 2520,
+      "guided": 0,
+      "parallelExamples": 2520,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 266
+    },
+    {
+      "id": "world-history",
+      "name": "Всемирная история",
+      "grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 107,
+      "questions": 2568,
+      "worked": 2568,
+      "guided": 0,
+      "parallelExamples": 2568,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 292
+    },
+    {
+      "id": "kazakh",
+      "name": "Қазақ тілі",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": 112,
+      "questions": 2688,
+      "worked": 2688,
+      "guided": 0,
+      "parallelExamples": 2688,
+      "ruleExamples": 0,
+      "currentExamples": 0,
+      "templateBranchesObserved": 206
+    },
+    {
+      "id": "world-around",
+      "name": "Познание мира",
+      "grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": 36,
+      "questions": 864,
+      "worked": 864,
+      "guided": 0,
+      "parallelExamples": 0,
+      "ruleExamples": 468,
+      "currentExamples": 396,
+      "templateBranchesObserved": 6
+    },
+    {
+      "id": "literacy",
+      "name": "Букварь и обучение грамоте",
+      "grades": [
+        1
+      ],
+      "topics": 9,
+      "questions": 216,
+      "worked": 216,
+      "guided": 0,
+      "parallelExamples": 9,
+      "ruleExamples": 90,
+      "currentExamples": 117,
+      "templateBranchesObserved": 18
+    },
+    {
+      "id": "literary-reading",
+      "name": "Литературное чтение",
+      "grades": [
+        2,
+        3,
+        4
+      ],
+      "topics": 27,
+      "questions": 648,
+      "worked": 648,
+      "guided": 0,
+      "parallelExamples": 0,
+      "ruleExamples": 275,
+      "currentExamples": 373,
+      "templateBranchesObserved": 8
+    },
+    {
+      "id": "music-primary",
+      "name": "Музыка",
+      "grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": 36,
+      "questions": 864,
+      "worked": 864,
+      "guided": 0,
+      "parallelExamples": 0,
+      "ruleExamples": 385,
+      "currentExamples": 479,
+      "templateBranchesObserved": 16
+    },
+    {
+      "id": "visual-art",
+      "name": "Изобразительное искусство",
+      "grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": 36,
+      "questions": 864,
+      "worked": 864,
+      "guided": 0,
+      "parallelExamples": 0,
+      "ruleExamples": 561,
+      "currentExamples": 303,
+      "templateBranchesObserved": 17
+    },
+    {
+      "id": "handicraft",
+      "name": "Трудовое обучение",
+      "grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": 36,
+      "questions": 864,
+      "worked": 864,
+      "guided": 0,
+      "parallelExamples": 0,
+      "ruleExamples": 346,
+      "currentExamples": 518,
+      "templateBranchesObserved": 5
+    }
+  ],
+  "mathTemplates": 836,
+  "checks": [
+    "Все 18 предметов, доступные классы, четверти и тематические разделы, включая повторение.",
+    "Существование правила, объяснения и примера или явно обозначенного разбора текущего вопроса.",
+    "Числовая эквивалентность вариантов ответа, приём правильного ввода, отсутствие пустых ответов и ошибок разметки.",
+    "Различение плана решения и вычисленного разбора; отсутствие неподтверждённых пошаговых объяснений.",
+    "Полные предметные проверки расчётов, чтения, соответствий, Python/SQL/графов и игровых адаптеров выполняются npm test."
+  ],
+  "limitations": [
+    "Проверены все доступные игровые темы и функции генерации математических тем и уровней; случайные числовые параметры проверяются на воспроизводимой выборке, а не на бесконечном множестве значений.",
+    "Автоматическая проверка структуры и вычислений не равнозначна независимой предметной экспертизе каждого исторического или языкового утверждения.",
+    "Доступные темы — авторский игровой отбор. Он не объявляется полным КТП и не заменяет лабораторные, творческие или устные задания."
+  ],
+  "questions": 56059,
+  "topics": 1834
+}

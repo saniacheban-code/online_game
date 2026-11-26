@@ -5,3 +5,17 @@
 .rank-grade{display:block;color:#acc9d8;font-size:12px;font-weight:400}.mobile-dialog-card [data-check]{margin-top:8px;width:100%;font-size:14px}
 
 .ranking-tabs{display:flex;gap:5px;flex-wrap:wrap}.ranking-tabs button{flex:1;padding:8px 6px;font-size:13px;white-space:nowrap}.ranking-tabs [aria-pressed=true]{border-color:#b4f1d6;background:#21574d}.month-winner-card{display:flex;flex-direction:column;gap:7px;border:1px solid #b9a86c;background:#47412644;border-radius:14px;padding:14px;margin:12px 0}.month-winner-card strong{color:#ffe2a1;font-size:20px;overflow-wrap:anywhere}.month-winner-card small{color:#cbdccc}.connection-details{font-size:12px;margin-top:10px;color:#bdd3e0}.connection-details p{overflow-wrap:anywhere}.profile-month{font-size:18px;color:#b4f1d6}
+
+/* Keep menu surfaces and their text in the same theme on every device. */
+body.mobile-shell{color-scheme:dark;--bg:#0b1827;--pn:#152b3d;--ln:#46627b;--ink:#eff6fc;--mu:#b7ccdc;--p1:#ffc36b;--p2:#75d7ff;--ok:#7de2a1;--no:#ff9292}
+.mobile-shell #hub{color:var(--ink)}
+.mobile-shell #hub :is(.crumb,.sub,.grp){color:var(--mu)}
+.mobile-shell #hub .opt,.mobile-shell #hub .gcard{background:var(--pn);color:var(--ink);border-color:var(--ln)}
+.mobile-shell #hub .opt:hover,.mobile-shell #hub .gcard:hover{background:#213e53;border-color:#8bd9ef}
+.mobile-shell #hub :is(.bk,select){background:#152b3d;color:#eff6fc;border-color:#7796af}
+.mobile-shell #hub .gcard p{color:#c2d6e4}
+.mobile-shell #appError{padding:12px 16px;border:1px solid #91b5c9;border-radius:12px;background:#183449;color:#f4faff;font:16px/1.5 system-ui;overflow-wrap:anywhere}
+.mobile-shell #hub button:disabled{opacity:.7;cursor:wait}
+.mobile-shell #arenaFitStage{transform:none!important;width:100%!important}
+
+.mobile-account-actions{display:flex;gap:8px;align-items:center;flex-shrink:0}.mobile-account-bar>div:first-child{min-width:0}@media(max-width:480px){.mobile-account-bar{padding-left:10px;padding-right:10px;gap:8px}.mobile-account-actions{gap:5px}.mobile-account-bar button{padding:9px 10px;font-size:14px}.mobile-account-bar strong{font-size:14px}.mobile-account-bar small{max-width:none}}

@@ -9,6 +9,6 @@
   }else if(num===null)kind='expression';
   return{task,prompt,expected,kind,language:/[а-яәіңғүұқөһ]/i.test(expected)?'ru':'en'};
  }
- function check(text,p){if(!String(text).trim())return{valid:false,correct:false};const a=Arena.inputAnswer.value(text),b=Arena.inputAnswer.value(p.expected);return{valid:true,correct:a!==null&&b!==null?Math.abs(a-b)<1e-8*Math.max(1,Math.abs(b)):norm(text)===norm(p.expected)}}
+ function check(text,p){if(!String(text).trim())return{valid:false,correct:false};const a=Arena.inputAnswer.value(text),b=Arena.inputAnswer.value(p.expected);return{valid:true,correct:a!==null&&b!==null?Math.abs(a-b)<1e-9*Math.max(1e-12,Math.abs(a),Math.abs(b)):norm(text)===norm(p.expected)}}
  g.Arena.typedAnswer={prepare,check,plain,norm};
 })(globalThis);

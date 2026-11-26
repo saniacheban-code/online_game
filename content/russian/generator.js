@@ -3,6 +3,15 @@
  const bank=Arena.russianBank,topics=Arena.russianTopics;
  if(!bank||!topics)throw Error('Не загружен банк русского языка');
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),shuffle=a=>{a=[...a];for(let i=a.length-1;i;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+ function rowSteps(row,skill){
+  const steps=[row.explanation||skill.rule],answer=String(row.answer),wrong=String(row.wrong?.[0]||'');
+  if(/_{2,}/.test(row.prompt))steps.push('Подставим ответ в контекст: '+row.prompt.replace(/_{2,}/g,'«'+answer+'»'));
+  if(['spelling','punctuation'].includes(skill.kind)&&answer.length<160&&wrong){let a=0,b=0;while(a<Math.min(answer.length,wrong.length)&&answer[a]===wrong[a])a++;while(b<Math.min(answer.length,wrong.length)-a&&answer.at(-1-b)===wrong.at(-1-b))b++;const before=wrong.slice(a,wrong.length-b)||'пропуск',after=answer.slice(a,answer.length-b)||'отсутствие лишнего знака';steps.push('Сравнение с ошибочным вариантом «'+wrong+'»: проверяемый фрагмент «'+before+'» нужно заменить на «'+after+'». Примените к этому месту правило выше.');}
+  if(/What is your name/i.test(row.prompt))steps.push('What is your name? спрашивает об имени. Ответ My name is … сообщает имя, а не самочувствие.');
+  if(/How are you/i.test(row.prompt))steps.push('How are you? спрашивает о самочувствии. I am fine, thank you — «У меня всё хорошо, спасибо».');
+  steps.push('Верный вариант: '+answer+'.');return steps;
+ }
+
  function make(key,variant,level,grade){
   const skill=bank[key],rows=skill.rows,index=variant%rows.length,row=rows[index],stem=r=>r.prompt+(rows.filter(x=>x.prompt===r.prompt).length>1?' Вариант ученика для редактирования: «'+r.wrong[0]+'».':'');let prompt,right,wrong,steps,rule=skill.rule,audit;
   if(skill.kind==='reading'){
@@ -14,14 +23,14 @@
    // Long punctuation choices stay a single editorial exercise so the interface remains legible.
    if(skill.kind==='select'&&(row.prompt.length>95||[row.answer,...row.wrong].some(s=>s.length>45)))count=1;
    const indices=[index,...others.slice(0,count-1)],selected=indices.map(i=>rows[i]);
-   if(count===1){prompt=esc(stem(row));right=row.answer;wrong=row.wrong;steps=[row.explanation,'Верный вариант: '+right+'.'];
+   if(count===1){prompt=esc(stem(row));right=row.answer;wrong=row.wrong;steps=rowSteps(row,skill);rule=row.rule||rule;
     if(level===2)prompt+=' Проверьте смысл и форму каждого варианта.';
     if(level===3){const incorrect=row.wrong[variant%3];prompt+=' Ученик выбрал: «'+esc(incorrect)+'». Найдите исправление.';steps.unshift('Проверьте предложенный учеником вариант по правилу.');}
    }else{
     prompt=(count===2?'Выберите вариант, в котором верно выполнены ОБА пункта.':'Выберите вариант, в котором верно выполнены ВСЕ ТРИ пункта.')+'<br>'+selected.map((r,i)=>(i+1)+'. '+esc(stem(r))).join('<br>');
     right=selected.map((r,i)=>(i+1)+') '+r.answer).join('; ');
     wrong=[0,1,2].map(k=>selected.map((r,i)=>(i+1)+') '+(i===k%count?r.wrong[Math.floor(k/count)%3]:r.answer)).join('; '));
-    steps=selected.map((r,i)=>(i+1)+'. '+r.explanation+' Верный вариант: '+r.answer+'.');
+    steps=selected.flatMap((r,i)=>['Пункт '+(i+1)+'.',...rowSteps(r,skill)]);
    }
    audit={kind:'language',key,indices,expected:right,count};
   }

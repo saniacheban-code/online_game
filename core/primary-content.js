@@ -8,9 +8,48 @@
    if(data.id==='visual-art'&&unit.quarter===1){const circles=Math.ceil(n/2);return{q:diagram('shapes',n)+'<br>Сколько круглых фигур в этом ряду?',a:String(circles),w:[0,circles+1,circles+2].map(String),html:true,rule:'Сначала выделите круги по форме, затем сосчитайте только их, пропуская квадраты.'}}
    return null;
   }
-  function make(topic,spec,level,grade){const u=topic.unit,rows=u.rows;let row=spec.variant>=rows.length?procedural(u,spec.variant-rows.length,grade):rows[spec.variant];if(!row)row=rows[spec.variant%rows.length];let q=(row.text?'<div class="language-passage">'+esc(row.text)+'</div>':'')+(row.html?row.q:esc(row.q)),a=row.a,w=row.w,rule=row.rule||u.rule;
-   if(level===3&&grade>=2&&!row.text&&!row.html&&row.q.length<80&&a.length<26){const other=rows[(spec.variant+1)%rows.length];if(!other.text&&other.q.length<80&&other.a.length<26){q='Выберите верные ответы к ОБОИМ пунктам.<br>1. '+esc(row.q)+'<br>2. '+esc(other.q);a='1) '+row.a+'; 2) '+other.a;w=[0,1,2].map((_,i)=>i===1?'1) '+row.a+'; 2) '+other.w[0]:'1) '+row.w[i]+'; 2) '+other.a)}}
-   const plain=shuffle([a,...w]);return{q,o:plain.map(esc),ci:plain.indexOf(a),rule,numeric:false,rawQuestion:q,steps:['Прочитайте вопрос и выделите, что требуется узнать.',row.text?'Проверьте ответ по словам и поступкам героев в тексте.':rule,'Ответ: '+a+'.'],audit:{expected:a,variant:spec.variant,unit:topic.id},text:row.text};
+  function reasoning(row,unit){
+   const text=row.q.toLowerCase(),answer=row.a;
+   if(row.steps?.length)return row.steps;
+   const quoted=row.q.match(/«([^»]+)»/),word=quoted?.[1];
+   if(/сколько (?:букв|слогов).*слов/.test(text)&&word){const syll=/слогов/.test(text),parts=syll?[...word.toLowerCase()].filter(x=>'аеёиоуыэюя'.includes(x)):[...word];return[syll?'В слове столько слогов, сколько гласных звуков.':'Считаем написанные буквы, включая ь и ъ.', 'В слове «'+word+'»: '+parts.map((x,i)=>x+' ('+(i+1)+')').join(', ')+'.','Получаем '+parts.length+'.'];}
+   if(row.html){const count=(row.q.match(/<circle /g)||[]).length;return['Каждый кружок обозначает один учитываемый элемент.','Отмечаем кружки слева направо: '+Array.from({length:count},(_,i)=>i+1).join(', ')+'.','Всего '+count+'.'];}
+   if(row.text){const sentences=row.text.match(/[^.!?]+[.!?]?/g)||[row.text];const words=answer.toLowerCase().match(/[а-яё]{4,}/g)||[],stems=words.map(w=>w.slice(0,Math.max(3,w.length-2)));let evidence=sentences.filter(s=>stems.some(w=>s.toLowerCase().includes(w)));if(!evidence.length)evidence=sentences;
+    return['Определите, нужен ли прямо названный факт, причина поступка или вывод по всему тексту.','Опора в тексте: «'+evidence.map(s=>s.trim()).join(' ')+'».',row.explanation||(/почему|зачем|вывод|заголов|относил|тема|похож/i.test(row.q)?'Сопоставьте события и поступки: ответ должен объяснять их связь, а не добавлять событие, которого не было.':'Найдите нужную деталь в приведённых предложениях; не заменяйте её похожей, но не названной.'),'Вывод: '+answer+'.'];
+   }
+   const rules=[
+    [/мыть|вымыть|микроб|перед едой/,'Мытьё рук с мылом удаляет загрязнения и уменьшает количество микробов. Особенно важно мыть руки перед едой.'],
+    [/одноклассник отвечает|друг огорч|поддерж|насмеш|спор|уваж|разные мнения/,'Уважительное общение означает выслушать другого, обсуждать доводы без оскорблений и предложить поддержку.'],
+    [/север|юг|восток|запад|компас/,'На плане с севером сверху юг внизу, восток справа, запад слева. Компас помогает определить направления.'],
+    [/легенд|условн.*знак|план местности/,'На плане объекты показаны сверху условными знаками. Их значения объясняет легенда карты.'],
+    [/бюджет|доход|расход|90000|80000/,'Бюджет — план доходов и расходов. Остаток денег равен доходам за вычетом расходов.'],
+    [/историческ.*источник|старин|биограф|подтверждающ|проверенн.*источник/,'Историческое утверждение проверяют по источникам: документам, предметам, свидетельствам. Важны происхождение, время и контекст.'],
+    [/сколько лет.*век|раньше.*год/,'В одном веке 100 лет. Для лет нашей эры более ранней дате соответствует меньшее число.'],
+    [/ножниц/,'Ножницы передают закрытыми, кольцами вперёд: острые концы направляют от принимающего.'],
+    [/шаблон|одинаков.*детал/,'Шаблон — образец контура. Обводя один шаблон, получают детали одинаковой формы и размеров.'],
+    [/сгиб|развёртк|клапан|склеиван/,'На развёртке размеры соединяемых граней должны совпадать. Линии сгиба задают форму, клапаны служат для склеивания. Сначала выполняют пробную сборку.'],
+    [/устойчив|башенк|мост прогиба|опор/,'Устойчивая конструкция имеет подходящее основание и опоры. Изменение проверяют нагрузкой и наблюдают, стало ли изделие устойчивее.'],
+    [/игл|игольниц|шов|стежк|ткан|нитк/,'Текстильные материалы имеют волокнистую структуру. Иглы хранят в игольнице, нитки подбирают к ткани; качество шва проверяют по ровности и прочности стежков.'],
+    [/эскиз|композици|главн.*предмет|детал.*заслон/,'Композиция — расположение элементов. Главный объект выделяют размером, местом и контрастом; эскизы помогают сравнить варианты.'],
+    [/тёпл|холодн|морозн|осветля|светлее|цветов.*контраст|смешени/,'Тёплые цвета связывают с красными, оранжевыми и жёлтыми оттенками, холодные — с синими. Белая краска осветляет смесь. Контраст — заметное различие соседних цветов.'],
+    [/орнамент|узор|симметр/,'Орнамент строится на повторении мотива. При осевой симметрии соответствующие части расположены на равных расстояниях по разные стороны оси.'],
+    [/пейзаж|портрет|натюрморт|жанр.*изображ/,'Пейзаж изображает природу, портрет — человека, натюрморт — неодушевлённые предметы, например посуду и плоды.'],
+    [/произносим|слышим|пишем.*видим|звук.*гласн|звук.*согласн|самостоятельного звука/,'Звуки произносим и слышим, буквы пишем и видим. Гласный звук произносится без преграды; при согласном воздушная струя встречает преграду. Ь и Ъ сами звука не обозначают.'],
+    [/предложени|заглавн.*букв/,'Предложение выражает законченную мысль, начинается с заглавной буквы и заканчивается знаком. Имена людей пишут с заглавной буквы.'],
+    [/диалог|басн|морал|жанр/,'Диалог — разговор персонажей. Басня обычно содержит иносказание и мораль. Жанр определяют по признакам текста, а не только по его длине.'],
+    [/темп|быстр.*музык|медлен.*музык/,'Темп — скорость исполнения музыки. Он отличается от динамики, которая обозначает громкость.'],
+    [/громк|тих.*окончан|динамик/,'Динамика — громкость звучания и её изменения. Тихое окончание может передавать затихание; это не означает ошибку исполнения.'],
+    [/дириж|оркестр|ансамбл/,'В совместном исполнении согласуют темп, вступления и динамику. Дирижёр помогает координировать оркестр.'],
+    [/вариац|раздел.*схем|а–б–а|а–а–б–а/,'Одинаковые буквы в схеме обозначают возвращение одного раздела, разные — новые разделы. Вариация сохраняет узнаваемую тему, изменяя её проведение.'],
+    [/инструмент|домбр|струнн|духов/,'Инструмент определяют по источнику звука и способу звукоизвлечения: колеблющаяся струна, воздух или удар. Например, скрипка — струнный смычковый инструмент.']
+   ];
+   const rule=row.explanation||row.rule||rules.find(([re])=>re.test(text))?.[1]||unit.rule;
+   return[rule,'Сопоставьте признаки из вопроса с этим правилом. Связь для запоминания: «'+row.q+'» — «'+answer+'».','Объясните выбор: '+answer+'. Другие варианты должны удовлетворять тому же условию, а не просто относиться к общей теме.'];
+  }
+
+  function make(topic,spec,level,grade){const u=topic.unit,rows=u.rows;let row=spec.variant>=rows.length?procedural(u,spec.variant-rows.length,grade):rows[spec.variant];if(!row)row=rows[spec.variant%rows.length];let q=(row.text?'<div class="language-passage">'+esc(row.text)+'</div>':'')+(row.html?row.q:esc(row.q)),a=row.a,w=row.w,rule=row.rule||u.rule;let activeRows=[row];
+   if(level===3&&grade>=2&&!row.text&&!row.html&&row.q.length<80&&a.length<26){const other=rows[(spec.variant+1)%rows.length];if(!other.text&&other.q.length<80&&other.a.length<26){activeRows.push(other);q='Выберите верные ответы к ОБОИМ пунктам.<br>1. '+esc(row.q)+'<br>2. '+esc(other.q);a='1) '+row.a+'; 2) '+other.a;w=[0,1,2].map((_,i)=>i===1?'1) '+row.a+'; 2) '+other.w[0]:'1) '+row.w[i]+'; 2) '+other.a)}}
+   const steps=activeRows.flatMap((r,i)=>(activeRows.length>1?['Пункт '+(i+1)+'.']:[]).concat(reasoning(r,u)));rule=[...new Set(activeRows.map(r=>reasoning(r,u)[0]))].join(' ');const plain=shuffle([a,...w]);return{q,o:plain.map(esc),ci:plain.indexOf(a),rule,numeric:false,rawQuestion:q,steps,audit:{expected:a,variant:spec.variant,unit:topic.id},text:row.text};
   }
   function explain(task){if(!task?.primaryHelp)return '<p>Выберите задание, чтобы увидеть правило и пример.</p>';const h=task.primaryHelp,e=h.example;return '<div class="solo-coach-head">Помощник · '+esc(task.topic)+'</div><h3>Сейчас решаем</h3><div class="solo-current">'+task.rawQuestion+'</div><h3>Как рассуждать</h3><div class="solo-rule">'+esc(h.rule)+'</div><h3>Разбор текущего вопроса</h3><ol>'+h.steps.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol><h3>Аналогичный пример</h3><div>'+e.q+'</div><ol>'+e.steps.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol><p>Примените способ к своему вопросу.</p>'}
   function createSession(options){const grade=+options.grade,selected=topics[grade]?.[options.topicIndex];if(!selected)throw Error('Тема не найдена: '+data.id);const solo=options.mode==='solo',lanes=options.game==='runner',opponent=solo?Arena.createOpponent({grade,kind:options.game,profile:options.difficulty,lesson:explain}):null,pool=selected.mixed?topics[grade].filter(t=>!t.mixed&&(!selected.quarter||t.quarter===selected.quarter)):[selected];let serial=0;const fresh=()=>({level:1,streak:0,correct:0,errors:0,recent:[],bags:{},topicBag:[]});let states=[fresh(),fresh()];
