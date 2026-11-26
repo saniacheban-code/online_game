@@ -27,3 +27,5 @@ html[data-arena-menu=on] body.mobile-shell>#arenaFitStage{position:relative!impo
 .mobile-shell #gameHost{height:var(--mobile-viewport,100dvh);bottom:auto}
 .mobile-shell #gameFrame{display:block;height:100%}
 html[data-arena-menu=on]:has(#gameHost:not([hidden])){height:100%!important;overflow:hidden!important}
+
+.mobile-dialog-card .remember-login{display:flex;align-items:center;gap:10px;min-height:44px;font-weight:600;cursor:pointer}.mobile-dialog-card .remember-login input[type=checkbox]{display:inline-block;flex:0 0 22px;width:22px;height:22px;min-height:22px;margin:0;accent-color:#b4f1d6;padding:0}
