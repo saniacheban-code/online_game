@@ -1,16 +1,23 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 async function main(){
- const nodes=new Map();let opened=0,pendingResolve=null,mode='ok',lastSignal;
+ const domEvents={},nodes=new Map();let opened=0,pendingResolve=null,mode='ok',lastSignal;
  const el=id=>{if(!nodes.has(id))nodes.set(id,{hidden:false,innerHTML:'',textContent:'',events:{},value:'',addEventListener(name,fn){this.events[name]=fn},removeAttribute(name){delete this[name]},contentWindow:{configureArena(next,label,exit){assert(next(0).q);this.exit=exit;opened++}}});return nodes.get(id)};
  const mobile={getUser:()=>({grade:1}),flush(){},wrap:x=>x,beginRound:async(context,{signal})=>{lastSignal=signal;if(mode==='reject')throw Error('Network unavailable');if(mode==='wait')return new Promise(resolve=>pendingResolve=resolve);return{roundId:'test'}}};
- const c={console,Math,AbortController,URL,URLSearchParams,location:{search:''},Event:class{},window:{MobileArena:mobile,dispatchEvent(){}},document:{querySelector:el,baseURI:'https://teacher.github.io/arena/'}};
+ const c={console,Math,AbortController,URL,URLSearchParams,location:{search:''},Event:class{},window:{MobileArena:mobile,dispatchEvent(){}},document:{addEventListener(k,f){domEvents[k]=f},querySelector:el,baseURI:'https://teacher.github.io/arena/'}};
  vm.createContext(c);for(const f of ['core/registry.js','core/teaching.js','core/task-help.js','content/math/generator.js','core/catalog-art.js','core/games.js','core/game-pages.js','core/app.js'])vm.runInContext(fs.readFileSync(f,'utf8'),c);
  const click=dataset=>el('#hubBody').events.click({target:{closest:()=>({dataset})}});
  for(const game of c.Arena.listGames())for(const m of ['solo','two']){
   el('#playMode').events.change({target:{value:m}});click({game:game.id});click({grade:'5'});click({quarter:'2'});
   const topic=el('#hubBody').innerHTML.match(/data-topic="(\d+)"/)[1];
-  click({topic});assert(el('#appError').textContent.includes('8 секунд'));await tick();assert.equal(el('#gameHost').hidden,false);el('#gameFrame').onload();el('#gameFrame').contentWindow.exit();
+  click({topic});assert(el('#appError').textContent.includes('8 секунд'));await tick();assert.equal(el('#gameHost').hidden,false);el('#gameFrame').onload();
+  if(game.id==='sprint'&&m==='solo'){
+   let open=true;el('#gameFrame').contentWindow.ArenaMobileHelp={close(){if(!open)return false;open=false;return true}};
+   domEvents['arena-mobile-exit']();assert.equal(el('#gameHost').hidden,false,'Android back closes help before exiting the game');
+   domEvents['arena-mobile-exit']();assert.equal(el('#gameHost').hidden,true);
+   delete el('#gameFrame').contentWindow.ArenaMobileHelp;
+  }
+  el('#gameFrame').contentWindow.exit();
   click({back:'0'});
  }
  assert.equal(opened,36);

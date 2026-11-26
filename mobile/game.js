@@ -16,6 +16,4 @@
  document.addEventListener('focusout',()=>setTimeout(update,0));
  update();
 })();
-(function(){'use strict';new MutationObserver(()=>{const b=document.getElementById('soloStudyExpand');if(b&&!b.dataset.mobile){b.dataset.mobile='1';b.textContent='Объяснение';b.addEventListener('click',()=>{b.textContent=b.getAttribute('aria-expanded')==='true'?'Закрыть':'Объяснение';window.dispatchEvent(new Event('resize'))})}}).observe(document.body,{childList:true,subtree:true})})();
-
 (function(){const bar=document.getElementById('arenaDisplayBar');if(!bar||window.parent===window)return;const b=document.createElement('button');b.type='button';b.className='mobile-rating-button';b.textContent='★ Рейтинг';b.addEventListener('click',()=>{try{window.parent.MobileArena?.leaderboard()}catch{}});bar.appendChild(b)})();

@@ -6,8 +6,8 @@ android {
         applicationId 'kz.arena.mobile'
         minSdk 26
         targetSdk 36
-        versionCode 8
-        versionName '1.4.0'
+        versionCode 9
+        versionName '1.4.1'
     }
     compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
     signingConfigs {
