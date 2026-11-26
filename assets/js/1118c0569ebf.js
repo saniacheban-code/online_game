@@ -26,10 +26,13 @@
  function fit(){
   scheduled=false;if(fitting)return;fitting=true;
   try{
-   root.dataset.arenaFit=enabled?'on':'off';button.setAttribute('aria-pressed',String(enabled));button.textContent=enabled?'Вместить: вкл':'Вместить: выкл';button.title=enabled?'Весь интерфейс на экране без прокрутки. Нажмите, чтобы вернуть крупный режим с прокруткой.':'Нажмите, чтобы разместить весь интерфейс на одном экране';
-   if(enabled&&document.body.dataset.comfort==='on'){setScale(1,window.innerWidth,Math.max(160,window.innerHeight-bar.getBoundingClientRect().height));stage.dataset.fitPercent='100';return}
+   root.dataset.arenaFit=enabled?'on':'off';button.setAttribute('aria-pressed',String(enabled));button.textContent=enabled?'Вместить: вкл':'Вместить: выкл';button.title=enabled?'Интерфейс подстраивается под экран. Если места мало, доступна прокрутка.':'Нажмите, чтобы разместить весь интерфейс на одном экране';
+   // Selection pages are documents, not fixed game scenes: never scale or lock their list.
+   const menu=document.body.classList.contains('mobile-shell')||!!document.getElementById('hub');
+   root.dataset.arenaMenu=menu?'on':'off';
+   if(menu||!enabled){stage.style.width='';stage.style.height='';stage.style.transform='';stage.style.removeProperty('--arena-available-h');stage.dataset.fitScale='1';stage.dataset.fitPercent='100';lastScale=1;return}
+   if(enabled&&document.body.dataset.comfort==='on'){const barH=bar.getBoundingClientRect().height;root.style.setProperty('--arena-bar-h',Math.ceil(barH)+'px');setScale(1,root.clientWidth||window.innerWidth,Math.max(1,(window.visualViewport?.height||window.innerHeight)-barH));stage.dataset.fitPercent='100';return}
    if(!enabled){stage.style.width='';stage.style.height='';stage.style.transform='';stage.style.removeProperty('--arena-available-h');stage.dataset.fitScale='1';lastScale=1;return}
-   if((window.scrollX||window.scrollY)&&window.scrollTo)window.scrollTo(0,0);
    const w=Math.max(1,root.clientWidth||window.innerWidth),barH=shown(bar)?bar.getBoundingClientRect().height:0,h=Math.max(1,(window.visualViewport?.height||window.innerHeight)-barH);
    root.style.setProperty('--arena-bar-h',Math.ceil(barH)+'px');
    if([...document.querySelectorAll('iframe')].some(shown)){setScale(1,w,h);return}

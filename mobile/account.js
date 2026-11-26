@@ -66,3 +66,13 @@
  async function flush(){if(flushing||!auth||!configured()||!navigator.onLine)return;const items=queue.filter(e=>e.userId===auth.user.id).slice(0,20);if(!items.length)return;flushing=true;try{const owner=auth.user.id,result=await api('score',{events:items});if(!auth||auth.user.id!==owner)return;const keys=new Set(result.processed);queue=queue.filter(e=>e.userId!==owner||!keys.has(e.roundId+':'+e.seq));auth.user=result.user;status=result.limited?'Баллы сохранены. Быстрые ответы учтены только в игре.':'Результаты сохранены';stash()}catch(e){message('Результаты ждут отправки: '+e.message)}finally{flushing=false}}
  document.body.classList.add('mobile-shell');const bar=document.createElement('section');bar.className='mobile-account-bar';bar.innerHTML='<div><strong id="mobileAccountStatus"></strong><small id="mobileSyncStatus" role="status"></small></div><div class="mobile-account-actions"><button id="mobileTopRating" type="button">★ Рейтинг</button><button id="mobileProfile">Войти</button></div>';document.body.prepend(bar);$('#mobileProfile').onclick=profile;$('#mobileTopRating').onclick=()=>leaderboard();const nav=document.createElement('nav');nav.className='mobile-bottom-nav';nav.setAttribute('aria-label','Главное меню');nav.innerHTML='<a href="index.html">⌂ <span>Предметы</span></a><button data-rating>★ <span>Рейтинг</span></button><button data-profile>◉ <span>Профиль</span></button>';document.body.appendChild(nav);nav.querySelector('[data-rating]').onclick=()=>leaderboard();nav.querySelector('[data-profile]').onclick=profile;render();if(!sessionStorage.getItem('arena.mobile.welcome'))openAuth();if(auth&&configured())api('me').then(user=>{if(auth){auth.user=user;stash();if(needsProfile())chooseGrade()}},e=>message(e.message));setInterval(flush,12000);g.addEventListener('online',flush);document.addEventListener('visibilitychange',()=>{if(!document.hidden)flush()});g.addEventListener('arena-native-back',()=>{const d=$('#mobileDialog');if(d?.open){d.close();return}const host=$('#gameHost');if(host&&!host.hidden){document.dispatchEvent(new Event('arena-mobile-exit'));return}if(location.pathname.includes('/subjects/'))location.href=new URL('index.html',document.baseURI).href});g.MobileArena={beginRound,wrap,flush,profile,leaderboard,configured,getUser:()=>auth?{...auth.user}:null};
 })(globalThis);
+
+// Resize the embedded game too: on mobile the keyboard can shrink only the outer viewport.
+(function(){
+ const root=document.documentElement;
+ if(!root?.style?.setProperty)return;
+ const resize=()=>root.style.setProperty('--mobile-viewport',(window.visualViewport?.height||window.innerHeight)+'px');
+ window.visualViewport?.addEventListener('resize',resize);
+ window.addEventListener('resize',resize);
+ resize();
+})();

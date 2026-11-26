@@ -19,3 +19,11 @@ body.mobile-shell{color-scheme:dark;--bg:#0b1827;--pn:#152b3d;--ln:#46627b;--ink
 .mobile-shell #arenaFitStage{transform:none!important;width:100%!important}
 
 .mobile-account-actions{display:flex;gap:8px;align-items:center;flex-shrink:0}.mobile-account-bar>div:first-child{min-width:0}@media(max-width:480px){.mobile-account-bar{padding-left:10px;padding-right:10px;gap:8px}.mobile-account-actions{gap:5px}.mobile-account-bar button{padding:9px 10px;font-size:14px}.mobile-account-bar strong{font-size:14px}.mobile-account-bar small{max-width:none}}
+
+/* Menus retain document scrolling even when game fitting is enabled. */
+html[data-arena-menu=on],html[data-arena-menu=on] body.mobile-shell{height:auto!important;min-height:100%;overflow-x:hidden!important;overflow-y:auto!important;overscroll-behavior-y:auto}
+html[data-arena-menu=on] body.mobile-shell:has(#gameHost:not([hidden])){height:100%!important;overflow:hidden!important}
+html[data-arena-menu=on] body.mobile-shell>#arenaFitStage{position:relative!important;height:auto!important;transform:none!important;width:100%!important;overflow:visible!important;padding-bottom:var(--mobile-bottom)}
+.mobile-shell #gameHost{height:var(--mobile-viewport,100dvh);bottom:auto}
+.mobile-shell #gameFrame{display:block;height:100%}
+html[data-arena-menu=on]:has(#gameHost:not([hidden])){height:100%!important;overflow:hidden!important}
