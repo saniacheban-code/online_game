@@ -1,0 +1,9 @@
+const assert=require('node:assert/strict'),M=require('../games/sprint/model.js');
+let s=M.create('two');s.phase='play';M.tick(s,20);assert.equal(s.players[0].distance,0,'answers are required to start');assert(M.answer(s,0,true));assert(!M.answer(s,0,true));M.tick(s,1);assert(s.players[0].distance>0);assert.equal(s.players[1].distance,0);const speed=s.players[0].speed;assert(M.answer(s,0,false));assert(s.players[0].speed<speed);M.tick(s,2);s.phase='paused';const d=s.players[0].distance;M.tick(s,10);assert.equal(s.players[0].distance,d);assert(!M.answer(s,0,true));
+s=M.create('solo');s.phase='play';M.tick(s,240);assert.equal(s.winner,'timeout');assert.equal(s.players[0].distance,0);
+s=M.create('two');s.phase='play';for(const p of s.players){p.distance=399;p.speed=8}M.tick(s,1);assert.equal(s.winner,'draw');assert.equal(s.phase,'finished');assert(Math.abs(s.elapsed-.125)<.001);
+s=M.create('two');s.phase='play';s.players[0].distance=399;s.players[0].speed=9;s.players[1].distance=399;s.players[1].speed=5;M.tick(s,1);assert.equal(s.winner,0);
+s=M.create('two');s.phase='play';s.remaining=.1;s.players[1].distance=20;M.tick(s,1);assert.equal(s.winner,1);
+for(let i=0;i<100;i++){const q={o:['A','B','C','D'],ci:1};assert.equal(M.claim(q,true).html,'B');assert.notEqual(M.claim(q,false).html,'B')}
+console.log('Sprint model: real speed/distance, answer locks, slowing, idle/solo timeout, pause, interpolated finish, draw, time winner and true/false claims passed.');
+let whole=M.create('solo');whole.phase='play';whole.players[0].speed=1;M.tick(whole,100);let split=M.create('solo');split.phase='play';split.players[0].speed=1;for(let i=0;i<1000;i++)M.tick(split,.1);assert(Math.abs(whole.players[0].distance-split.players[0].distance)<1e-6,'large and split steps integrate speed decay consistently');

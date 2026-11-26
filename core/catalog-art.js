@@ -17,3 +17,5 @@ Arena.catalogArt.alchemy=['./assets/images/alchemy-lab.png'];
 Arena.catalogArt.capsule=['./assets/images/capsule-depot.png'];
 
 Arena.catalogArt.drones=['./assets/images/drone-hangar.png'];
+
+Arena.catalogArt.sprint=['./assets/images/sprint-stadium.png'];

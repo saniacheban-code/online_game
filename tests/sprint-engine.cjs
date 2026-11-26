@@ -1,0 +1,23 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+function harness(mode){const nodes=new Map(),events={};let raf=null,now=0;
+ const cx=new Proxy({createLinearGradient:()=>({addColorStop(){}})},{get:(o,k)=>o[k]||(()=>{})});
+ class El{constructor(){this.hidden=false;this.disabled=false;this.dataset={};this.style={setProperty(){}};this.classList={add(){},remove(){},toggle(){}};this.events={};this.width=600;this.height=220;this._html='';this.textContent='';this.buttons=[]}get innerHTML(){return this._html}set innerHTML(s){this._html=s;this.buttons=[...s.matchAll(/<button[^>]*>/g)].map(()=>new El())}addEventListener(k,f){this.events[k]=f}setAttribute(k,v){this[k]=v}querySelectorAll(){return this.buttons}getBoundingClientRect(){return{left:0,top:0,width:600,height:220}}getContext(){return cx}setPointerCapture(){}remove(){}appendChild(){}}
+ const el=s=>{if(!nodes.has(s))nodes.set(s,new El());return nodes.get(s)};
+ const document={body:{dataset:{playMode:mode}},querySelector:el,activeElement:{tagName:'BODY'},addEventListener(k,f){events[k]=f},createElement:()=>new El(),hidden:false};
+ const c={cancelAnimationFrame(){},console,Math,Number,Array,Object,JSON,String,Set,Map,Image:class{naturalWidth=640;width=640;height=1024},document,window:{devicePixelRatio:1},ResizeObserver:class{constructor(f){this.f=f}observe(){this.f()}},requestAnimationFrame:f=>{raf=f;return 1}};vm.createContext(c);for(const f of ['core/runtime.js','games/sprint/model.js','games/sprint/engine.js'])vm.runInContext(fs.readFileSync(f,'utf8'),c);
+ function advance(ms){for(let n=0;n<ms;n+=100){now+=100;raf(now)}}return{c,el,events,G:c.window.SprintGame,configure:c.window.configureArena,advance,document};
+}
+
+for(const mode of ['two','solo']){
+ const h=harness(mode),answers=[];let calls=0,exits=0;
+ const source=i=>{calls++;return{q:'Вычислите 2 + 2',o:['3','4','5','6'],ci:1,t:1,rawQuestion:'Вычислите 2 + 2'}};
+ source.answer=(i,ok)=>answers.push([i,ok]);source.reset=()=>{};source.solo={render(root,selector,q){h.el('#soloCoach').innerHTML=q.rawQuestion}};
+ h.configure(source,'6 класс',()=>exits++);h.G.start();assert.equal(calls,mode==='solo'?1:2);
+ assert(h.G.answer(0,h.G.claim(0).truth));assert(!h.G.answer(0,h.G.claim(0).truth));h.advance(2000);assert(h.G.state().players[0].distance>0);
+ assert(h.G.answer(0,!h.G.claim(0).truth));h.advance(2000);assert.equal(h.G.state().players[0].errors,1);
+ h.G.pause(true);const time=h.G.state().remaining;h.advance(5000);assert.equal(h.G.state().remaining,time);assert(!h.G.answer(0,true));h.G.pause(false);h.advance(80000);assert(answers.some(a=>!a[1]));
+ h.document.hidden=true;h.events.visibilitychange();assert.equal(h.G.state().phase,'paused');h.G.pause(false);h.G.start();assert.equal(h.G.state().players[0].good,0);h.G.exit();assert.equal(exits,1);assert.equal(h.G.state().phase,'exited');assert.equal(h.G.task(0),undefined);
+}
+const ids=['math','physics','chemistry','biology','geography','informatics','natural-science','russian','english','kazakhstan-history','world-history','kazakh','world-around','literacy','literary-reading','music-primary','visual-art','handicraft'];let flows=0;
+for(const id of ids){const c={console};vm.createContext(c);const extra=['world-around','literacy','literary-reading','music-primary','visual-art','handicraft'].includes(id)?['core/primary-content.js','content/'+id+'/data.js']:['russian','english','kazakhstan-history','world-history','kazakh'].includes(id)?['content/'+id+'/bank-data.js','content/'+id+'/topics-data.js']:id==='natural-science'?['content/natural-science/facts-data.js']:[];for(const f of ['core/registry.js','core/teaching.js',...extra,'content/'+id+'/generator.js'])vm.runInContext(fs.readFileSync(f,'utf8'),c);const subject=c.Arena.getSubject(id),grades=Object.keys(subject.topics).map(Number);for(const grade of [grades[0],grades.at(-1)])for(const mode of ['two','solo']){const h=harness(mode),topic=grade===grades[0]?subject.topics[grade][0]:subject.topics[grade].filter(t=>!t.mixed).at(-1),source=subject.createSession({grade,topicIndex:topic.index,mode,game:'sprint'});h.configure(source,subject.name+' · '+grade+' класс',()=>{});h.G.start();const q=h.G.task(0);assert.equal(q.subjectId,id);assert(h.el('#question0').innerHTML.includes(q.prompt));if(mode==='solo'){assert(h.el('#soloCoach').innerHTML.includes(q.rawQuestion))}assert(h.G.answer(0,h.G.claim(0).truth));h.advance(1500);assert(h.G.state().players[0].distance>0);if(mode==='two'){assert.equal(h.G.task(1).subjectId,id);assert(h.G.answer(1,h.G.claim(1).truth));h.advance(1500);assert(h.G.state().players[1].good===1)}flows++}}
+console.log('Sprint engine:',flows,'real subject/grade/mode flows; independent answers, true/false, live coach, timeout, pause, restart and exit passed.');

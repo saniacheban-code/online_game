@@ -43,7 +43,7 @@ now=Date.parse('2026-12-31T19:00:01Z');monthly=ok('leaderboard');assert.equal(mo
 now=Date.parse('2027-02-28T19:00:01Z');c.closeMonthlyLeaderboard();c.closeMonthlyLeaderboard();assert.equal(sheets.get('MonthlyWinners').rows.length,77);assert.equal(ok('leaderboard').latestWinner.status,'no_results');assert.equal(triggers.length,1);
 console.log('Mobile 1.2: mandatory names, trigger idempotence, Kazakhstan month boundary, earlier-reach tie break, immutable winners, offline acceptance month, all-time preservation and missed/empty months passed.');
 // API 4 separates all-time/monthly subject totals and archives without clearing old scores.
-assert.equal(ok('serverInfo').version,4);
+assert.equal(ok('serverInfo').version,5);
 const scopes=['math','physics','chemistry','biology','geography','informatics','natural-science','russian','english','kazakhstan-history','world-history','kazakh','world-around','literacy','literary-reading','music-primary','visual-art','handicraft'];
 const freshX=ok('login',{login:'monthly_x',proof});
 for(let i=0;i<scopes.length;i++){const r=ok('startRound',{token:freshX.token,subject:scopes[i],game:'drones',grade:6});now+=6000;ok('score',{token:freshX.token,events:[{roundId:r.roundId,seq:1,elapsed:6000,correct:true}]});const scoped=ok('leaderboard',{subject:scopes[i]});assert.equal(scoped.subject,scopes[i]);assert.equal(scoped.players.find(p=>p.id===x.user.id).points,10);}
@@ -52,3 +52,33 @@ assert(!post('leaderboard',{subject:'made-up'}).ok);
 now=Date.parse('2027-03-31T19:00:01Z');c.closeMonthlyLeaderboard();for(const subject of scopes){const r=ok('leaderboard',{subject});assert.equal(r.latestWinner.points,10);assert.equal(r.latestWinner.id,x.user.id);assert.equal(r.latestWinner.subject,subject)}
 const preserved=sheets.get('Scores').rows.length;const oldArchive=sheets.get('MonthlyWinners').rows.find(r=>r[9]==='all');oldArchive.length=9;c.setup();assert.equal(sheets.get('Scores').rows.length,preserved);assert(c.winners_('all').some(r=>r.month===oldArchive[0]));
 console.log('Mobile 1.3: all 18 subject filters, all-time sum, separate monthly winners, unknown-scope rejection and old-archive migration passed.');
+// API 5: half-reward penalties, exact halves, independent scopes and no retroactive rewrite.
+sheets.clear();props.clear();cache.clear();now=Date.parse('2027-05-10T10:00:00Z');c.setup();
+const penaltyUser=ok('register',{login:'penalty_test',lastName:'Тестов',firstName:'Ученик',grade:6,passwordLength:6,salt,proof});
+const penaltyToken={token:penaltyUser.token};
+assert.equal(ok('serverInfo').wrongAnswerPenalty,.5);let penaltyTotal=0;
+for(const game of [...games,'sprint']){
+ const r=ok('startRound',{...penaltyToken,game,subject:'math',grade:6});assert.equal(r.penalty,5);now+=6000;
+ const e={roundId:r.roundId,seq:1,elapsed:6000,correct:false,points:10000};penaltyTotal-=5;
+ assert.equal(ok('score',{...penaltyToken,events:[e]}).user.points,penaltyTotal);
+ assert.equal(ok('score',{...penaltyToken,events:[e]}).user.points,penaltyTotal,'retry must not debit twice');
+}
+for(const grade of [1,2,3,4,5,6,7,8,9,10,11]){
+ const r=ok('startRound',{...penaltyToken,game:'sprint',subject:'physics',grade});const reward=c.reward_(6,grade);now+=6000;
+ const e={roundId:r.roundId,seq:1,elapsed:6000,correct:false};penaltyTotal-=reward/2;
+ assert.equal(ok('score',{...penaltyToken,events:[e]}).user.points,penaltyTotal);assert.equal(client.penalty(6,grade),reward/2);
+}
+assert.equal(ok('me',penaltyToken).monthPoints,penaltyTotal);
+assert.equal(ok('leaderboard',{subject:'math'}).players[0].points,-5*18);
+assert.equal(ok('leaderboard',{subject:'all'}).players[0].points,penaltyTotal);
+// A fast correct attempt is capped, while wrong attempts still incur their penalty.
+let r=ok('startRound',{...penaltyToken,game:'sprint',subject:'math',grade:6});now+=6000;
+const batch=[{roundId:r.roundId,seq:1,elapsed:6000,correct:true},{roundId:r.roundId,seq:2,elapsed:6001,correct:false},{roundId:r.roundId,seq:3,elapsed:6002,correct:true}];
+penaltyTotal+=5;assert.equal(ok('score',{...penaltyToken,events:batch}).user.points,penaltyTotal);
+// Old score rows retain their original value when installing the new server.
+const count=sheets.get('Scores').rows.length,previous=sheets.get('Scores').rows.map(row=>row[7]);c.setup();assert.equal(sheets.get('Scores').rows.length,count);assert.deepEqual(sheets.get('Scores').rows.map(row=>row[7]),previous);
+console.log('Mobile 1.4: all 18 games debit exact half rewards, negative/fractional totals, subject/month totals, forged point rejection, replay protection, pacing and preserved history passed.');
+now+=6000;const savedPenalty=ok('startRound',{...penaltyToken,game:'sprint',subject:'biology',grade:5});
+sheets.get('Users').rows.find(u=>u[0]===penaltyUser.user.id)[7]=5;now+=6000;const beforePenaltySnapshot=ok('me',penaltyToken).points;
+assert.equal(ok('score',{...penaltyToken,events:[{roundId:savedPenalty.roundId,seq:1,elapsed:6000,correct:false}]}).user.points,beforePenaltySnapshot-2.5,'penalty uses the same immutable class snapshot as its reward');
+now=Date.parse('2027-05-31T19:00:01Z');c.closeMonthlyLeaderboard();assert.equal(ok('leaderboard').latestWinner.status,'no_results','a non-positive month does not produce a positive-score winner');
